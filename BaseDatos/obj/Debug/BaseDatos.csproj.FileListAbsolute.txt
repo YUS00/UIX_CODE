@@ -1,0 +1,5 @@
+C:\S2AM\PROJECTS\UIX_CODE\BaseDatos\obj\Debug\BaseDatos.csproj.CoreCompileInputs.cache
+C:\S2AM\PROJECTS\UIX_CODE\BaseDatos\bin\Debug\BaseDatos.dll
+C:\S2AM\PROJECTS\UIX_CODE\BaseDatos\bin\Debug\BaseDatos.pdb
+C:\S2AM\PROJECTS\UIX_CODE\BaseDatos\obj\Debug\BaseDatos.dll
+C:\S2AM\PROJECTS\UIX_CODE\BaseDatos\obj\Debug\BaseDatos.pdb
