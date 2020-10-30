@@ -42,7 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs">
+    <Compile Include="BTNEXIT.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BTNMinimize.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Properties\Resources.Designer.cs">
@@ -54,8 +57,11 @@
     <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Class1.resx">
-      <DependentUpon>Class1.cs</DependentUpon>
+    <EmbeddedResource Include="BTNEXIT.resx">
+      <DependentUpon>BTNEXIT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BTNMinimize.resx">
+      <DependentUpon>BTNMinimize.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

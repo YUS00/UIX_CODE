@@ -30,9 +30,10 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.cerrarsesion_bt = new System.Windows.Forms.Button();
+            this.class11 = new Controls.BTNEXIT();
             this.labelUsername = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.cerrarsesion_bt = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.button8 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
@@ -46,7 +47,7 @@
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
-            this.class11 = new Controls.Class1();
+            this.btnMinimize1 = new Controls.BTNMinimize();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -57,6 +58,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Purple;
+            this.panel1.Controls.Add(this.btnMinimize1);
             this.panel1.Controls.Add(this.class11);
             this.panel1.Controls.Add(this.labelUsername);
             this.panel1.Controls.Add(this.label1);
@@ -66,18 +68,15 @@
             this.panel1.Size = new System.Drawing.Size(723, 30);
             this.panel1.TabIndex = 4;
             // 
-            // cerrarsesion_bt
+            // class11
             // 
-            this.cerrarsesion_bt.BackColor = System.Drawing.Color.Black;
-            this.cerrarsesion_bt.ForeColor = System.Drawing.Color.White;
-            this.cerrarsesion_bt.Location = new System.Drawing.Point(633, 410);
-            this.cerrarsesion_bt.Margin = new System.Windows.Forms.Padding(0);
-            this.cerrarsesion_bt.Name = "cerrarsesion_bt";
-            this.cerrarsesion_bt.Size = new System.Drawing.Size(80, 27);
-            this.cerrarsesion_bt.TabIndex = 1;
-            this.cerrarsesion_bt.Text = "Cerrar sesion";
-            this.cerrarsesion_bt.UseVisualStyleBackColor = false;
-            this.cerrarsesion_bt.Click += new System.EventHandler(this.cerrarsesion_bt_Click);
+            this.class11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("class11.BackgroundImage")));
+            this.class11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.class11.Location = new System.Drawing.Point(693, 3);
+            this.class11.Name = "class11";
+            this.class11.Size = new System.Drawing.Size(27, 25);
+            this.class11.TabIndex = 34;
+            this.class11.UseVisualStyleBackColor = true;
             // 
             // labelUsername
             // 
@@ -100,6 +99,19 @@
             this.label1.Size = new System.Drawing.Size(62, 13);
             this.label1.TabIndex = 6;
             this.label1.Text = "WELCOME";
+            // 
+            // cerrarsesion_bt
+            // 
+            this.cerrarsesion_bt.BackColor = System.Drawing.Color.Black;
+            this.cerrarsesion_bt.ForeColor = System.Drawing.Color.White;
+            this.cerrarsesion_bt.Location = new System.Drawing.Point(633, 410);
+            this.cerrarsesion_bt.Margin = new System.Windows.Forms.Padding(0);
+            this.cerrarsesion_bt.Name = "cerrarsesion_bt";
+            this.cerrarsesion_bt.Size = new System.Drawing.Size(80, 27);
+            this.cerrarsesion_bt.TabIndex = 1;
+            this.cerrarsesion_bt.Text = "Cerrar sesion";
+            this.cerrarsesion_bt.UseVisualStyleBackColor = false;
+            this.cerrarsesion_bt.Click += new System.EventHandler(this.cerrarsesion_bt_Click);
             // 
             // panel2
             // 
@@ -268,15 +280,15 @@
             this.button6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button6.UseVisualStyleBackColor = false;
             // 
-            // class11
+            // btnMinimize1
             // 
-            this.class11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("class11.BackgroundImage")));
-            this.class11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.class11.Location = new System.Drawing.Point(681, 0);
-            this.class11.Name = "class11";
-            this.class11.Size = new System.Drawing.Size(42, 30);
-            this.class11.TabIndex = 33;
-            this.class11.UseVisualStyleBackColor = true;
+            this.btnMinimize1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnMinimize1.BackgroundImage")));
+            this.btnMinimize1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnMinimize1.Location = new System.Drawing.Point(660, 3);
+            this.btnMinimize1.Name = "btnMinimize1";
+            this.btnMinimize1.Size = new System.Drawing.Size(27, 25);
+            this.btnMinimize1.TabIndex = 36;
+            this.btnMinimize1.UseVisualStyleBackColor = true;
             // 
             // Menu
             // 
@@ -323,6 +335,7 @@
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button cerrarsesion_bt;
         private System.Windows.Forms.Button button8;
-        private Controls.Class1 class11;
+        private Controls.BTNEXIT class11;
+        private Controls.BTNMinimize btnMinimize1;
     }
 }

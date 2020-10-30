@@ -7,15 +7,15 @@ using System.Windows.Forms;
 
 namespace Controls
 {
-    public class Class1 : Button
+    public class BTNEXIT : Button
     {
-        public Class1()
+        public BTNEXIT()
         {
             InitializeComponent();
         }
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Class1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BTNEXIT));
             this.SuspendLayout();
             // 
             // Class1

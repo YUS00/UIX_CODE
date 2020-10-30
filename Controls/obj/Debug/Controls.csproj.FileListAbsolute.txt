@@ -6,4 +6,5 @@ C:\S2AM\PROJECTS\UIX_CODE\Controls\obj\Debug\Controls.csproj.GenerateResource.ca
 C:\S2AM\PROJECTS\UIX_CODE\Controls\obj\Debug\Controls.dll
 C:\S2AM\PROJECTS\UIX_CODE\Controls\obj\Debug\Controls.pdb
 C:\S2AM\PROJECTS\UIX_CODE\Controls\obj\Debug\Controls.csprojAssemblyReference.cache
-C:\S2AM\PROJECTS\UIX_CODE\Controls\obj\Debug\Controls.Class1.resources
+C:\S2AM\PROJECTS\UIX_CODE\Controls\obj\Debug\Controls.BTNEXIT.resources
+C:\S2AM\PROJECTS\UIX_CODE\Controls\obj\Debug\Controls.BTNMinimize.resources

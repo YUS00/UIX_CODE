@@ -35,7 +35,8 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.circularProgressBar1 = new CircularProgressBar.CircularProgressBar();
-            this.class11 = new Controls.Class1();
+            this.class11 = new Controls.BTNEXIT();
+            this.btnMinimize1 = new Controls.BTNMinimize();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -90,11 +91,21 @@
             // 
             this.class11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("class11.BackgroundImage")));
             this.class11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.class11.Location = new System.Drawing.Point(715, 1);
+            this.class11.Location = new System.Drawing.Point(730, 1);
             this.class11.Name = "class11";
-            this.class11.Size = new System.Drawing.Size(42, 34);
+            this.class11.Size = new System.Drawing.Size(27, 25);
             this.class11.TabIndex = 33;
             this.class11.UseVisualStyleBackColor = true;
+            // 
+            // btnMinimize1
+            // 
+            this.btnMinimize1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnMinimize1.BackgroundImage")));
+            this.btnMinimize1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnMinimize1.Location = new System.Drawing.Point(697, 1);
+            this.btnMinimize1.Name = "btnMinimize1";
+            this.btnMinimize1.Size = new System.Drawing.Size(27, 25);
+            this.btnMinimize1.TabIndex = 36;
+            this.btnMinimize1.UseVisualStyleBackColor = true;
             // 
             // Splash
             // 
@@ -103,6 +114,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(757, 445);
+            this.Controls.Add(this.btnMinimize1);
             this.Controls.Add(this.class11);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.circularProgressBar1);
@@ -120,7 +132,8 @@
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private CircularProgressBar.CircularProgressBar circularProgressBar1;
-        private Controls.Class1 class11;
+        private Controls.BTNEXIT class11;
+        private Controls.BTNMinimize btnMinimize1;
     }
 }
 

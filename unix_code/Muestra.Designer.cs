@@ -41,7 +41,7 @@
             this.cerrarsesion_btn = new System.Windows.Forms.Button();
             this.labelUsername = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.class11 = new Controls.Class1();
+            this.class11 = new Controls.BTNEXIT();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -123,8 +123,8 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Purple;
-            this.panel1.Controls.Add(this.labelUsername);
             this.panel1.Controls.Add(this.class11);
+            this.panel1.Controls.Add(this.labelUsername);
             this.panel1.Controls.Add(this.label5);
             this.panel1.Location = new System.Drawing.Point(1, 2);
             this.panel1.Margin = new System.Windows.Forms.Padding(2);
@@ -152,9 +152,9 @@
             this.labelUsername.Location = new System.Drawing.Point(77, 9);
             this.labelUsername.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelUsername.Name = "labelUsername";
-            this.labelUsername.Size = new System.Drawing.Size(43, 13);
+            this.labelUsername.Size = new System.Drawing.Size(13, 13);
             this.labelUsername.TabIndex = 7;
-            this.labelUsername.Text = "------------";
+            this.labelUsername.Text = "v";
             // 
             // label5
             // 
@@ -171,10 +171,10 @@
             // 
             this.class11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("class11.BackgroundImage")));
             this.class11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.class11.Location = new System.Drawing.Point(716, 0);
+            this.class11.Location = new System.Drawing.Point(728, 4);
             this.class11.Name = "class11";
-            this.class11.Size = new System.Drawing.Size(42, 34);
-            this.class11.TabIndex = 33;
+            this.class11.Size = new System.Drawing.Size(27, 25);
+            this.class11.TabIndex = 34;
             this.class11.UseVisualStyleBackColor = true;
             // 
             // Muestra
@@ -218,6 +218,6 @@
         private System.Windows.Forms.Button cerrarsesion_btn;
         private System.Windows.Forms.Label labelUsername;
         private System.Windows.Forms.Label label5;
-        private Controls.Class1 class11;
+        private Controls.BTNEXIT class11;
     }
 }

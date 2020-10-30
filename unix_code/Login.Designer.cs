@@ -43,7 +43,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.labelUsername = new System.Windows.Forms.Label();
-            this.class11 = new Controls.Class1();
+            this.class11 = new Controls.BTNEXIT();
+            this.btnMinimize1 = new Controls.BTNMinimize();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -113,7 +114,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(227, 39);
+            this.label1.Location = new System.Drawing.Point(140, 39);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(494, 76);
             this.label1.TabIndex = 6;
@@ -182,11 +183,21 @@
             // 
             this.class11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("class11.BackgroundImage")));
             this.class11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.class11.Location = new System.Drawing.Point(720, 12);
+            this.class11.Location = new System.Drawing.Point(735, 12);
             this.class11.Name = "class11";
-            this.class11.Size = new System.Drawing.Size(42, 34);
-            this.class11.TabIndex = 33;
+            this.class11.Size = new System.Drawing.Size(27, 25);
+            this.class11.TabIndex = 34;
             this.class11.UseVisualStyleBackColor = true;
+            // 
+            // btnMinimize1
+            // 
+            this.btnMinimize1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnMinimize1.BackgroundImage")));
+            this.btnMinimize1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnMinimize1.Location = new System.Drawing.Point(702, 12);
+            this.btnMinimize1.Name = "btnMinimize1";
+            this.btnMinimize1.Size = new System.Drawing.Size(27, 25);
+            this.btnMinimize1.TabIndex = 36;
+            this.btnMinimize1.UseVisualStyleBackColor = true;
             // 
             // Login
             // 
@@ -196,6 +207,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(774, 457);
+            this.Controls.Add(this.btnMinimize1);
             this.Controls.Add(this.class11);
             this.Controls.Add(this.labelUsername);
             this.Controls.Add(this.label3);
@@ -235,6 +247,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label labelUsername;
-        private Controls.Class1 class11;
+        private Controls.BTNEXIT class11;
+        private Controls.BTNMinimize btnMinimize1;
     }
 }
