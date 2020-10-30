@@ -43,6 +43,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.labelUsername = new System.Windows.Forms.Label();
+            this.class11 = new Controls.Class1();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -177,6 +178,16 @@
             this.labelUsername.Size = new System.Drawing.Size(0, 25);
             this.labelUsername.TabIndex = 11;
             // 
+            // class11
+            // 
+            this.class11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("class11.BackgroundImage")));
+            this.class11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.class11.Location = new System.Drawing.Point(720, 12);
+            this.class11.Name = "class11";
+            this.class11.Size = new System.Drawing.Size(42, 34);
+            this.class11.TabIndex = 33;
+            this.class11.UseVisualStyleBackColor = true;
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -185,6 +196,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(774, 457);
+            this.Controls.Add(this.class11);
             this.Controls.Add(this.labelUsername);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.progressBar1);
@@ -197,7 +209,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.lblPassword);
             this.Controls.Add(this.lblUser);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Login";
             this.Text = "login";
             this.Load += new System.EventHandler(this.Login_Load);
@@ -223,5 +235,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label labelUsername;
+        private Controls.Class1 class11;
     }
 }

@@ -41,6 +41,7 @@
             this.cerrarsesion_btn = new System.Windows.Forms.Button();
             this.labelUsername = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.class11 = new Controls.Class1();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -122,8 +123,8 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Purple;
-            this.panel1.Controls.Add(this.cerrarsesion_btn);
             this.panel1.Controls.Add(this.labelUsername);
+            this.panel1.Controls.Add(this.class11);
             this.panel1.Controls.Add(this.label5);
             this.panel1.Location = new System.Drawing.Point(1, 2);
             this.panel1.Margin = new System.Windows.Forms.Padding(2);
@@ -135,7 +136,7 @@
             // 
             this.cerrarsesion_btn.BackColor = System.Drawing.Color.Black;
             this.cerrarsesion_btn.ForeColor = System.Drawing.Color.White;
-            this.cerrarsesion_btn.Location = new System.Drawing.Point(678, 2);
+            this.cerrarsesion_btn.Location = new System.Drawing.Point(670, 405);
             this.cerrarsesion_btn.Margin = new System.Windows.Forms.Padding(0);
             this.cerrarsesion_btn.Name = "cerrarsesion_btn";
             this.cerrarsesion_btn.Size = new System.Drawing.Size(80, 27);
@@ -166,6 +167,16 @@
             this.label5.TabIndex = 6;
             this.label5.Text = "WELCOME";
             // 
+            // class11
+            // 
+            this.class11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("class11.BackgroundImage")));
+            this.class11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.class11.Location = new System.Drawing.Point(716, 0);
+            this.class11.Name = "class11";
+            this.class11.Size = new System.Drawing.Size(42, 34);
+            this.class11.TabIndex = 33;
+            this.class11.UseVisualStyleBackColor = true;
+            // 
             // Muestra
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -173,6 +184,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(759, 441);
+            this.Controls.Add(this.cerrarsesion_btn);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox4);
@@ -182,6 +194,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Muestra";
             this.Load += new System.EventHandler(this.Muestra_Load);
             this.panel1.ResumeLayout(false);
@@ -205,5 +218,6 @@
         private System.Windows.Forms.Button cerrarsesion_btn;
         private System.Windows.Forms.Label labelUsername;
         private System.Windows.Forms.Label label5;
+        private Controls.Class1 class11;
     }
 }

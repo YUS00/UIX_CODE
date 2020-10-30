@@ -32,6 +32,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.class11 = new Controls.Class1();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -69,16 +70,27 @@
             this.label1.TabIndex = 3;
             this.label1.Text = "SOY EL PROGRAMADOR,COMO VUELVAS A INTENTAR ";
             // 
+            // class11
+            // 
+            this.class11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("class11.BackgroundImage")));
+            this.class11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.class11.Location = new System.Drawing.Point(746, 12);
+            this.class11.Name = "class11";
+            this.class11.Size = new System.Drawing.Size(42, 34);
+            this.class11.TabIndex = 33;
+            this.class11.UseVisualStyleBackColor = true;
+            // 
             // Amenaza
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkRed;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.class11);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Amenaza";
             this.Text = "Amenaza";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -92,5 +104,6 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private Controls.Class1 class11;
     }
 }
