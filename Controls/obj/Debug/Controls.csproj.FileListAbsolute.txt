@@ -7,3 +7,12 @@ C:\S2AM\PROJECTS\UIX_CODE\Controls\obj\Debug\Controls.dll
 C:\S2AM\PROJECTS\UIX_CODE\Controls\obj\Debug\Controls.pdb
 C:\S2AM\PROJECTS\UIX_CODE\Controls\obj\Debug\Controls.csprojAssemblyReference.cache
 C:\S2AM\PROJECTS\UIX_CODE\Controls\obj\Debug\Controls.Class1.resources
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\Controls\bin\Debug\Controls.dll
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\Controls\bin\Debug\Controls.pdb
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\Controls\obj\Debug\Controls.csprojAssemblyReference.cache
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\Controls\obj\Debug\Controls.Class1.resources
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\Controls\obj\Debug\Controls.Properties.Resources.resources
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\Controls\obj\Debug\Controls.csproj.GenerateResource.cache
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\Controls\obj\Debug\Controls.csproj.CoreCompileInputs.cache
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\Controls\obj\Debug\Controls.dll
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\Controls\obj\Debug\Controls.pdb

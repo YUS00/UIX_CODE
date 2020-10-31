@@ -7,11 +7,10 @@ namespace BaseDatos
 {
     public class DataBase
     {
-        string connectionString;
         private SqlConnection conn;
         string query;
-        DataSet dts;            
-        
+        DataSet dts = new DataSet();
+
         private String connectionString = "Data Source=DESKTOP-8FAQTCN\\SQLEXPRESS;Initial Catalog=SecureCore;Persist Security Info=True;User ID=sa;Password=1234";
 
 
@@ -41,10 +40,8 @@ namespace BaseDatos
         {
             Connectar();
             SqlDataAdapter adapter;
-            string query;
             query = "select * from " + nomTaula;
             adapter = new SqlDataAdapter(query, conn);
-            DataSet dts = new DataSet();
             adapter.Fill(dts, nomTaula);
             conn.Close();
             return dts;
@@ -56,8 +53,7 @@ namespace BaseDatos
             adapter = new SqlDataAdapter(query, conn);
             SqlCommandBuilder cmdBuilder;
             cmdBuilder = new SqlCommandBuilder(adapter);
-            DataSet dts = new DataSet();
-            adapter.Update(dts.Tables["Agencies"]);
+            adapter.Update(dts.Tables[0]);
             conn.Close();
         }
 
