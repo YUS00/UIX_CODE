@@ -9,7 +9,8 @@ namespace BaseDatos
     {
         private SqlConnection conn;
         string query;
-        DataSet dts = new DataSet();
+        public DataSet dts = new DataSet();
+
 
         private String connectionString = "Data Source=DESKTOP-8FAQTCN\\SQLEXPRESS;Initial Catalog=SecureCore;Persist Security Info=True;User ID=sa;Password=1234";
 

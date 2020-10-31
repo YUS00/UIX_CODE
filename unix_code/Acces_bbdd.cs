@@ -16,7 +16,6 @@ namespace unix_code
         private SqlConnection conn;
         private string query = "select * from agencies";
         DataSet dts = new DataSet();
-        int index;
 
         //private void Actualizar()
         //{
@@ -35,15 +34,17 @@ namespace unix_code
         //}
         private void MostrarDades_Click(object sender, EventArgs e)
         {
-            DataSet dts2 = new DataSet();
-            dts2 = dades.PortarTaula("Agencies");
-            dataGridView.DataSource = dts2.Tables[0];
+            dts = dades.PortarTaula("Agencies");
+            dataGridView.DataSource = dts.Tables[0];
+            agenciaBox.DataBindings.Add("Text", dts.Tables[0], agenciaBox.Tag.ToString());
+            codiBox.DataBindings.Add("Text", dts.Tables[0], codiBox.Tag.ToString());
         }
         private void dataGridView_CellMouseDoubleClick(object sender, DataGridViewCellMouseEventArgs e)
         {
-            index = dataGridView.CurrentRow.Index;
             codiBox.Text = dataGridView.SelectedRows[0].Cells["CodeAgency"].Value.ToString();
             agenciaBox.Text = dataGridView.SelectedRows[0].Cells["DescAgency"].Value.ToString();
+
+            
         }
 
         private void actDades_btn_Click(object sender, EventArgs e)

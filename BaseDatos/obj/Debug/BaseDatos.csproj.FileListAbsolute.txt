@@ -8,3 +8,4 @@ C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\BaseDatos\bin\Debug\Ba
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\BaseDatos\obj\Debug\BaseDatos.csproj.CoreCompileInputs.cache
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\BaseDatos\obj\Debug\BaseDatos.dll
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\BaseDatos\obj\Debug\BaseDatos.pdb
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\BaseDatos\obj\Debug\BaseDatos.csprojAssemblyReference.cache
