@@ -83,5 +83,25 @@ namespace BaseDatos
         //{
         //    foreach (Control ctr in )
         //}
+
+        public void Executa()
+        {
+            String cons = "INSERT INTO Agencies VALUES('Code', 'Desc')";
+            Connectar();
+            SqlCommand cmd = new SqlCommand(cons, conn);
+            cmd.ExecuteNonQuery();
+         
+            conn.Close();
+        }
+        public void Executa(String consulta)
+        {
+            
+            Connectar();
+            SqlCommand cmd = new SqlCommand(consulta, conn);
+            cmd.ExecuteNonQuery();
+
+            conn.Close();
+        }
+
     }
 }

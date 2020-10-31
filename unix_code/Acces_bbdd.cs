@@ -51,6 +51,13 @@ namespace unix_code
         {
             dades.Actualizar();
         }
+
+        private void btnExecuta_Click(object sender, EventArgs e)
+        {
+            String consulta = txtExecuta.Text.ToString();
+            dades.Executa(consulta);
+        }
+
         //private void AnadirRegistro()
         //{
         //    if (dataGridView.CurrentRow.Selected && codiBox.Text != "" && agenciaBox.Text != "")
