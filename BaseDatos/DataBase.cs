@@ -7,10 +7,13 @@ namespace BaseDatos
 {
     public class DataBase
     {
-        string cnx;
+        string connectionString;
         private SqlConnection conn;
         string query;
-        DataSet dts;
+        DataSet dts;            
+        
+        private String connectionString = "Data Source=DESKTOP-8FAQTCN\\SQLEXPRESS;Initial Catalog=SecureCore;Persist Security Info=True;User ID=sa;Password=1234";
+
 
         //private void Traerdatos()
         //{
@@ -30,8 +33,7 @@ namespace BaseDatos
 
         private void Connectar()
         {
-            cnx = "Data Source=PC-PC\\SQLEXPRESS;Initial Catalog=SecureCore;Integrated Security=True";
-            conn = new SqlConnection(cnx);
+            conn = new SqlConnection(connectionString);
             conn.Open();
         }
 
