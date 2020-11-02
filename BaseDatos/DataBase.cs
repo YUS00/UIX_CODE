@@ -2,6 +2,7 @@
 using System.Data;
 using System.Data.SqlClient;
 using System.Security.AccessControl;
+using System.Configuration;
 
 namespace BaseDatos
 {
@@ -11,8 +12,6 @@ namespace BaseDatos
         string query;
         public DataSet dts = new DataSet();
 
-
-        private String connectionString = "Data Source=DESKTOP-8FAQTCN\\SQLEXPRESS;Initial Catalog=SecureCore;Persist Security Info=True;User ID=sa;Password=1234";
 
 
         //private void Traerdatos()
@@ -33,8 +32,17 @@ namespace BaseDatos
 
         private void Connectar()
         {
-            conn = new SqlConnection(connectionString);
-            conn.Open();
+
+            ConnectionStringSettings conf = ConfigurationManager.ConnectionStrings["securecore"];
+
+            if (conf != null)
+            {
+                String connectionString = conf.ConnectionString;
+                conn = new SqlConnection(connectionString);
+                conn.Open();
+            }
+            
+
         }
 
         public DataSet PortarTaula(String nomTaula)
