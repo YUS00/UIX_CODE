@@ -41,12 +41,13 @@
             this.btnExecuta = new System.Windows.Forms.Button();
             this.lblConsulta = new System.Windows.Forms.Label();
             this.class11 = new Controls.Class1();
+            this.cerrarsesion_btn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             this.SuspendLayout();
             // 
             // actDades_btn
             // 
-            this.actDades_btn.Location = new System.Drawing.Point(561, 375);
+            this.actDades_btn.Location = new System.Drawing.Point(430, 378);
             this.actDades_btn.Name = "actDades_btn";
             this.actDades_btn.Size = new System.Drawing.Size(99, 23);
             this.actDades_btn.TabIndex = 16;
@@ -60,7 +61,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Rockwell", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(258, 43);
+            this.label1.Location = new System.Drawing.Point(269, 26);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(207, 33);
             this.label1.TabIndex = 0;
@@ -70,7 +71,7 @@
             // 
             this.dataGridView.BackgroundColor = System.Drawing.Color.Indigo;
             this.dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView.Location = new System.Drawing.Point(38, 103);
+            this.dataGridView.Location = new System.Drawing.Point(38, 83);
             this.dataGridView.Name = "dataGridView";
             this.dataGridView.RowHeadersWidth = 51;
             this.dataGridView.Size = new System.Drawing.Size(658, 131);
@@ -82,7 +83,7 @@
             this.codi.AutoSize = true;
             this.codi.BackColor = System.Drawing.Color.Transparent;
             this.codi.ForeColor = System.Drawing.Color.White;
-            this.codi.Location = new System.Drawing.Point(28, 332);
+            this.codi.Location = new System.Drawing.Point(39, 275);
             this.codi.Name = "codi";
             this.codi.Size = new System.Drawing.Size(36, 13);
             this.codi.TabIndex = 27;
@@ -93,7 +94,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(28, 379);
+            this.label2.Location = new System.Drawing.Point(39, 322);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(57, 13);
             this.label2.TabIndex = 29;
@@ -101,7 +102,7 @@
             // 
             // codiBox
             // 
-            this.codiBox.Location = new System.Drawing.Point(116, 330);
+            this.codiBox.Location = new System.Drawing.Point(127, 273);
             this.codiBox.Name = "codiBox";
             this.codiBox.Size = new System.Drawing.Size(100, 20);
             this.codiBox.TabIndex = 30;
@@ -109,7 +110,7 @@
             // 
             // agenciaBox
             // 
-            this.agenciaBox.Location = new System.Drawing.Point(116, 377);
+            this.agenciaBox.Location = new System.Drawing.Point(127, 320);
             this.agenciaBox.Name = "agenciaBox";
             this.agenciaBox.Size = new System.Drawing.Size(180, 20);
             this.agenciaBox.TabIndex = 31;
@@ -117,7 +118,7 @@
             // 
             // MostrarDades_btn
             // 
-            this.MostrarDades_btn.Location = new System.Drawing.Point(561, 337);
+            this.MostrarDades_btn.Location = new System.Drawing.Point(176, 374);
             this.MostrarDades_btn.Name = "MostrarDades_btn";
             this.MostrarDades_btn.Size = new System.Drawing.Size(99, 23);
             this.MostrarDades_btn.TabIndex = 15;
@@ -127,7 +128,7 @@
             // 
             // txtExecuta
             // 
-            this.txtExecuta.Location = new System.Drawing.Point(116, 279);
+            this.txtExecuta.Location = new System.Drawing.Point(127, 222);
             this.txtExecuta.Margin = new System.Windows.Forms.Padding(2);
             this.txtExecuta.Multiline = true;
             this.txtExecuta.Name = "txtExecuta";
@@ -136,7 +137,7 @@
             // 
             // btnExecuta
             // 
-            this.btnExecuta.Location = new System.Drawing.Point(561, 284);
+            this.btnExecuta.Location = new System.Drawing.Point(299, 374);
             this.btnExecuta.Margin = new System.Windows.Forms.Padding(2);
             this.btnExecuta.Name = "btnExecuta";
             this.btnExecuta.Size = new System.Drawing.Size(113, 30);
@@ -150,7 +151,7 @@
             this.lblConsulta.AutoSize = true;
             this.lblConsulta.BackColor = System.Drawing.Color.Transparent;
             this.lblConsulta.ForeColor = System.Drawing.Color.White;
-            this.lblConsulta.Location = new System.Drawing.Point(28, 287);
+            this.lblConsulta.Location = new System.Drawing.Point(39, 230);
             this.lblConsulta.Name = "lblConsulta";
             this.lblConsulta.Size = new System.Drawing.Size(71, 13);
             this.lblConsulta.TabIndex = 35;
@@ -166,6 +167,23 @@
             this.class11.TabIndex = 36;
             this.class11.UseVisualStyleBackColor = true;
             // 
+            // cerrarsesion_btn
+            // 
+            this.cerrarsesion_btn.BackColor = System.Drawing.Color.Black;
+            this.cerrarsesion_btn.FlatAppearance.BorderSize = 2;
+            this.cerrarsesion_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cerrarsesion_btn.Font = new System.Drawing.Font("Arial", 8.25F);
+            this.cerrarsesion_btn.ForeColor = System.Drawing.Color.White;
+            this.cerrarsesion_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.cerrarsesion_btn.Location = new System.Drawing.Point(625, 410);
+            this.cerrarsesion_btn.Margin = new System.Windows.Forms.Padding(0);
+            this.cerrarsesion_btn.Name = "cerrarsesion_btn";
+            this.cerrarsesion_btn.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.cerrarsesion_btn.Size = new System.Drawing.Size(88, 27);
+            this.cerrarsesion_btn.TabIndex = 37;
+            this.cerrarsesion_btn.Text = "Cerrar sesion";
+            this.cerrarsesion_btn.UseVisualStyleBackColor = false;
+            // 
             // Acces_bbdd
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -173,6 +191,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(722, 446);
+            this.Controls.Add(this.cerrarsesion_btn);
             this.Controls.Add(this.class11);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblConsulta);
@@ -208,5 +227,6 @@
         private System.Windows.Forms.Button btnExecuta;
         private System.Windows.Forms.Label lblConsulta;
         private Controls.Class1 class11;
+        private System.Windows.Forms.Button cerrarsesion_btn;
     }
 }

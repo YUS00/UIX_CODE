@@ -52,10 +52,11 @@
             // 
             this.lblUser.AutoSize = true;
             this.lblUser.BackColor = System.Drawing.Color.Transparent;
+            this.lblUser.Font = new System.Drawing.Font("Arial", 8.25F);
             this.lblUser.ForeColor = System.Drawing.Color.White;
             this.lblUser.Location = new System.Drawing.Point(118, 253);
             this.lblUser.Name = "lblUser";
-            this.lblUser.Size = new System.Drawing.Size(37, 13);
+            this.lblUser.Size = new System.Drawing.Size(34, 14);
             this.lblUser.TabIndex = 0;
             this.lblUser.Text = "USER";
             this.lblUser.Click += new System.EventHandler(this.label1_Click);
@@ -64,10 +65,11 @@
             // 
             this.lblPassword.AutoSize = true;
             this.lblPassword.BackColor = System.Drawing.Color.Transparent;
+            this.lblPassword.Font = new System.Drawing.Font("Arial", 8.25F);
             this.lblPassword.ForeColor = System.Drawing.Color.White;
             this.lblPassword.Location = new System.Drawing.Point(118, 291);
             this.lblPassword.Name = "lblPassword";
-            this.lblPassword.Size = new System.Drawing.Size(70, 13);
+            this.lblPassword.Size = new System.Drawing.Size(66, 14);
             this.lblPassword.TabIndex = 1;
             this.lblPassword.Text = "PASSWORD";
             // 
@@ -111,11 +113,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Arial", 50F);
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(140, 30);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(494, 76);
+            this.label1.Size = new System.Drawing.Size(492, 75);
             this.label1.TabIndex = 6;
             this.label1.Text = "UXPIUS CODE";
             // 
@@ -123,11 +125,11 @@
             // 
             this.forgotpass_lbl.AutoSize = true;
             this.forgotpass_lbl.BackColor = System.Drawing.Color.Transparent;
-            this.forgotpass_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.forgotpass_lbl.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Underline);
             this.forgotpass_lbl.ForeColor = System.Drawing.Color.Blue;
             this.forgotpass_lbl.Location = new System.Drawing.Point(253, 381);
             this.forgotpass_lbl.Name = "forgotpass_lbl";
-            this.forgotpass_lbl.Size = new System.Drawing.Size(124, 13);
+            this.forgotpass_lbl.Size = new System.Drawing.Size(118, 14);
             this.forgotpass_lbl.TabIndex = 7;
             this.forgotpass_lbl.Text = "FORGOT PASSWORD?";
             // 
@@ -153,11 +155,11 @@
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Arial", 15.75F);
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(148, 405);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(127, 25);
+            this.label3.Size = new System.Drawing.Size(125, 24);
             this.label3.TabIndex = 10;
             this.label3.Text = "WELCOME ";
             // 
@@ -170,12 +172,12 @@
             // 
             this.labelUsername.AutoSize = true;
             this.labelUsername.BackColor = System.Drawing.Color.Transparent;
-            this.labelUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
+            this.labelUsername.Font = new System.Drawing.Font("Arial", 15.75F);
             this.labelUsername.ForeColor = System.Drawing.Color.White;
             this.labelUsername.Location = new System.Drawing.Point(280, 405);
             this.labelUsername.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelUsername.Name = "labelUsername";
-            this.labelUsername.Size = new System.Drawing.Size(0, 25);
+            this.labelUsername.Size = new System.Drawing.Size(0, 24);
             this.labelUsername.TabIndex = 11;
             // 
             // class11

@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.cerrarsesion_bt = new System.Windows.Forms.Button();
+            this.class11 = new Controls.Class1();
             this.labelUsername = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -46,7 +46,7 @@
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
-            this.class11 = new Controls.Class1();
+            this.cerrarsesion_btn = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -66,38 +66,37 @@
             this.panel1.Size = new System.Drawing.Size(723, 30);
             this.panel1.TabIndex = 4;
             // 
-            // cerrarsesion_bt
+            // class11
             // 
-            this.cerrarsesion_bt.BackColor = System.Drawing.Color.Black;
-            this.cerrarsesion_bt.ForeColor = System.Drawing.Color.White;
-            this.cerrarsesion_bt.Location = new System.Drawing.Point(630, 410);
-            this.cerrarsesion_bt.Margin = new System.Windows.Forms.Padding(0);
-            this.cerrarsesion_bt.Name = "cerrarsesion_bt";
-            this.cerrarsesion_bt.Size = new System.Drawing.Size(80, 27);
-            this.cerrarsesion_bt.TabIndex = 1;
-            this.cerrarsesion_bt.Text = "Cerrar sesion";
-            this.cerrarsesion_bt.UseVisualStyleBackColor = false;
-            this.cerrarsesion_bt.Click += new System.EventHandler(this.cerrarsesion_bt_Click);
+            this.class11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("class11.BackgroundImage")));
+            this.class11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.class11.Location = new System.Drawing.Point(685, 5);
+            this.class11.Name = "class11";
+            this.class11.Size = new System.Drawing.Size(25, 20);
+            this.class11.TabIndex = 13;
+            this.class11.UseVisualStyleBackColor = true;
             // 
             // labelUsername
             // 
             this.labelUsername.AutoSize = true;
+            this.labelUsername.Font = new System.Drawing.Font("Arial", 8.25F);
             this.labelUsername.ForeColor = System.Drawing.Color.White;
             this.labelUsername.Location = new System.Drawing.Point(77, 9);
             this.labelUsername.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelUsername.Name = "labelUsername";
-            this.labelUsername.Size = new System.Drawing.Size(43, 13);
+            this.labelUsername.Size = new System.Drawing.Size(55, 14);
             this.labelUsername.TabIndex = 7;
             this.labelUsername.Text = "------------";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Arial", 8.25F);
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(11, 9);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(62, 13);
+            this.label1.Size = new System.Drawing.Size(58, 14);
             this.label1.TabIndex = 6;
             this.label1.Text = "WELCOME";
             // 
@@ -118,7 +117,7 @@
             // button8
             // 
             this.button8.BackColor = System.Drawing.Color.White;
-            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
+            this.button8.Font = new System.Drawing.Font("Arial", 15.75F);
             this.button8.Image = ((System.Drawing.Image)(resources.GetObject("button8.Image")));
             this.button8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button8.Location = new System.Drawing.Point(179, 192);
@@ -132,11 +131,11 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Arial", 24F);
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(71, 42);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(173, 37);
+            this.label2.Size = new System.Drawing.Size(168, 36);
             this.label2.TabIndex = 4;
             this.label2.Text = "Category 2";
             // 
@@ -152,7 +151,7 @@
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.White;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
+            this.button3.Font = new System.Drawing.Font("Arial", 15.75F);
             this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
             this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button3.Location = new System.Drawing.Point(13, 192);
@@ -166,7 +165,7 @@
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.White;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
+            this.button2.Font = new System.Drawing.Font("Arial", 15.75F);
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button2.Location = new System.Drawing.Point(179, 125);
@@ -180,7 +179,7 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.White;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
+            this.button1.Font = new System.Drawing.Font("Arial", 15.75F);
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.Location = new System.Drawing.Point(13, 125);
@@ -208,11 +207,11 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Arial", 24F);
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(71, 42);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(171, 37);
+            this.label3.Size = new System.Drawing.Size(168, 36);
             this.label3.TabIndex = 4;
             this.label3.Text = "Category 1";
             // 
@@ -228,7 +227,7 @@
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.White;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
+            this.button4.Font = new System.Drawing.Font("Arial", 15.75F);
             this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
             this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button4.Location = new System.Drawing.Point(3, 195);
@@ -242,7 +241,7 @@
             // button5
             // 
             this.button5.BackColor = System.Drawing.Color.White;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
+            this.button5.Font = new System.Drawing.Font("Arial", 15.75F);
             this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
             this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button5.Location = new System.Drawing.Point(169, 128);
@@ -257,7 +256,7 @@
             // button6
             // 
             this.button6.BackColor = System.Drawing.Color.White;
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
+            this.button6.Font = new System.Drawing.Font("Arial", 15.75F);
             this.button6.Image = ((System.Drawing.Image)(resources.GetObject("button6.Image")));
             this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button6.Location = new System.Drawing.Point(3, 128);
@@ -268,15 +267,22 @@
             this.button6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button6.UseVisualStyleBackColor = false;
             // 
-            // class11
+            // cerrarsesion_btn
             // 
-            this.class11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("class11.BackgroundImage")));
-            this.class11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.class11.Location = new System.Drawing.Point(685, 5);
-            this.class11.Name = "class11";
-            this.class11.Size = new System.Drawing.Size(25, 20);
-            this.class11.TabIndex = 13;
-            this.class11.UseVisualStyleBackColor = true;
+            this.cerrarsesion_btn.BackColor = System.Drawing.Color.Black;
+            this.cerrarsesion_btn.FlatAppearance.BorderSize = 2;
+            this.cerrarsesion_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cerrarsesion_btn.Font = new System.Drawing.Font("Arial", 8.25F);
+            this.cerrarsesion_btn.ForeColor = System.Drawing.Color.White;
+            this.cerrarsesion_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.cerrarsesion_btn.Location = new System.Drawing.Point(625, 410);
+            this.cerrarsesion_btn.Margin = new System.Windows.Forms.Padding(0);
+            this.cerrarsesion_btn.Name = "cerrarsesion_btn";
+            this.cerrarsesion_btn.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.cerrarsesion_btn.Size = new System.Drawing.Size(88, 27);
+            this.cerrarsesion_btn.TabIndex = 5;
+            this.cerrarsesion_btn.Text = "Cerrar sesion";
+            this.cerrarsesion_btn.UseVisualStyleBackColor = false;
             // 
             // Menu
             // 
@@ -285,7 +291,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(722, 446);
-            this.Controls.Add(this.cerrarsesion_bt);
+            this.Controls.Add(this.cerrarsesion_btn);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
@@ -321,8 +327,8 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button cerrarsesion_bt;
         private System.Windows.Forms.Button button8;
         private Controls.Class1 class11;
+        private System.Windows.Forms.Button cerrarsesion_btn;
     }
 }

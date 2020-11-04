@@ -50,11 +50,11 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(12, 356);
+            this.label2.Location = new System.Drawing.Point(38, 363);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(708, 25);
+            this.label2.Size = new System.Drawing.Size(638, 24);
             this.label2.TabIndex = 4;
             this.label2.Text = "ENTRAR,NO ME HARE CARGO DE LO QUE PUEDA SUCEDER...";
             // 
@@ -62,11 +62,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(59, 331);
+            this.label1.Location = new System.Drawing.Point(85, 338);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(637, 25);
+            this.label1.Size = new System.Drawing.Size(561, 24);
             this.label1.TabIndex = 3;
             this.label1.Text = "SOY EL PROGRAMADOR,COMO VUELVAS A INTENTAR ";
             // 
