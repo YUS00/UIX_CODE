@@ -11,25 +11,6 @@ namespace BaseDatos
         private SqlConnection conn;
         string query;
         public DataSet dts = new DataSet();
-
-
-
-        //private void Traerdatos()
-        //{
-        //    string cnx;
-        //    cnx = "Data Source=DESKTOP-8FAQTCN\\SQLEXPRESS;Initial Catalog=SecureCore;Persist Security Info=True;User ID=sa;Password=1234";
-        //    conn = new SqlConnection(cnx);
-        //    SqlDataAdapter adapter;
-        //    adapter = new SqlDataAdapter(query, conn);
-        //    conn.Open();
-        //    adapter.Fill(dts, "Agencies");
-        //    dataGridView.DataSource = dts.Tables[0];
-        //    conn.Close();
-        //    agenciaBox.DataBindings.Add("Text", dts.Tables[0], agenciaBox.Tag.ToString());
-        //    codiBox.DataBindings.Add("Text", dts.Tables[0], codiBox.Tag.ToString());
-
-        //}
-
         private void Connectar()
         {
 

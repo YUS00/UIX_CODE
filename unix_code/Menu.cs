@@ -34,8 +34,7 @@ namespace unix_code
             basebbdd.Show();
             this.Hide();
         }
-
-        private void cerrarsesion_bt_Click(object sender, EventArgs e)
+        private void cerrarsesion_btn_Click_1(object sender, EventArgs e)
         {
             this.Hide();
             Login Login = new Login();

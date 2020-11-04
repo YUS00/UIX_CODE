@@ -16,22 +16,6 @@ namespace unix_code
         private SqlConnection conn;
         private string query = "select * from agencies";
         DataSet dts = new DataSet();
-
-        //private void Actualizar()
-        //{
-        //    conn.Open();
-        //    SqlDataAdapter adapter;
-        //    adapter = new SqlDataAdapter(query, conn);
-        //    SqlCommandBuilder cmdBuilder;
-        //    cmdBuilder = new SqlCommandBuilder(adapter);
-
-        //    if (dts.HasChanges())
-
-        //    {
-        //        adapter.Update(dts.Tables[0]);
-        //    }
-        //    conn.Close();
-        //}
         private void MostrarDades_Click(object sender, EventArgs e)
         {
             dts = dades.PortarTaula("Agencies");
@@ -58,28 +42,11 @@ namespace unix_code
             dades.Executa(consulta);
         }
 
-        //private void AnadirRegistro()
-        //{
-        //    if (dataGridView.CurrentRow.Selected && codiBox.Text != "" && agenciaBox.Text != "")
-        //    {
-        //        //TODO: dataGridView.Rows[ESTO DETERMINA QUE CELDA SE CAMBIA]
-        //        dataGridView.Rows[0].Cells[1].Value = codiBox.Text;
-        //        dataGridView.Rows[0].Cells[2].Value = agenciaBox.Text;
-        //        //dataGridView.CurrentRow.Cells[1].Value = codiBox.Text;
-        //        //dataGridView.CurrentRow.Cells[2].Value = agenciaBox.Text;
-        //    }
-        //    else if (codiBox.Text != "" && agenciaBox.Text != "")
-        //    {
-        //        DataRow fila = dts.Tables[0].NewRow();
-        //        fila[1] = codiBox.Text;
-        //        fila[2] = agenciaBox.Text;
-        //        dts.Tables[0].Rows.Add(fila);
-        //    }
-        //    else
-        //    {
-
-        //    }
-        //}
-
+        private void cerrarsesion_btn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Login form3 = new Login();
+            form3.Show();
+        }
     }
 }

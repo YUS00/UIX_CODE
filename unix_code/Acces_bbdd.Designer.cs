@@ -47,7 +47,7 @@
             // 
             // actDades_btn
             // 
-            this.actDades_btn.Location = new System.Drawing.Point(430, 378);
+            this.actDades_btn.Location = new System.Drawing.Point(431, 374);
             this.actDades_btn.Name = "actDades_btn";
             this.actDades_btn.Size = new System.Drawing.Size(99, 23);
             this.actDades_btn.TabIndex = 16;
@@ -61,7 +61,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Rockwell", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(269, 26);
+            this.label1.Location = new System.Drawing.Point(257, 25);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(207, 33);
             this.label1.TabIndex = 0;
@@ -183,6 +183,7 @@
             this.cerrarsesion_btn.TabIndex = 37;
             this.cerrarsesion_btn.Text = "Cerrar sesion";
             this.cerrarsesion_btn.UseVisualStyleBackColor = false;
+            this.cerrarsesion_btn.Click += new System.EventHandler(this.cerrarsesion_btn_Click);
             // 
             // Acces_bbdd
             // 

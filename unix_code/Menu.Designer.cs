@@ -283,6 +283,7 @@
             this.cerrarsesion_btn.TabIndex = 5;
             this.cerrarsesion_btn.Text = "Cerrar sesion";
             this.cerrarsesion_btn.UseVisualStyleBackColor = false;
+            this.cerrarsesion_btn.Click += new System.EventHandler(this.cerrarsesion_btn_Click_1);
             // 
             // Menu
             // 

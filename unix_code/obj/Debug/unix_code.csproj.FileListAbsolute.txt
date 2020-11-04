@@ -123,3 +123,4 @@ C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\unix_code\obj\Debug\un
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\unix_code\obj\Debug\unix_code.csproj.CopyComplete
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\unix_code\obj\Debug\unix_code.exe
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\unix_code\obj\Debug\unix_code.pdb
+C:\S2AM\PROJECTS\UIX_CODE\unix_code\obj\Debug\unix_code.LoginCarga.resources
