@@ -22,6 +22,7 @@ namespace Controls
             // 
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Size = new System.Drawing.Size(35, 26);
             this.Click += new System.EventHandler(this.Class1_Click);
             this.ResumeLayout(false);
 

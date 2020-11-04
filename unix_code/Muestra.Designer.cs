@@ -41,6 +41,7 @@
             this.cerrarsesion_btn = new System.Windows.Forms.Button();
             this.labelUsername = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.class11 = new Controls.Class1();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -122,20 +123,20 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Purple;
-            this.panel1.Controls.Add(this.cerrarsesion_btn);
+            this.panel1.Controls.Add(this.class11);
             this.panel1.Controls.Add(this.labelUsername);
             this.panel1.Controls.Add(this.label5);
             this.panel1.Location = new System.Drawing.Point(1, 2);
             this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(758, 32);
+            this.panel1.Size = new System.Drawing.Size(717, 32);
             this.panel1.TabIndex = 9;
             // 
             // cerrarsesion_btn
             // 
             this.cerrarsesion_btn.BackColor = System.Drawing.Color.Black;
             this.cerrarsesion_btn.ForeColor = System.Drawing.Color.White;
-            this.cerrarsesion_btn.Location = new System.Drawing.Point(678, 2);
+            this.cerrarsesion_btn.Location = new System.Drawing.Point(633, 410);
             this.cerrarsesion_btn.Margin = new System.Windows.Forms.Padding(0);
             this.cerrarsesion_btn.Name = "cerrarsesion_btn";
             this.cerrarsesion_btn.Size = new System.Drawing.Size(80, 27);
@@ -166,13 +167,24 @@
             this.label5.TabIndex = 6;
             this.label5.Text = "WELCOME";
             // 
+            // class11
+            // 
+            this.class11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("class11.BackgroundImage")));
+            this.class11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.class11.Location = new System.Drawing.Point(687, 5);
+            this.class11.Name = "class11";
+            this.class11.Size = new System.Drawing.Size(25, 20);
+            this.class11.TabIndex = 13;
+            this.class11.UseVisualStyleBackColor = true;
+            // 
             // Muestra
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(759, 441);
+            this.ClientSize = new System.Drawing.Size(722, 446);
+            this.Controls.Add(this.cerrarsesion_btn);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox4);
@@ -205,5 +217,6 @@
         private System.Windows.Forms.Button cerrarsesion_btn;
         private System.Windows.Forms.Label labelUsername;
         private System.Windows.Forms.Label label5;
+        private Controls.Class1 class11;
     }
 }
