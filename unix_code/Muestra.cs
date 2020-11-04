@@ -11,11 +11,6 @@ namespace unix_code
             String username = user;
             labelUsername.Text = username;
         }
-        private void Muestra_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void cerrarsesion_btn_Click(object sender, EventArgs e)
         {
             this.Hide();

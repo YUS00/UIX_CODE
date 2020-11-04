@@ -1,8 +1,7 @@
 ﻿using System;
+using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
-using System.Security.AccessControl;
-using System.Configuration;
 
 namespace BaseDatos
 {
@@ -22,7 +21,7 @@ namespace BaseDatos
                 conn = new SqlConnection(connectionString);
                 conn.Open();
             }
-            
+
 
         }
 
@@ -79,12 +78,12 @@ namespace BaseDatos
             Connectar();
             SqlCommand cmd = new SqlCommand(cons, conn);
             cmd.ExecuteNonQuery();
-         
+
             conn.Close();
         }
         public void Executa(String consulta)
         {
-            
+
             Connectar();
             SqlCommand cmd = new SqlCommand(consulta, conn);
             cmd.ExecuteNonQuery();

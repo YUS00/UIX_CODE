@@ -5,10 +5,7 @@ using System.Windows.Forms;
 namespace unix_code
 {
     public partial class Login : Form
-
     {
-
-
         public Login()
         {
             InitializeComponent();
@@ -21,7 +18,6 @@ namespace unix_code
 
         private void button1_Click(object sender, EventArgs e)
         {
-
             string username = textBox1.Text;
             string password = textBox2.Text;
             string query = "Select * from Users " + " where codeuser = '" + textBox1.Text + "' AND password ='" + textBox2.Text + "'";
@@ -38,7 +34,6 @@ namespace unix_code
                 LoginCarga lg = new LoginCarga(user);
                 lg.Show();
                 this.Hide();
-
             }
             else if (attempt++ == 2)
             {

@@ -9,10 +9,8 @@ namespace unix_code
         {
             InitializeComponent();
         }
-
         private void timer1_Tick(object sender, EventArgs e)
         {
-
             circularProgressBar1.Value += 1;
 
             if (circularProgressBar1.Value == 100)
@@ -24,7 +22,6 @@ namespace unix_code
                 this.Hide();
             }
         }
-
         private void Splash_Load(object sender, EventArgs e)
         {
             circularProgressBar1.Minimum = 1;

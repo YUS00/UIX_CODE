@@ -12,7 +12,6 @@ namespace unix_code
         {
             InitializeComponent();
         }
-
         private SqlConnection conn;
         private string query = "select * from agencies";
         DataSet dts = new DataSet();
@@ -27,8 +26,6 @@ namespace unix_code
         {
             codiBox.Text = dataGridView.SelectedRows[0].Cells["CodeAgency"].Value.ToString();
             agenciaBox.Text = dataGridView.SelectedRows[0].Cells["DescAgency"].Value.ToString();
-
-            
         }
 
         private void actDades_btn_Click(object sender, EventArgs e)
