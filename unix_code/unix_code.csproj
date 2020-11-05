@@ -64,7 +64,6 @@
     <Compile Include="Amenaza.Designer.cs">
       <DependentUpon>Amenaza.cs</DependentUpon>
     </Compile>
-    <Compile Include="Data\Dato.cs" />
     <Compile Include="LoginCarga.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -102,7 +101,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UserModel\UserModel.cs" />
     <EmbeddedResource Include="Acces_bbdd.resx">
       <DependentUpon>Acces_bbdd.cs</DependentUpon>
     </EmbeddedResource>
