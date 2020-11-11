@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseDatos", "BaseDatos\Base
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controls", "Controls\Controls.csproj", "{981ABD92-C863-4906-A4E3-2DBDFB3ECB97}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Libreria_Clases_1", "..\..\..\..\Downloads\Libreria_Clases_1\Libreria_Clases_1.csproj", "{4E0CD2E4-23BA-4518-8CBE-8FD85335D018}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{981ABD92-C863-4906-A4E3-2DBDFB3ECB97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{981ABD92-C863-4906-A4E3-2DBDFB3ECB97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{981ABD92-C863-4906-A4E3-2DBDFB3ECB97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E0CD2E4-23BA-4518-8CBE-8FD85335D018}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E0CD2E4-23BA-4518-8CBE-8FD85335D018}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E0CD2E4-23BA-4518-8CBE-8FD85335D018}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E0CD2E4-23BA-4518-8CBE-8FD85335D018}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
