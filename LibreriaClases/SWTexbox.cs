@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Drawing;
+using System.Text.RegularExpressions;
 using System.Windows.Forms;
+
 
 namespace LibreriaClases
 {
@@ -21,7 +23,9 @@ namespace LibreriaClases
             // 
             this.Enter += new System.EventHandler(this.Class1_Enter);
             this.Leave += new System.EventHandler(this.Class1_Leave);
+            this.Validating += new System.ComponentModel.CancelEventHandler(this.SWTextbox_Validating);
             this.ResumeLayout(false);
+
         }
 
         private void Class1_Leave(object sender, EventArgs e)
@@ -67,9 +71,84 @@ namespace LibreriaClases
             set { _ForeignKey = value; }
         }
 
+        private void SWTextbox_Validating(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+
+            int num;
+            DateTime fecha = DateTime.Now;
+            String fecha_cadena = fecha.ToString(@"dd/MM/yyyy");
+
+            String tb_Texto = this.Text;
+
+
+            if (Campo_obligatorio && this.Text == "")
+            {
+                MessageBox.Show("Debe rellenar este campo");
+            }
+
+            else
+            {
+                if (!(this.Text == ""))
+                {
+
+                    switch (_tb_txtpermitido)
+                    {
+                        case tb_parametros.Texto:
+                            if (!System.Text.RegularExpressions.Regex.IsMatch(this.Text, "^[a-zA-Z ]"))
+                            {
+                                MessageBox.Show("Debe utilizar valores alfabéticos.");
+                                this.Clear();
+                            }
+                            break;
+                        case tb_parametros.Numero:
+                            if (!int.TryParse(tb_Texto, out num))
+                            {
+                                MessageBox.Show("Debe utilizar valores numéricos");
+                                this.Clear();
+                            }
+                            break;
+                        case tb_parametros.Fecha:
+                            if (!DateTime.TryParse(tb_Texto, out fecha))
+                            {
+                                MessageBox.Show("Debe introducir una fecha");
+                                this.Clear();
+                            }
+                            break;
+                        case tb_parametros.Codigo:
+                            if (!Formato_codigo())
+                            {
+                                MessageBox.Show("Debe introducir un código válido");
+                                this.Clear();
+                            }
+                            break;
+                        default:
+                            break;
+                    }
+                }
+            }
+
+            bool Formato_codigo()
+            {
+                bool codigo_correcto;
+                // Definir parámetros del regex
+                Regex rx = new Regex(@"^[0-9a-zA-Z]{4}\-\d{3}\/\d*[13579]{1}\w*[aeyiuo]{1}$",
+                  RegexOptions.Compiled | RegexOptions.IgnoreCase);
+
+                if (rx.IsMatch(this.Text))
+                {
+                    codigo_correcto = true;
+                }
+                else
+                {
+                    codigo_correcto = false;
+                }
+
+                return codigo_correcto;
+            }
+        }
     }
 
-    
+
 
 }
 

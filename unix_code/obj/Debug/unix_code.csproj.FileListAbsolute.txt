@@ -148,3 +148,5 @@ C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\unix_code\obj\Debug\unix_code.c
 C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\unix_code\obj\Debug\unix_code.csproj.CopyComplete
 C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\unix_code\obj\Debug\unix_code.exe
 C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\unix_code\obj\Debug\unix_code.pdb
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\unix_code\bin\Debug\LibreriaClases.dll
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\unix_code\bin\Debug\LibreriaClases.pdb
