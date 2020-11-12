@@ -1,18 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Drawing;
-using System.ComponentModel;
 
 namespace LibreriaClases
 {
-    class SWComboFK : ComboBox
+    public class SWComboBox : ComboBox
     {
-
-        public SWComboFK()
+        public SWComboBox()
         {
             InitializeComponent();
         }
@@ -40,7 +34,9 @@ namespace LibreriaClases
         public string CampMostrar
         {
             get { return _CampMostrar; }
-            set { _CampMostrar = value;
+            set
+            {
+                _CampMostrar = value;
                 DisplayMember = value;
             }
         }
@@ -51,7 +47,9 @@ namespace LibreriaClases
         public string CampID
         {
             get { return _CampID; }
-            set { _CampID = value;
+            set
+            {
+                _CampID = value;
                 ValueMember = value;
             }
         }

@@ -43,7 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="SWComboFK.cs" />
+    <Compile Include="SWComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="SWTexbox.cs">
       <SubType>Component</SubType>
     </Compile>
