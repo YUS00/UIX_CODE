@@ -58,9 +58,9 @@ namespace LibreriaClases
 
             foreach (Control ctr in frm.Controls)
             {
-                if (ctr.Name == )
+                if (ctr.Name == ControlId)
                 {
-
+                    ctr.Text = SelectedValue.ToString();
                 }
             }
         }

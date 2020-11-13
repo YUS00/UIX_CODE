@@ -22,3 +22,4 @@ C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\Controls\obj\Debug\Controls.csp
 C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\Controls\obj\Debug\Controls.csproj.CoreCompileInputs.cache
 C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\Controls\obj\Debug\Controls.dll
 C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\Controls\obj\Debug\Controls.pdb
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\Controls\obj\Debug\Controls.csprojAssemblyReference.cache
