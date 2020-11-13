@@ -46,6 +46,9 @@
     <Compile Include="SWComboboxFK.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="SWCombonew.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="SWTexbox.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -54,6 +57,9 @@
   <ItemGroup>
     <EmbeddedResource Include="SWComboboxFK.resx">
       <DependentUpon>SWComboboxFK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SWCombonew.resx">
+      <DependentUpon>SWCombonew.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SWTexbox.resx">
       <DependentUpon>SWTexbox.cs</DependentUpon>
