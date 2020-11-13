@@ -15,57 +15,53 @@ namespace LibreriaClases
         {
             this.SuspendLayout();
             // 
-            // SWComboFK
+            // SWComboBox
             // 
-            this.SelectedValueChanged += new System.EventHandler(this.SWComboFK_SelectedValueChanged);
+            this.SelectedValueChanged += new System.EventHandler(this.SWComboBox_SelectedValueChanged);
             this.ResumeLayout(false);
 
         }
 
-        private String _controlID;
-        public String controlID
+        private String _ControlId;
+        public String ControlId
         {
-            get { return _controlID; }
-            set { _controlID = value; }
+            get { return _ControlId; }
+            set { _ControlId = value; }
         }
 
-        private string _CampMostrar;
+
 
         public string CampMostrar
         {
-            get { return _CampMostrar; }
+            get { return DisplayMember; }
             set
             {
-                _CampMostrar = value;
                 DisplayMember = value;
             }
         }
 
 
-        private string _CampID;
+
 
         public string CampID
         {
-            get { return _CampID; }
+            get { return ValueMember; }
             set
             {
-                _CampID = value;
                 ValueMember = value;
             }
         }
 
-
-
-
-
-
-        private void SWComboFK_SelectedValueChanged(object sender, EventArgs e)
+        private void SWComboBox_SelectedValueChanged(object sender, EventArgs e)
         {
             Form frm = FindForm();
 
-            foreach (Control ctrl in frm.Controls)
+            foreach (Control ctr in frm.Controls)
             {
-                if (ctrl.Name == controlID) ctrl.Text = SelectedValue.ToString();
+                if (ctr.Name == )
+                {
+
+                }
             }
         }
     }

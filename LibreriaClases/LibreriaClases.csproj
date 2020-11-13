@@ -52,6 +52,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="SWComboboxFK.resx">
+      <DependentUpon>SWComboboxFK.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SWTexbox.resx">
       <DependentUpon>SWTexbox.cs</DependentUpon>
     </EmbeddedResource>
