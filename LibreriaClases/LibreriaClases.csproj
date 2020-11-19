@@ -43,6 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LlencaAplicacions.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="SWComboboxFK.cs">
       <SubType>Component</SubType>
     </Compile>
