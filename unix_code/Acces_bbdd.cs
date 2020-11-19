@@ -45,5 +45,11 @@ namespace unix_code
             Login form3 = new Login();
             form3.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            query = "select * from users";
+            DataSet dtss = dades.PortarPerConsulta(query);
+        }
     }
 }

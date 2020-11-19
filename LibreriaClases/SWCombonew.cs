@@ -19,19 +19,6 @@ namespace LibreriaClases
         }
 
 
-
-        public String CampMostrar
-        {
-            get { return DisplayMember; }
-            set { DisplayMember = value; }
-        }
-
-        public String CampId
-        {
-            get { return ValueMember; }
-            set { ValueMember = value; }
-        }
-
         private void InitializeComponent()
         {
             this.SuspendLayout();
