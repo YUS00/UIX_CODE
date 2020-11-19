@@ -116,13 +116,10 @@ C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\unix_code\obj\Debug\un
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\unix_code\obj\Debug\unix_code.Login.resources
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\unix_code\obj\Debug\unix_code.Menu.resources
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\unix_code\obj\Debug\unix_code.Muestra.resources
-C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\unix_code\obj\Debug\unix_code.Properties.Resources.resources
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\unix_code\obj\Debug\unix_code.Splash.resources
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\unix_code\obj\Debug\unix_code.csproj.GenerateResource.cache
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\unix_code\obj\Debug\unix_code.csproj.CoreCompileInputs.cache
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\unix_code\obj\Debug\unix_code.csproj.CopyComplete
-C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\unix_code\obj\Debug\unix_code.exe
-C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\unix_code\obj\Debug\unix_code.pdb
 C:\S2AM\PROJECTS\UIX_CODE\unix_code\obj\Debug\unix_code.LoginCarga.resources
 C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\unix_code\bin\Debug\unix_code.exe.config
 C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\unix_code\bin\Debug\unix_code.exe
@@ -153,3 +150,9 @@ C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\unix_code\bin\Debug\LibreriaCla
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\unix_code\bin\Debug\LibreriaClases.dll
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\unix_code\bin\Debug\LibreriaClases.pdb
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\unix_code\obj\Debug\unix_code.LoginCarga.resources
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DLL\UnixCode.exe.config
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DLL\UnixCode.exe
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DLL\UnixCode.pdb
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\unix_code\obj\Debug\UnixCode.Properties.Resources.resources
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\unix_code\obj\Debug\UnixCode.exe
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\unix_code\obj\Debug\UnixCode.pdb

@@ -42,13 +42,14 @@
             this.lblConsulta = new System.Windows.Forms.Label();
             this.class11 = new Controls.Class1();
             this.cerrarsesion_btn = new System.Windows.Forms.Button();
+            this.llencaAplicacions1 = new LibreriaClases.LlencaAplicacions();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             this.SuspendLayout();
             // 
             // actDades_btn
             // 
             this.actDades_btn.Location = new System.Drawing.Point(575, 460);
-            this.actDades_btn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.actDades_btn.Margin = new System.Windows.Forms.Padding(4);
             this.actDades_btn.Name = "actDades_btn";
             this.actDades_btn.Size = new System.Drawing.Size(132, 28);
             this.actDades_btn.TabIndex = 16;
@@ -74,7 +75,7 @@
             this.dataGridView.BackgroundColor = System.Drawing.Color.Indigo;
             this.dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView.Location = new System.Drawing.Point(51, 102);
-            this.dataGridView.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView.Name = "dataGridView";
             this.dataGridView.RowHeadersWidth = 51;
             this.dataGridView.Size = new System.Drawing.Size(877, 161);
@@ -108,7 +109,7 @@
             // codiBox
             // 
             this.codiBox.Location = new System.Drawing.Point(169, 336);
-            this.codiBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.codiBox.Margin = new System.Windows.Forms.Padding(4);
             this.codiBox.Name = "codiBox";
             this.codiBox.Size = new System.Drawing.Size(132, 22);
             this.codiBox.TabIndex = 30;
@@ -117,7 +118,7 @@
             // agenciaBox
             // 
             this.agenciaBox.Location = new System.Drawing.Point(169, 394);
-            this.agenciaBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.agenciaBox.Margin = new System.Windows.Forms.Padding(4);
             this.agenciaBox.Name = "agenciaBox";
             this.agenciaBox.Size = new System.Drawing.Size(239, 22);
             this.agenciaBox.TabIndex = 31;
@@ -126,7 +127,7 @@
             // MostrarDades_btn
             // 
             this.MostrarDades_btn.Location = new System.Drawing.Point(235, 460);
-            this.MostrarDades_btn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MostrarDades_btn.Margin = new System.Windows.Forms.Padding(4);
             this.MostrarDades_btn.Name = "MostrarDades_btn";
             this.MostrarDades_btn.Size = new System.Drawing.Size(132, 28);
             this.MostrarDades_btn.TabIndex = 15;
@@ -171,7 +172,7 @@
             this.class11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("class11.BackgroundImage")));
             this.class11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.class11.Location = new System.Drawing.Point(913, 15);
-            this.class11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.class11.Margin = new System.Windows.Forms.Padding(4);
             this.class11.Name = "class11";
             this.class11.Size = new System.Drawing.Size(33, 25);
             this.class11.TabIndex = 36;
@@ -195,6 +196,17 @@
             this.cerrarsesion_btn.UseVisualStyleBackColor = false;
             this.cerrarsesion_btn.Click += new System.EventHandler(this.cerrarsesion_btn_Click);
             // 
+            // llencaAplicacions1
+            // 
+            this.llencaAplicacions1.Classe = "unix_code.dll";
+            this.llencaAplicacions1.Form = "unix_code.Amenaza";
+            this.llencaAplicacions1.Location = new System.Drawing.Point(766, 380);
+            this.llencaAplicacions1.Name = "llencaAplicacions1";
+            this.llencaAplicacions1.Size = new System.Drawing.Size(75, 23);
+            this.llencaAplicacions1.TabIndex = 38;
+            this.llencaAplicacions1.Text = "llencaAplicacions1";
+            this.llencaAplicacions1.UseVisualStyleBackColor = true;
+            // 
             // Acces_bbdd
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -202,6 +214,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(963, 549);
+            this.Controls.Add(this.llencaAplicacions1);
             this.Controls.Add(this.cerrarsesion_btn);
             this.Controls.Add(this.class11);
             this.Controls.Add(this.label1);
@@ -216,7 +229,7 @@
             this.Controls.Add(this.actDades_btn);
             this.Controls.Add(this.MostrarDades_btn);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Acces_bbdd";
             this.Text = "Acces_bbdd";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).EndInit();
@@ -240,5 +253,6 @@
         private System.Windows.Forms.Label lblConsulta;
         private Controls.Class1 class11;
         private System.Windows.Forms.Button cerrarsesion_btn;
+        private LibreriaClases.LlencaAplicacions llencaAplicacions1;
     }
 }
