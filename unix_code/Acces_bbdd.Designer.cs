@@ -40,9 +40,9 @@
             this.txtExecuta = new System.Windows.Forms.TextBox();
             this.btnExecuta = new System.Windows.Forms.Button();
             this.lblConsulta = new System.Windows.Forms.Label();
-            this.class11 = new Controls.Class1();
             this.cerrarsesion_btn = new System.Windows.Forms.Button();
             this.llencaAplicacions1 = new LibreriaClases.LlencaAplicacions();
+            this.class11 = new Controls.Class1();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             this.SuspendLayout();
             // 
@@ -167,17 +167,6 @@
             this.lblConsulta.TabIndex = 35;
             this.lblConsulta.Text = "SENTENCIA:";
             // 
-            // class11
-            // 
-            this.class11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("class11.BackgroundImage")));
-            this.class11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.class11.Location = new System.Drawing.Point(913, 15);
-            this.class11.Margin = new System.Windows.Forms.Padding(4);
-            this.class11.Name = "class11";
-            this.class11.Size = new System.Drawing.Size(33, 25);
-            this.class11.TabIndex = 36;
-            this.class11.UseVisualStyleBackColor = true;
-            // 
             // cerrarsesion_btn
             // 
             this.cerrarsesion_btn.BackColor = System.Drawing.Color.Black;
@@ -198,14 +187,25 @@
             // 
             // llencaAplicacions1
             // 
-            this.llencaAplicacions1.Classe = "unix_code.dll";
-            this.llencaAplicacions1.Form = "unix_code.Amenaza";
+            this.llencaAplicacions1.Classe = "ClasseColors.dll";
+            this.llencaAplicacions1.Form = "ClasseColors.frmBlau";
             this.llencaAplicacions1.Location = new System.Drawing.Point(766, 380);
             this.llencaAplicacions1.Name = "llencaAplicacions1";
             this.llencaAplicacions1.Size = new System.Drawing.Size(75, 23);
             this.llencaAplicacions1.TabIndex = 38;
             this.llencaAplicacions1.Text = "llencaAplicacions1";
             this.llencaAplicacions1.UseVisualStyleBackColor = true;
+            // 
+            // class11
+            // 
+            this.class11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("class11.BackgroundImage")));
+            this.class11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.class11.Location = new System.Drawing.Point(913, 15);
+            this.class11.Margin = new System.Windows.Forms.Padding(4);
+            this.class11.Name = "class11";
+            this.class11.Size = new System.Drawing.Size(33, 25);
+            this.class11.TabIndex = 36;
+            this.class11.UseVisualStyleBackColor = true;
             // 
             // Acces_bbdd
             // 
