@@ -91,5 +91,17 @@ namespace BaseDatos
             conn.Close();
         }
 
+        public DataSet CarregarMenu (String nivell)
+        {
+            Connectar();
+            SqlDataAdapter adapter;
+            String consulta = "select * from menu where nivell <= " + nivell;
+            adapter = new SqlDataAdapter(consulta, conn);
+            DataSet dts = new DataSet();
+            adapter.Fill(dts);
+            conn.Close();
+            return dts;
+        }
+
     }
 }
