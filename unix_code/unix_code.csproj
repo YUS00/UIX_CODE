@@ -173,6 +173,10 @@
       <Project>{a1f21818-5a6d-43e1-b699-2f36859c4cfe}</Project>
       <Name>LibreriaClases</Name>
     </ProjectReference>
+    <ProjectReference Include="..\LibreriaControles\LibreriaControles.csproj">
+      <Project>{461ac342-99fb-4d28-b0ae-c29c4835b114}</Project>
+      <Name>LibreriaControles</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

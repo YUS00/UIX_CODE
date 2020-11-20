@@ -45,5 +45,13 @@ namespace unix_code
             Login form3 = new Login();
             form3.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            DataSet dtss = dades.PortarPerConsulta("select * from users");
+            uixCombobox1.DataSource = dtss.Tables[0];
+            uixCombobox1.ValueMember = uixCombobox1.CampID;
+            uixCombobox1.DisplayMember = uixCombobox1.CampMostrar;
+        }
     }
 }

@@ -41,8 +41,11 @@
             this.btnExecuta = new System.Windows.Forms.Button();
             this.lblConsulta = new System.Windows.Forms.Label();
             this.cerrarsesion_btn = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.txtCombo = new System.Windows.Forms.TextBox();
             this.llencaAplicacions1 = new LibreriaClases.LlencaAplicacions();
             this.class11 = new Controls.Class1();
+            this.uixCombobox1 = new LibreriaControles.UIXCombobox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             this.SuspendLayout();
             // 
@@ -185,6 +188,23 @@
             this.cerrarsesion_btn.UseVisualStyleBackColor = false;
             this.cerrarsesion_btn.Click += new System.EventHandler(this.cerrarsesion_btn_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(553, 336);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 40;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // txtCombo
+            // 
+            this.txtCombo.Location = new System.Drawing.Point(807, 333);
+            this.txtCombo.Name = "txtCombo";
+            this.txtCombo.Size = new System.Drawing.Size(100, 22);
+            this.txtCombo.TabIndex = 41;
+            // 
             // llencaAplicacions1
             // 
             this.llencaAplicacions1.Classe = "ClasseColors.dll";
@@ -207,6 +227,17 @@
             this.class11.TabIndex = 36;
             this.class11.UseVisualStyleBackColor = true;
             // 
+            // uixCombobox1
+            // 
+            this.uixCombobox1.CampID = "iduser";
+            this.uixCombobox1.CampMostrar = "codeuser";
+            this.uixCombobox1.ControlId = "txtCombo";
+            this.uixCombobox1.FormattingEnabled = true;
+            this.uixCombobox1.Location = new System.Drawing.Point(657, 336);
+            this.uixCombobox1.Name = "uixCombobox1";
+            this.uixCombobox1.Size = new System.Drawing.Size(121, 24);
+            this.uixCombobox1.TabIndex = 42;
+            // 
             // Acces_bbdd
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -214,6 +245,9 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(963, 549);
+            this.Controls.Add(this.uixCombobox1);
+            this.Controls.Add(this.txtCombo);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.llencaAplicacions1);
             this.Controls.Add(this.cerrarsesion_btn);
             this.Controls.Add(this.class11);
@@ -254,5 +288,8 @@
         private Controls.Class1 class11;
         private System.Windows.Forms.Button cerrarsesion_btn;
         private LibreriaClases.LlencaAplicacions llencaAplicacions1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox txtCombo;
+        private LibreriaControles.UIXCombobox uixCombobox1;
     }
 }
