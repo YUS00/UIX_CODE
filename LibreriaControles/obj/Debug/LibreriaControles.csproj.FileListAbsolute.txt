@@ -5,4 +5,3 @@ C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\LibreriaControles\obj\
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\LibreriaControles\obj\Debug\LibreriaControles.csproj.CoreCompileInputs.cache
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\LibreriaControles\obj\Debug\LibreriaControles.dll
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\LibreriaControles\obj\Debug\LibreriaControles.pdb
-C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\LibreriaControles\obj\Debug\LibreriaControles.csprojAssemblyReference.cache

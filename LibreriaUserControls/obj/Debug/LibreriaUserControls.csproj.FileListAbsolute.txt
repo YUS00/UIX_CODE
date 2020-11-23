@@ -1,0 +1,8 @@
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\LibreriaUserControls\bin\Debug\LibreriaUserControls.dll
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\LibreriaUserControls\bin\Debug\LibreriaUserControls.pdb
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\LibreriaUserControls\obj\Debug\LibreriaUserControls.ControlLlencaApplicacions.resources
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\LibreriaUserControls\obj\Debug\LibreriaUserControls.Properties.Resources.resources
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\LibreriaUserControls\obj\Debug\LibreriaUserControls.csproj.GenerateResource.cache
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\LibreriaUserControls\obj\Debug\LibreriaUserControls.csproj.CoreCompileInputs.cache
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\LibreriaUserControls\obj\Debug\LibreriaUserControls.dll
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\LibreriaUserControls\obj\Debug\LibreriaUserControls.pdb

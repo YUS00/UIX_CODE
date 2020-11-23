@@ -24,10 +24,10 @@ namespace LibreriaUserControls
             set { label1.Text = value; }
         }
 
-        public Image Picture
+        public String Picture
         {
-            get { return pctBox.Image; }
-            set { pctBox.Image = value; }
+            get { return pctBox.ImageLocation; }
+            set { pctBox.ImageLocation = value; }
         }
 
         public Color BackgroundColor
