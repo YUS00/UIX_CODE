@@ -37,7 +37,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(189, 92);
+            this.label1.Location = new System.Drawing.Point(94, 42);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(86, 31);
             this.label1.TabIndex = 0;
@@ -45,9 +45,10 @@
             // 
             // pctBox
             // 
-            this.pctBox.Location = new System.Drawing.Point(43, 71);
+            this.pctBox.Location = new System.Drawing.Point(20, 26);
             this.pctBox.Name = "pctBox";
-            this.pctBox.Size = new System.Drawing.Size(115, 84);
+            this.pctBox.Size = new System.Drawing.Size(68, 60);
+            this.pctBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pctBox.TabIndex = 1;
             this.pctBox.TabStop = false;
             // 
@@ -59,7 +60,7 @@
             this.Controls.Add(this.pctBox);
             this.Controls.Add(this.label1);
             this.Name = "ControlLlencaApplicacions";
-            this.Size = new System.Drawing.Size(400, 225);
+            this.Size = new System.Drawing.Size(212, 113);
             ((System.ComponentModel.ISupportInitialize)(this.pctBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

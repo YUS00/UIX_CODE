@@ -2,6 +2,7 @@
 using System.Data;
 using System.Data.SqlClient;
 using System.Windows.Forms;
+using System.Drawing;
 
 namespace unix_code
 {
@@ -52,6 +53,13 @@ namespace unix_code
             uixCombobox1.DataSource = dtss.Tables[0];
             uixCombobox1.ValueMember = uixCombobox1.CampID;
             uixCombobox1.DisplayMember = uixCombobox1.CampMostrar;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            controlLlencaApplicacions1.Picture = Application.StartupPath+"/assets/fondo.jpeg";
+            controlLlencaApplicacions1.BackColor = Color.Blue;
+            controlLlencaApplicacions1.LabelText = "Agapito";
         }
     }
 }

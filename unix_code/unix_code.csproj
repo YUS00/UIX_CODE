@@ -177,6 +177,10 @@
       <Project>{461ac342-99fb-4d28-b0ae-c29c4835b114}</Project>
       <Name>LibreriaControles</Name>
     </ProjectReference>
+    <ProjectReference Include="..\LibreriaUserControls\LibreriaUserControls.csproj">
+      <Project>{F110EA25-1E7F-4ACB-A5BE-2542D751A41F}</Project>
+      <Name>LibreriaUserControls</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\7c6.jpg" />
