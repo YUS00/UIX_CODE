@@ -55,11 +55,6 @@ namespace unix_code
             uixCombobox1.DisplayMember = uixCombobox1.CampMostrar;
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            controlLlencaApplicacions1.Picture = Application.StartupPath+"/assets/fondo.jpeg";
-            controlLlencaApplicacions1.BackColor = Color.Blue;
-            controlLlencaApplicacions1.LabelText = "Agapito";
-        }
+
     }
 }

@@ -43,11 +43,9 @@
             this.cerrarsesion_btn = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.txtCombo = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
             this.uixCombobox1 = new LibreriaControles.UIXCombobox();
             this.llencaAplicacions1 = new LibreriaClases.LlencaAplicacions();
             this.class11 = new Controls.Class1();
-            this.controlLlencaApplicacions1 = new LibreriaUserControls.ControlLlencaApplicacions();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             this.SuspendLayout();
             // 
@@ -207,16 +205,6 @@
             this.txtCombo.Size = new System.Drawing.Size(100, 22);
             this.txtCombo.TabIndex = 41;
             // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(132, 31);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 44;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
             // uixCombobox1
             // 
             this.uixCombobox1.CampID = "iduser";
@@ -250,17 +238,6 @@
             this.class11.TabIndex = 36;
             this.class11.UseVisualStyleBackColor = true;
             // 
-            // controlLlencaApplicacions1
-            // 
-            this.controlLlencaApplicacions1.BackColor = System.Drawing.SystemColors.Control;
-            this.controlLlencaApplicacions1.BackgroundColor = System.Drawing.SystemColors.Control;
-            this.controlLlencaApplicacions1.LabelText = "label1";
-            this.controlLlencaApplicacions1.Location = new System.Drawing.Point(294, 76);
-            this.controlLlencaApplicacions1.Name = "controlLlencaApplicacions1";
-            this.controlLlencaApplicacions1.Picture = null;
-            this.controlLlencaApplicacions1.Size = new System.Drawing.Size(212, 113);
-            this.controlLlencaApplicacions1.TabIndex = 45;
-            // 
             // Acces_bbdd
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -268,8 +245,6 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(963, 549);
-            this.Controls.Add(this.controlLlencaApplicacions1);
-            this.Controls.Add(this.button2);
             this.Controls.Add(this.uixCombobox1);
             this.Controls.Add(this.txtCombo);
             this.Controls.Add(this.button1);
@@ -316,7 +291,5 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox txtCombo;
         private LibreriaControles.UIXCombobox uixCombobox1;
-        private System.Windows.Forms.Button button2;
-        private LibreriaUserControls.ControlLlencaApplicacions controlLlencaApplicacions1;
     }
 }
