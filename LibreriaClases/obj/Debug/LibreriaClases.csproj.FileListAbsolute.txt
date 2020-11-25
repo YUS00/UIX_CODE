@@ -14,3 +14,4 @@ C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\LibreriaClases\obj\Deb
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\LibreriaClases\obj\Debug\LibreriaClases.pdb
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DLL\LibreriaClases.dll
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DLL\LibreriaClases.pdb
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\LibreriaClases\obj\Debug\LibreriaClases.csprojAssemblyReference.cache

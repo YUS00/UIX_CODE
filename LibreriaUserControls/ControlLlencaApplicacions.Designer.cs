@@ -61,6 +61,7 @@
             this.Controls.Add(this.label1);
             this.Name = "ControlLlencaApplicacions";
             this.Size = new System.Drawing.Size(212, 113);
+            this.Click += new System.EventHandler(this.ControlLlencaApplicacions_Click);
             ((System.ComponentModel.ISupportInitialize)(this.pctBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
