@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>8eebad14-05e6-4113-acfb-a38d99b90fd2</ProjectGuid>
+    <ProjectGuid>{8EEBAD14-05E6-4113-ACFB-A38D99B90FD2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>Screens</RootNamespace>
     <AssemblyName>Screens</AssemblyName>
@@ -16,7 +16,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
+    <OutputPath>..\DLL\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -30,33 +30,62 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System"/>
-    
-    <Reference Include="System.Core"/>
-    <Reference Include="System.Xml.Linq"/>
-    <Reference Include="System.Data.DataSetExtensions"/>
-    
-    
-    <Reference Include="Microsoft.CSharp"/>
-    
-    <Reference Include="System.Data"/>
-    <Reference Include="System.Drawing"/>
-    
-    <Reference Include="System.Net.Http"/>
-    
-    <Reference Include="System.Windows.Forms"/>
-    <Reference Include="System.Xml"/>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="UserControl1.cs">
-      <SubType>UserControl</SubType>
+    <Compile Include="Acces_bbdd.cs">
+      <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UserControl1.Designer.cs">
-      <DependentUpon>UserControl1.cs</DependentUpon>
+    <Compile Include="Acces_bbdd.designer.cs">
+      <DependentUpon>Acces_bbdd.cs</DependentUpon>
     </Compile>
-
+    <Compile Include="Amenaza.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Amenaza.designer.cs">
+      <DependentUpon>Amenaza.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BaseDatos\BaseDatos.csproj">
+      <Project>{df4bbcb6-4528-405a-827b-28636890b64d}</Project>
+      <Name>BaseDatos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Controls\Controls.csproj">
+      <Project>{981abd92-c863-4906-a4e3-2dbdfb3ecb97}</Project>
+      <Name>Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LibreriaClases\LibreriaClases.csproj">
+      <Project>{a1f21818-5a6d-43e1-b699-2f36859c4cfe}</Project>
+      <Name>LibreriaClases</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LibreriaControles\LibreriaControles.csproj">
+      <Project>{461ac342-99fb-4d28-b0ae-c29c4835b114}</Project>
+      <Name>LibreriaControles</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LibreriaUserControls\LibreriaUserControls.csproj">
+      <Project>{f110ea25-1e7f-4acb-a5be-2542d751a41f}</Project>
+      <Name>LibreriaUserControls</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Acces_bbdd.resx">
+      <DependentUpon>Acces_bbdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Amenaza.resx">
+      <DependentUpon>Amenaza.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
- </Project>
+</Project>

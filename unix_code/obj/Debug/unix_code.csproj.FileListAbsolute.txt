@@ -111,8 +111,6 @@ C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\unix_code\bin\Debug\Ba
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\unix_code\bin\Debug\Controls.pdb
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\unix_code\bin\Debug\CircularProgressBar.xml
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\unix_code\obj\Debug\unix_code.csprojAssemblyReference.cache
-C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\unix_code\obj\Debug\unix_code.Acces_bbdd.resources
-C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\unix_code\obj\Debug\unix_code.Amenaza.resources
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\unix_code\obj\Debug\unix_code.Login.resources
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\unix_code\obj\Debug\unix_code.Menu.resources
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\unix_code\obj\Debug\unix_code.Muestra.resources
