@@ -163,6 +163,10 @@
       <Project>{F110EA25-1E7F-4ACB-A5BE-2542D751A41F}</Project>
       <Name>LibreriaUserControls</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Libreria_BaseForms\Libreria_BaseForms.csproj">
+      <Project>{09319958-7623-4470-80b8-5ad571210457}</Project>
+      <Name>Libreria_BaseForms</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Screens\Screens.csproj">
       <Project>{8eebad14-05e6-4113-acfb-a38d99b90fd2}</Project>
       <Name>Screens</Name>

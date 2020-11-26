@@ -9,3 +9,11 @@ C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\LibreriaUserControls\o
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DLL\LibreriaUserControls.dll
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DLL\LibreriaUserControls.pdb
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\LibreriaUserControls\obj\Debug\LibreriaUserControls.csprojAssemblyReference.cache
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\DLL\LibreriaUserControls.dll
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\DLL\LibreriaUserControls.pdb
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\LibreriaUserControls\obj\Debug\LibreriaUserControls.ControlLlencaApplicacions.resources
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\LibreriaUserControls\obj\Debug\LibreriaUserControls.Properties.Resources.resources
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\LibreriaUserControls\obj\Debug\LibreriaUserControls.csproj.GenerateResource.cache
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\LibreriaUserControls\obj\Debug\LibreriaUserControls.csproj.CoreCompileInputs.cache
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\LibreriaUserControls\obj\Debug\LibreriaUserControls.dll
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\LibreriaUserControls\obj\Debug\LibreriaUserControls.pdb

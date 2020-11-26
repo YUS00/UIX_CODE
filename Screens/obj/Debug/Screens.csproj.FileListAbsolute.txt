@@ -20,3 +20,13 @@ C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\Screens\obj\Debug\Scre
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\Screens\obj\Debug\Screens.pdb
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DLL\Screens.dll
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DLL\Screens.pdb
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\DLL\Screens.dll
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\DLL\Screens.pdb
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\Screens\obj\Debug\Screens.csprojAssemblyReference.cache
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\Screens\obj\Debug\unix_code.Acces_bbdd.resources
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\Screens\obj\Debug\unix_code.Amenaza.resources
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\Screens\obj\Debug\Screens.csproj.GenerateResource.cache
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\Screens\obj\Debug\Screens.csproj.CoreCompileInputs.cache
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\Screens\obj\Debug\Screens.csproj.CopyComplete
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\Screens\obj\Debug\Screens.dll
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\Screens\obj\Debug\Screens.pdb

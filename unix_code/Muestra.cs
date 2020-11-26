@@ -3,7 +3,7 @@ using System.Windows.Forms;
 
 namespace unix_code
 {
-    public partial class Muestra : Form
+    public partial class Muestra : Libreria_BaseForms.BaseForms
     {
         public Muestra(String user)
         {
