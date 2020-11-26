@@ -69,5 +69,39 @@ namespace LibreriaUserControls
             // i per això fem un cast amb (Form)
             ((Form)dllBD).Show();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            //Carreguem la dll. No fem constar cap path per que la
+            // compilem a la carpeta on compilem tots els ensamblats
+            Assembly ensamblat = Assembly.LoadFrom(ClasseObrir);
+            //Declarem les variables
+            Object dllBD;
+            Type tipus;
+            //recuperem el tipus de la classe que volem instanciar
+            tipus = ensamblat.GetType(FormObrir);
+            //instanciem l’objecte
+            dllBD = Activator.CreateInstance(tipus);
+            //el mostrem assumint que es tracta d’un form
+            // i per això fem un cast amb (Form)
+            ((Form)dllBD).Show();
+        }
+
+        private void pctBox_Click(object sender, EventArgs e)
+        {
+            //Carreguem la dll. No fem constar cap path per que la
+            // compilem a la carpeta on compilem tots els ensamblats
+            Assembly ensamblat = Assembly.LoadFrom(ClasseObrir);
+            //Declarem les variables
+            Object dllBD;
+            Type tipus;
+            //recuperem el tipus de la classe que volem instanciar
+            tipus = ensamblat.GetType(FormObrir);
+            //instanciem l’objecte
+            dllBD = Activator.CreateInstance(tipus);
+            //el mostrem assumint que es tracta d’un form
+            // i per això fem un cast amb (Form)
+            ((Form)dllBD).Show();
+        }
     }
 }
