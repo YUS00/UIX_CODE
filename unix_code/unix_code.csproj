@@ -52,18 +52,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Acces_bbdd.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Acces_bbdd.Designer.cs">
-      <DependentUpon>Acces_bbdd.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Amenaza.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Amenaza.Designer.cs">
-      <DependentUpon>Amenaza.cs</DependentUpon>
-    </Compile>
     <Compile Include="LoginCarga.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -101,12 +89,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Acces_bbdd.resx">
-      <DependentUpon>Acces_bbdd.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Amenaza.resx">
-      <DependentUpon>Amenaza.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
@@ -180,6 +162,10 @@
     <ProjectReference Include="..\LibreriaUserControls\LibreriaUserControls.csproj">
       <Project>{F110EA25-1E7F-4ACB-A5BE-2542D751A41F}</Project>
       <Name>LibreriaUserControls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Screens\Screens.csproj">
+      <Project>{8eebad14-05e6-4113-acfb-a38d99b90fd2}</Project>
+      <Name>Screens</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

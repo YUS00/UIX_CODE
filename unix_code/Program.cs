@@ -13,7 +13,7 @@ namespace unix_code
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Acces_bbdd());
+            Application.Run(new Splash());
         }
     }
 }
