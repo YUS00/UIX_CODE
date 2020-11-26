@@ -15,8 +15,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibreriaControles", "Librer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibreriaUserControls", "LibreriaUserControls\LibreriaUserControls.csproj", "{F110EA25-1E7F-4ACB-A5BE-2542D751A41F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Screens", "Screens\Screens.csproj", "{8EEBAD14-05E6-4113-ACFB-A38D99B90FD2}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,10 +45,6 @@ Global
 		{F110EA25-1E7F-4ACB-A5BE-2542D751A41F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F110EA25-1E7F-4ACB-A5BE-2542D751A41F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F110EA25-1E7F-4ACB-A5BE-2542D751A41F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8EEBAD14-05E6-4113-ACFB-A38D99B90FD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8EEBAD14-05E6-4113-ACFB-A38D99B90FD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8EEBAD14-05E6-4113-ACFB-A38D99B90FD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8EEBAD14-05E6-4113-ACFB-A38D99B90FD2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
