@@ -55,13 +55,5 @@ namespace unix_code
             uixCombobox1.DisplayMember = uixCombobox1.CampMostrar;
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            controlLlencaApplicacions1.LabelText = "hola";
-            controlLlencaApplicacions1.Picture = Application.StartupPath + "/assets/cloud.png";
-            controlLlencaApplicacions1.BackgroundColor = Color.Blue;
-            controlLlencaApplicacions1.ClasseObrir = "ClasseColors.dll";
-            controlLlencaApplicacions1.FormObrir = "ClasseColors.frmBlau";
-        }
     }
 }
