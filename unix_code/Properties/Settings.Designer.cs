@@ -32,5 +32,16 @@ namespace UnixCode.Properties {
                 return ((string)(this["SecureCoreConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-0JDU7DN\\SQLEXPRESS;Initial Catalog=SecureCore;Integrated Secu" +
+            "rity=True")]
+        public string SecureCoreConnectionString1 {
+            get {
+                return ((string)(this["SecureCoreConnectionString1"]));
+            }
+        }
     }
 }

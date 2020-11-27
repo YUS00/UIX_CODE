@@ -37,6 +37,7 @@
       <HintPath>..\packages\CircularProgressBar.2.8.0.16\lib\net40\CircularProgressBar.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -52,6 +53,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBase.Designer.cs">
+      <DependentUpon>FormBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDataSetPrueba.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDataSetPrueba.designer.cs">
+      <DependentUpon>FormDataSetPrueba.cs</DependentUpon>
+    </Compile>
     <Compile Include="LoginCarga.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,6 +102,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormBase.resx">
+      <DependentUpon>FormBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDataSetPrueba.resx">
+      <DependentUpon>FormDataSetPrueba.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>

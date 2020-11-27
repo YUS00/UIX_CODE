@@ -155,3 +155,5 @@ C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\DLL\UnixCode.pdb
 C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\unix_code\obj\Debug\UnixCode.Properties.Resources.resources
 C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\unix_code\obj\Debug\UnixCode.exe
 C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\unix_code\obj\Debug\UnixCode.pdb
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\unix_code\obj\Debug\UnixCode.FormBase.resources
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\unix_code\obj\Debug\unix_code.FormDataSetPrueba.resources
