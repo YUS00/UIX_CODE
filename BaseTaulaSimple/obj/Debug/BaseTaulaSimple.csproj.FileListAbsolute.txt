@@ -1,0 +1,17 @@
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\BaseTaulaSimple\bin\Debug\BaseTaulaSimple.dll
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\BaseTaulaSimple\bin\Debug\BaseTaulaSimple.pdb
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\BaseTaulaSimple\bin\Debug\BaseDatos.dll
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\BaseTaulaSimple\bin\Debug\LibreriaClases.dll
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\BaseTaulaSimple\bin\Debug\Libreria_BaseForms.dll
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\BaseTaulaSimple\bin\Debug\Controls.dll
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\BaseTaulaSimple\bin\Debug\BaseDatos.pdb
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\BaseTaulaSimple\bin\Debug\LibreriaClases.pdb
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\BaseTaulaSimple\bin\Debug\Libreria_BaseForms.pdb
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\BaseTaulaSimple\bin\Debug\Controls.pdb
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\BaseTaulaSimple\obj\Debug\BaseTaulaSimple.csprojAssemblyReference.cache
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\BaseTaulaSimple\obj\Debug\BaseTaulaSimple.BaseTaulaSimple.resources
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\BaseTaulaSimple\obj\Debug\BaseTaulaSimple.csproj.GenerateResource.cache
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\BaseTaulaSimple\obj\Debug\BaseTaulaSimple.csproj.CoreCompileInputs.cache
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\BaseTaulaSimple\obj\Debug\BaseTaulaSimple.csproj.CopyComplete
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\BaseTaulaSimple\obj\Debug\BaseTaulaSimple.dll
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\BaseTaulaSimple\obj\Debug\BaseTaulaSimple.pdb

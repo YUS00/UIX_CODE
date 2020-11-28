@@ -10,3 +10,15 @@ C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\Libreria_BaseForms\bin\Debug\Co
 C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\Libreria_BaseForms\bin\Debug\Controls.pdb
 C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\Libreria_BaseForms\obj\Debug\Libreria_BaseForms.csprojAssemblyReference.cache
 C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\Libreria_BaseForms\obj\Debug\Libreria_BaseForms.csproj.CopyComplete
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\Libreria_BaseForms\bin\Debug\Libreria_BaseForms.dll
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\Libreria_BaseForms\bin\Debug\Libreria_BaseForms.pdb
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\Libreria_BaseForms\bin\Debug\Controls.dll
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\Libreria_BaseForms\bin\Debug\Controls.pdb
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\Libreria_BaseForms\obj\Debug\Libreria_BaseForms.csprojAssemblyReference.cache
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\Libreria_BaseForms\obj\Debug\Libreria_BaseForms.BaseForms.resources
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\Libreria_BaseForms\obj\Debug\Libreria_BaseForms.Properties.Resources.resources
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\Libreria_BaseForms\obj\Debug\Libreria_BaseForms.csproj.GenerateResource.cache
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\Libreria_BaseForms\obj\Debug\Libreria_BaseForms.csproj.CoreCompileInputs.cache
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\Libreria_BaseForms\obj\Debug\Libreria_BaseForms.csproj.CopyComplete
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\Libreria_BaseForms\obj\Debug\Libreria_BaseForms.dll
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\Libreria_BaseForms\obj\Debug\Libreria_BaseForms.pdb

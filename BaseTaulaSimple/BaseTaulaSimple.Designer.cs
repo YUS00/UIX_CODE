@@ -43,6 +43,7 @@
             this.dtg.RowTemplate.Height = 24;
             this.dtg.Size = new System.Drawing.Size(688, 127);
             this.dtg.TabIndex = 11;
+            this.dtg.CellMouseDoubleClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dtg_CellMouseDoubleClick);
             // 
             // btnMostrar
             // 
@@ -62,6 +63,7 @@
             this.btnActualitzar.TabIndex = 13;
             this.btnActualitzar.Text = "Actualitzar Dades";
             this.btnActualitzar.UseVisualStyleBackColor = true;
+            this.btnActualitzar.Click += new System.EventHandler(this.btnActualitzar_Click);
             // 
             // BaseTaulaSimple
             // 
