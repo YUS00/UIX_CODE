@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
+using UnixCode;
 
 namespace unix_code
 {
@@ -13,7 +14,7 @@ namespace unix_code
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Acces_bbdd());
+            Application.Run(new ProvaTaulaSimple());
         }
     }
 }
