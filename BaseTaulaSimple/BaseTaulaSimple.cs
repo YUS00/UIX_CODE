@@ -46,6 +46,20 @@ namespace BaseTaulaSimple
                     LibreriaClases.SWTextbox SWctr = (LibreriaClases.SWTextbox)ctr;
                     ctr.DataBindings.Add("Text", dts.Tables[0], SWctr.CampoBBDD);
                 }
+                else if (ctr is LibreriaControles.UIXCombobox)
+                {
+                    LibreriaControles.UIXCombobox SWctr = (LibreriaControles.UIXCombobox)ctr;
+                    DataSet dtsForanea = new DataSet();
+                    dtsForanea = dades.PortarTaula(SWctr.TaulaForanea);
+
+                    SWctr.DataBindings.Clear();
+                    //Está cogiendo la tabla Agencies en index 0, Species en index 1
+                    SWctr.DataSource = dtsForanea.Tables[dtsForanea.Tables.Count-1];
+                    SWctr.DisplayMember = SWctr.CampMostrar;
+                    SWctr.ValueMember = SWctr.CampID;
+
+                    SWctr.DataBindings.Add("SelectedValue", dts.Tables[0], SWctr.CampoBBDD);
+                }
             }
         }
 

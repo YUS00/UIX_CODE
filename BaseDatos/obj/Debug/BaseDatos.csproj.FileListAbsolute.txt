@@ -16,6 +16,5 @@ C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\BaseDatos\obj\Debug\BaseDatos.d
 C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\BaseDatos\obj\Debug\BaseDatos.pdb
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DLL\BaseDatos.dll
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DLL\BaseDatos.pdb
-C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\BaseDatos\obj\Debug\BaseDatos.csprojAssemblyReference.cache
 C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\DLL\BaseDatos.dll
 C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\DLL\BaseDatos.pdb

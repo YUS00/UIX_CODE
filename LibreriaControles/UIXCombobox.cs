@@ -55,6 +55,20 @@ namespace LibreriaControles
             }
         }
 
+        private String _CampoBBDD;
+        public String CampoBBDD
+        {
+            get { return _CampoBBDD; }
+            set { _CampoBBDD = value; }
+        }
+
+        private String _TaulaForanea;
+        public String TaulaForanea
+        {
+            get { return _TaulaForanea; }
+            set { _TaulaForanea = value; }
+        }
+
 
 
         private void UIXCombobox_SelectedValueChanged(object sender, EventArgs e)

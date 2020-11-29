@@ -60,6 +60,10 @@
       <Project>{a1f21818-5a6d-43e1-b699-2f36859c4cfe}</Project>
       <Name>LibreriaClases</Name>
     </ProjectReference>
+    <ProjectReference Include="..\LibreriaControles\LibreriaControles.csproj">
+      <Project>{461ac342-99fb-4d28-b0ae-c29c4835b114}</Project>
+      <Name>LibreriaControles</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Libreria_BaseForms\Libreria_BaseForms.csproj">
       <Project>{09319958-7623-4470-80b8-5ad571210457}</Project>
       <Name>Libreria_BaseForms</Name>
