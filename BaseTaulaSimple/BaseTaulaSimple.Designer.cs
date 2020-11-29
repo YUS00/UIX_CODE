@@ -37,17 +37,17 @@
             // dtg
             // 
             this.dtg.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtg.Location = new System.Drawing.Point(29, 294);
+            this.dtg.Location = new System.Drawing.Point(31, 378);
             this.dtg.Name = "dtg";
             this.dtg.RowHeadersWidth = 51;
             this.dtg.RowTemplate.Height = 24;
-            this.dtg.Size = new System.Drawing.Size(1138, 144);
+            this.dtg.Size = new System.Drawing.Size(1138, 170);
             this.dtg.TabIndex = 11;
             this.dtg.CellMouseDoubleClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dtg_CellMouseDoubleClick);
             // 
             // btnMostrar
             // 
-            this.btnMostrar.Location = new System.Drawing.Point(857, 245);
+            this.btnMostrar.Location = new System.Drawing.Point(859, 329);
             this.btnMostrar.Name = "btnMostrar";
             this.btnMostrar.Size = new System.Drawing.Size(127, 34);
             this.btnMostrar.TabIndex = 12;
@@ -57,7 +57,7 @@
             // 
             // btnActualitzar
             // 
-            this.btnActualitzar.Location = new System.Drawing.Point(1022, 245);
+            this.btnActualitzar.Location = new System.Drawing.Point(1024, 329);
             this.btnActualitzar.Name = "btnActualitzar";
             this.btnActualitzar.Size = new System.Drawing.Size(145, 34);
             this.btnActualitzar.TabIndex = 13;
@@ -69,7 +69,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1199, 450);
+            this.ClientSize = new System.Drawing.Size(1198, 575);
             this.Controls.Add(this.btnActualitzar);
             this.Controls.Add(this.btnMostrar);
             this.Controls.Add(this.dtg);
