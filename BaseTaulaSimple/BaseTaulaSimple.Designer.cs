@@ -37,19 +37,19 @@
             // dtg
             // 
             this.dtg.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtg.Location = new System.Drawing.Point(50, 301);
+            this.dtg.Location = new System.Drawing.Point(29, 294);
             this.dtg.Name = "dtg";
             this.dtg.RowHeadersWidth = 51;
             this.dtg.RowTemplate.Height = 24;
-            this.dtg.Size = new System.Drawing.Size(688, 127);
+            this.dtg.Size = new System.Drawing.Size(1138, 144);
             this.dtg.TabIndex = 11;
             this.dtg.CellMouseDoubleClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dtg_CellMouseDoubleClick);
             // 
             // btnMostrar
             // 
-            this.btnMostrar.Location = new System.Drawing.Point(347, 260);
+            this.btnMostrar.Location = new System.Drawing.Point(857, 245);
             this.btnMostrar.Name = "btnMostrar";
-            this.btnMostrar.Size = new System.Drawing.Size(130, 23);
+            this.btnMostrar.Size = new System.Drawing.Size(127, 34);
             this.btnMostrar.TabIndex = 12;
             this.btnMostrar.Text = "Mostrar Dades";
             this.btnMostrar.UseVisualStyleBackColor = true;
@@ -57,9 +57,9 @@
             // 
             // btnActualitzar
             // 
-            this.btnActualitzar.Location = new System.Drawing.Point(512, 260);
+            this.btnActualitzar.Location = new System.Drawing.Point(1022, 245);
             this.btnActualitzar.Name = "btnActualitzar";
-            this.btnActualitzar.Size = new System.Drawing.Size(148, 23);
+            this.btnActualitzar.Size = new System.Drawing.Size(145, 34);
             this.btnActualitzar.TabIndex = 13;
             this.btnActualitzar.Text = "Actualitzar Dades";
             this.btnActualitzar.UseVisualStyleBackColor = true;
@@ -69,7 +69,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1199, 450);
             this.Controls.Add(this.btnActualitzar);
             this.Controls.Add(this.btnMostrar);
             this.Controls.Add(this.dtg);
