@@ -19,6 +19,8 @@ namespace BaseTaulaSimple
 
         BaseDatos.DataBase dades = new BaseDatos.DataBase();
         DataSet dts = new DataSet();
+        
+
 
 
         private String _Taula;
@@ -48,13 +50,15 @@ namespace BaseTaulaSimple
                 }
                 else if (ctr is LibreriaControles.UIXCombobox)
                 {
+                    //Creada instancia de DataBase para que no se acumulen las tablas en el DataBase del DataGridView
+                    BaseDatos.DataBase dadesCombobox = new BaseDatos.DataBase();
                     LibreriaControles.UIXCombobox SWctr = (LibreriaControles.UIXCombobox)ctr;
                     DataSet dtsForanea = new DataSet();
-                    dtsForanea = dades.PortarTaula(SWctr.TaulaForanea);
+                    dtsForanea = dadesCombobox.PortarTaula(SWctr.TaulaForanea);
 
                     SWctr.DataBindings.Clear();
                     //Está cogiendo la tabla Agencies en index 0, Species en index 1
-                    SWctr.DataSource = dtsForanea.Tables[dtsForanea.Tables.Count-1];
+                    SWctr.DataSource = dtsForanea.Tables[0];
                     SWctr.DisplayMember = SWctr.CampMostrar;
                     SWctr.ValueMember = SWctr.CampID;
 
