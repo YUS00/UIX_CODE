@@ -70,11 +70,11 @@
             // 
             // btnAfegir
             // 
-            this.btnAfegir.Location = new System.Drawing.Point(718, 329);
+            this.btnAfegir.Location = new System.Drawing.Point(685, 329);
             this.btnAfegir.Name = "btnAfegir";
-            this.btnAfegir.Size = new System.Drawing.Size(99, 29);
+            this.btnAfegir.Size = new System.Drawing.Size(132, 34);
             this.btnAfegir.TabIndex = 14;
-            this.btnAfegir.Text = "Afegir";
+            this.btnAfegir.Text = "Nou registre";
             this.btnAfegir.UseVisualStyleBackColor = true;
             this.btnAfegir.Click += new System.EventHandler(this.btnAfegir_Click);
             // 
