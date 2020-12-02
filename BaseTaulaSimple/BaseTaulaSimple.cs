@@ -84,5 +84,10 @@ namespace BaseTaulaSimple
         {
             dades.Actualizar();
         }
+
+        private void btnAfegir_Click(object sender, EventArgs e)
+        {
+            dts.Tables[0].NewRow();
+        }
     }
 }

@@ -31,14 +31,17 @@
             this.dtg = new System.Windows.Forms.DataGridView();
             this.btnMostrar = new System.Windows.Forms.Button();
             this.btnActualitzar = new System.Windows.Forms.Button();
+            this.btnAfegir = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dtg)).BeginInit();
             this.SuspendLayout();
             // 
             // dtg
             // 
+            this.dtg.AllowUserToAddRows = false;
             this.dtg.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtg.Location = new System.Drawing.Point(31, 378);
             this.dtg.Name = "dtg";
+            this.dtg.ReadOnly = true;
             this.dtg.RowHeadersWidth = 51;
             this.dtg.RowTemplate.Height = 24;
             this.dtg.Size = new System.Drawing.Size(1138, 170);
@@ -65,11 +68,22 @@
             this.btnActualitzar.UseVisualStyleBackColor = true;
             this.btnActualitzar.Click += new System.EventHandler(this.btnActualitzar_Click);
             // 
+            // btnAfegir
+            // 
+            this.btnAfegir.Location = new System.Drawing.Point(718, 329);
+            this.btnAfegir.Name = "btnAfegir";
+            this.btnAfegir.Size = new System.Drawing.Size(99, 29);
+            this.btnAfegir.TabIndex = 14;
+            this.btnAfegir.Text = "Afegir";
+            this.btnAfegir.UseVisualStyleBackColor = true;
+            this.btnAfegir.Click += new System.EventHandler(this.btnAfegir_Click);
+            // 
             // BaseTaulaSimple
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1198, 575);
+            this.Controls.Add(this.btnAfegir);
             this.Controls.Add(this.btnActualitzar);
             this.Controls.Add(this.btnMostrar);
             this.Controls.Add(this.dtg);
@@ -77,6 +91,7 @@
             this.Controls.SetChildIndex(this.dtg, 0);
             this.Controls.SetChildIndex(this.btnMostrar, 0);
             this.Controls.SetChildIndex(this.btnActualitzar, 0);
+            this.Controls.SetChildIndex(this.btnAfegir, 0);
             ((System.ComponentModel.ISupportInitialize)(this.dtg)).EndInit();
             this.ResumeLayout(false);
 
@@ -87,5 +102,6 @@
         private System.Windows.Forms.DataGridView dtg;
         private System.Windows.Forms.Button btnMostrar;
         private System.Windows.Forms.Button btnActualitzar;
+        private System.Windows.Forms.Button btnAfegir;
     }
 }

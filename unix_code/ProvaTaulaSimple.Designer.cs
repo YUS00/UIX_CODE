@@ -75,7 +75,7 @@
             this.swTextbox1.Name = "swTextbox1";
             this.swTextbox1.Size = new System.Drawing.Size(177, 22);
             this.swTextbox1.TabIndex = 32;
-            this.swTextbox1.tb_txtpermitido = LibreriaClases.SWTextbox.tb_parametros.Numero;
+            this.swTextbox1.tb_txtpermitido = LibreriaClases.SWTextbox.tb_parametros.Texto;
             // 
             // swTextbox2
             // 
