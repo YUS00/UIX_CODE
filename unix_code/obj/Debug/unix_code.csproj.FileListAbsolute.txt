@@ -26,18 +26,14 @@ C:\S2AM\PROJECTS\UIX_CODE\unix_code\bin\Debug\unix_code.pdb
 C:\S2AM\PROJECTS\UIX_CODE\unix_code\obj\Debug\unix_code.csprojAssemblyReference.cache
 C:\S2AM\PROJECTS\UIX_CODE\unix_code\obj\Debug\unix_code.Login.resources
 C:\S2AM\PROJECTS\UIX_CODE\unix_code\obj\Debug\unix_code.Menu.resources
-C:\S2AM\PROJECTS\UIX_CODE\unix_code\obj\Debug\unix_code.Properties.Resources.resources
 C:\S2AM\PROJECTS\UIX_CODE\unix_code\obj\Debug\unix_code.Splash.resources
 C:\S2AM\PROJECTS\UIX_CODE\unix_code\obj\Debug\unix_code.csproj.GenerateResource.cache
 C:\S2AM\PROJECTS\UIX_CODE\unix_code\obj\Debug\unix_code.csproj.CoreCompileInputs.cache
-C:\S2AM\PROJECTS\UIX_CODE\unix_code\obj\Debug\unix_code.exe
-C:\S2AM\PROJECTS\UIX_CODE\unix_code\obj\Debug\unix_code.pdb
 C:\S2AM\PROJECTS\UIX_CODE\unix_code\bin\Debug\CircularProgressBar.dll
 C:\S2AM\PROJECTS\UIX_CODE\unix_code\bin\Debug\WinFormAnimation.dll
 C:\S2AM\PROJECTS\UIX_CODE\unix_code\bin\Debug\CircularProgressBar.xml
 C:\S2AM\PROJECTS\UIX_CODE\unix_code\obj\Debug\unix_code.csproj.CopyComplete
 C:\S2AM\PROJECTS\UIX_CODE\unix_code\obj\Debug\unix_code.Muestra.resources
-C:\S2AM\PROJECTS\UIX_CODE\unix_code\obj\Debug\unix_code.Acces_bbdd.resources
 C:\Users\Pc\Desktop\UIX_CODE\unix_code\bin\Debug\unix_code.exe.config
 C:\Users\Pc\Desktop\UIX_CODE\unix_code\bin\Debug\unix_code.exe
 C:\Users\Pc\Desktop\UIX_CODE\unix_code\bin\Debug\unix_code.pdb
@@ -76,7 +72,6 @@ C:\Users\Pc\Desktop\github\UIX_CODE\unix_code\obj\Debug\unix_code.csproj.CoreCom
 C:\Users\Pc\Desktop\github\UIX_CODE\unix_code\obj\Debug\unix_code.csproj.CopyComplete
 C:\Users\Pc\Desktop\github\UIX_CODE\unix_code\obj\Debug\unix_code.exe
 C:\Users\Pc\Desktop\github\UIX_CODE\unix_code\obj\Debug\unix_code.pdb
-C:\S2AM\PROJECTS\UIX_CODE\unix_code\obj\Debug\unix_code.Amenaza.resources
 C:\Users\migue\Documents\GitHub\UIX_CODE\unix_code\unix_code\bin\Debug\unix_code.exe.config
 C:\Users\migue\Documents\GitHub\UIX_CODE\unix_code\unix_code\bin\Debug\unix_code.exe
 C:\Users\migue\Documents\GitHub\UIX_CODE\unix_code\unix_code\bin\Debug\unix_code.pdb
@@ -156,3 +151,10 @@ C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\unix_code\obj\Debug\UnixCode.Pr
 C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\unix_code\obj\Debug\UnixCode.exe
 C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\unix_code\obj\Debug\UnixCode.pdb
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\unix_code\obj\Debug\UnixCode.ProvaTaulaSimple.resources
+C:\S2AM\PROJECTS\UIX_CODE\DLL\UnixCode.exe.config
+C:\S2AM\PROJECTS\UIX_CODE\DLL\UnixCode.exe
+C:\S2AM\PROJECTS\UIX_CODE\DLL\UnixCode.pdb
+C:\S2AM\PROJECTS\UIX_CODE\unix_code\obj\Debug\UnixCode.ProvaTaulaSimple.resources
+C:\S2AM\PROJECTS\UIX_CODE\unix_code\obj\Debug\UnixCode.Properties.Resources.resources
+C:\S2AM\PROJECTS\UIX_CODE\unix_code\obj\Debug\UnixCode.exe
+C:\S2AM\PROJECTS\UIX_CODE\unix_code\obj\Debug\UnixCode.pdb

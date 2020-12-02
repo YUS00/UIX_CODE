@@ -87,7 +87,32 @@ namespace BaseTaulaSimple
 
         private void btnAfegir_Click(object sender, EventArgs e)
         {
+            limpiarBindings();
             dts.Tables[0].NewRow();
+            DataTable dt = new DataTable();
+            DataRow row2 = dt.NewRow();
+            dt.Rows.Add();
+
+        }
+        private void limpiarBindings()
+        {
+
+            foreach (Control ctr in this.Controls)
+            {
+                if (ctr is LibreriaClases.SWTextbox)
+                {
+                    LibreriaClases.SWTextbox SWctr = (LibreriaClases.SWTextbox)ctr;
+                    SWctr.DataBindings.Clear();
+                    SWctr.Text = "";
+                }
+                else if (ctr is LibreriaControles.UIXCombobox)
+                {
+                    LibreriaControles.UIXCombobox SWctr = (LibreriaControles.UIXCombobox)ctr;
+                    SWctr.DataBindings.Clear();
+                    //Está cogiendo la tabla Agencies en index 0, Species en index 1
+                    SWctr.Text = "";
+                }
+            }
         }
     }
 }

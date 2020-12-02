@@ -30,3 +30,13 @@ C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\Screens\obj\Debug\Screens.cspro
 C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\Screens\obj\Debug\Screens.csproj.CopyComplete
 C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\Screens\obj\Debug\Screens.dll
 C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\Screens\obj\Debug\Screens.pdb
+C:\S2AM\PROJECTS\UIX_CODE\DLL\Screens.dll
+C:\S2AM\PROJECTS\UIX_CODE\DLL\Screens.pdb
+C:\S2AM\PROJECTS\UIX_CODE\Screens\obj\Debug\Screens.csprojAssemblyReference.cache
+C:\S2AM\PROJECTS\UIX_CODE\Screens\obj\Debug\unix_code.Acces_bbdd.resources
+C:\S2AM\PROJECTS\UIX_CODE\Screens\obj\Debug\unix_code.Amenaza.resources
+C:\S2AM\PROJECTS\UIX_CODE\Screens\obj\Debug\Screens.csproj.GenerateResource.cache
+C:\S2AM\PROJECTS\UIX_CODE\Screens\obj\Debug\Screens.csproj.CoreCompileInputs.cache
+C:\S2AM\PROJECTS\UIX_CODE\Screens\obj\Debug\Screens.csproj.CopyComplete
+C:\S2AM\PROJECTS\UIX_CODE\Screens\obj\Debug\Screens.dll
+C:\S2AM\PROJECTS\UIX_CODE\Screens\obj\Debug\Screens.pdb
