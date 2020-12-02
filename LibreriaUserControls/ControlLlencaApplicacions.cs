@@ -1,17 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Drawing;
 using System.Data;
+using System.Drawing;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Reflection;
 
 namespace LibreriaUserControls
 {
-    public partial class ControlLlencaApplicacions: UserControl
+    public partial class ControlLlencaApplicacions : UserControl
     {
         public ControlLlencaApplicacions()
         {

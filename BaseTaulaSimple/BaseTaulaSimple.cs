@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Drawing;
 using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace BaseTaulaSimple
@@ -19,7 +13,7 @@ namespace BaseTaulaSimple
 
         BaseDatos.DataBase dades = new BaseDatos.DataBase();
         DataSet dts = new DataSet();
-        
+
 
 
 
@@ -31,7 +25,70 @@ namespace BaseTaulaSimple
             set { _Taula = value; }
         }
 
+
+
+
         private void btnMostrar_Click(object sender, EventArgs e)
+        {
+            Mostrar_dades();
+        }
+
+
+        private void dtg_CellMouseDoubleClick(object sender, DataGridViewCellMouseEventArgs e)
+        {
+            foreach (Control ctr in this.Controls)
+            {
+                if (ctr is LibreriaClases.SWTextbox)
+                {
+                    LibreriaClases.SWTextbox SWctr = (LibreriaClases.SWTextbox)ctr;
+                    SWctr.Text = dtg.SelectedRows[0].Cells[SWctr.CampoBBDD].Value.ToString();
+
+                }
+            }
+        }
+
+        private void btnActualitzar_Click(object sender, EventArgs e)
+        {
+
+
+            //añadir_registro = ;
+
+            //if (añadir_registro)
+            //{
+                dades.Actualizar();
+            //}
+            
+        }
+
+        private void btnAfegir_Click(object sender, EventArgs e)
+        {
+            Boolean añadir_registro = false;
+
+            DataRow dr = dts.Tables[0].NewRow();
+
+            foreach (Control ctr in this.Controls)
+            {
+
+                if (ctr is LibreriaClases.SWTextbox)
+                {
+                    LibreriaClases.SWTextbox SWctr = (LibreriaClases.SWTextbox)ctr;
+
+                    dr[SWctr.CampoBBDD.ToString()] = SWctr.Text;
+
+                   
+                }
+
+                
+
+            }
+
+            dts.Tables[0].Rows.Add(dr);
+
+        }
+
+
+
+        private void Mostrar_dades()
         {
             dts = dades.PortarTaula(this.Taula);
             dtg.DataSource = dts.Tables[0];
@@ -67,27 +124,9 @@ namespace BaseTaulaSimple
             }
         }
 
-        private void dtg_CellMouseDoubleClick(object sender, DataGridViewCellMouseEventArgs e)
-        {
-            foreach (Control ctr in this.Controls)
-            {
-                if (ctr is LibreriaClases.SWTextbox)
-                {
-                    LibreriaClases.SWTextbox SWctr = (LibreriaClases.SWTextbox)ctr;
-                    SWctr.Text = dtg.SelectedRows[0].Cells[SWctr.CampoBBDD].Value.ToString();
 
-                }
-            }
-        }
 
-        private void btnActualitzar_Click(object sender, EventArgs e)
-        {
-            dades.Actualizar();
-        }
 
-        private void btnAfegir_Click(object sender, EventArgs e)
-        {
-            dts.Tables[0].NewRow();
-        }
+
     }
 }

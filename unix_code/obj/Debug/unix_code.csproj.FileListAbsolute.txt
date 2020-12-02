@@ -156,3 +156,4 @@ C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\unix_code\obj\Debug\UnixCode.Pr
 C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\unix_code\obj\Debug\UnixCode.exe
 C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\unix_code\obj\Debug\UnixCode.pdb
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\unix_code\obj\Debug\UnixCode.ProvaTaulaSimple.resources
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\unix_code\obj\Debug\UnixCode.ProvaTaulaSimple.resources
