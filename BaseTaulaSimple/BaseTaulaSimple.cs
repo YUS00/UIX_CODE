@@ -20,6 +20,7 @@ namespace BaseTaulaSimple
         BaseDatos.DataBase dades = new BaseDatos.DataBase();
         DataSet dts = new DataSet();
         bool newRow = true;
+        bool mostrarDadesPulsado = false;
 
 
 
@@ -82,6 +83,7 @@ namespace BaseTaulaSimple
 
         private void mostrar_dades()
         {
+            dts.Clear();
             dts = dades.PortarTaula(this.Taula);
             dtg.DataSource = dts.Tables[0];
             foreach (Control ctr in this.Controls)
@@ -95,6 +97,7 @@ namespace BaseTaulaSimple
                 if (ctr is LibreriaClases.SWTextbox)
                 {
                     LibreriaClases.SWTextbox SWctr = (LibreriaClases.SWTextbox)ctr;
+                    SWctr.DataBindings.Clear();
                     ctr.DataBindings.Add("Text", dts.Tables[0], SWctr.CampoBBDD);
                 }
                 else if (ctr is LibreriaControles.UIXCombobox)
@@ -102,6 +105,8 @@ namespace BaseTaulaSimple
                     //Creada instancia de DataBase para que no se acumulen las tablas en el DataBase del DataGridView
                     BaseDatos.DataBase dadesCombobox = new BaseDatos.DataBase();
                     LibreriaControles.UIXCombobox SWctr = (LibreriaControles.UIXCombobox)ctr;
+                    SWctr.DataBindings.Clear();
+
                     DataSet dtsForanea = new DataSet();
                     dtsForanea = dadesCombobox.PortarTaula(SWctr.TaulaForanea);
 
@@ -119,6 +124,7 @@ namespace BaseTaulaSimple
         private void btnMostrar_Click(object sender, EventArgs e)
         {
             mostrar_dades();
+            mostrarDadesPulsado = true;
         }
 
         private void dtg_CellMouseDoubleClick(object sender, DataGridViewCellMouseEventArgs e)
@@ -136,31 +142,39 @@ namespace BaseTaulaSimple
 
         private void btnActualitzar_Click(object sender, EventArgs e)
         {
-            dades.Actualizar();
+            if (mostrarDadesPulsado)
+            {
+                dades.Actualizar();
+            }
+            
         }
 
         private void btnAfegir_Click(object sender, EventArgs e)
         {
-            if (newRow)
+            if(mostrarDadesPulsado)
             {
-                limpiarBindings();
-                DataRow dr = dts.Tables[0].NewRow();
-                dts.Tables[0].Rows.Add(dr);
-                int nRowIndex = dtg.Rows.Count - 1;
+                if (newRow)
+                {
+                    limpiarBindings();
+                    DataRow dr = dts.Tables[0].NewRow();
+                    dts.Tables[0].Rows.Add(dr);
+                    int nRowIndex = dtg.Rows.Count - 1;
 
-                dtg.CurrentCell = dtg.Rows[nRowIndex].Cells[0];
-                reanudarBindings();
-                newRow = !newRow;
-                btnAfegir.Text = "Afegir registre";
-            } else
-            {
-                dtg.CurrentCell = dtg.Rows[0].Cells[0];
-                dades.Actualizar();
-                newRow = !newRow;
-                btnAfegir.Text = "Nou registre";
-
-
+                    dtg.CurrentCell = dtg.Rows[nRowIndex].Cells[0];
+                    reanudarBindings();
+                    newRow = !newRow;
+                    btnAfegir.Text = "Afegir registre";
+                } else
+                {
+                    dtg.CurrentCell = dtg.Rows[0].Cells[0];
+                    mostrar_dades();
+                    dtg.CurrentCell = dtg.Rows[dtg.Rows.Count - 1].Cells[0];
+                    dades.Actualizar();
+                    newRow = !newRow;
+                    btnAfegir.Text = "Nou registre";
+                }
             }
+            
 
         }
     }
