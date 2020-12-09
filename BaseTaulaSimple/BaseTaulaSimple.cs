@@ -167,9 +167,9 @@ namespace BaseTaulaSimple
                 } else
                 {
                     dtg.CurrentCell = dtg.Rows[0].Cells[0];
-                    mostrar_dades();
                     dtg.CurrentCell = dtg.Rows[dtg.Rows.Count - 1].Cells[0];
                     dades.Actualizar();
+                    mostrar_dades();
                     newRow = !newRow;
                     btnAfegir.Text = "Nou registre";
                 }
