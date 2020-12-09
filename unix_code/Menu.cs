@@ -57,7 +57,7 @@ namespace unix_code
                 btn.ClasseObrir = classe;
                 btn.FormObrir = form;
                 btn.BackgroundColor = Color.FromName(color);
-                btn.Picture = foto;
+                btn.Picture = Application.StartupPath+foto;
 
                 tbl.Controls.Add(btn);
 

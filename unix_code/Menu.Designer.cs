@@ -110,6 +110,7 @@
             // 
             // tbl
             // 
+            this.tbl.BackColor = System.Drawing.Color.Transparent;
             this.tbl.ColumnCount = 3;
             this.tbl.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tbl.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33334F));
