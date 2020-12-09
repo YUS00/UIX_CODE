@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Libreria_BaseForms", "Libre
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseTaulaSimple", "BaseTaulaSimple\BaseTaulaSimple.csproj", "{ABF891BD-1EBC-4A51-96B5-14158D63DF87}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G7_Species", "G7_Species\G7_Species.csproj", "{DAD669F9-A675-48F7-B607-2C73039F725C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{ABF891BD-1EBC-4A51-96B5-14158D63DF87}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABF891BD-1EBC-4A51-96B5-14158D63DF87}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABF891BD-1EBC-4A51-96B5-14158D63DF87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAD669F9-A675-48F7-B607-2C73039F725C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAD669F9-A675-48F7-B607-2C73039F725C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAD669F9-A675-48F7-B607-2C73039F725C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAD669F9-A675-48F7-B607-2C73039F725C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
