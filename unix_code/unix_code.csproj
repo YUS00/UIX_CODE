@@ -164,6 +164,10 @@
       <Project>{981abd92-c863-4906-a4e3-2dbdfb3ecb97}</Project>
       <Name>Controls</Name>
     </ProjectReference>
+    <ProjectReference Include="..\G7_Planets\G7_Planets.csproj">
+      <Project>{f405b17a-2c7a-4865-8f17-239ac7a16e81}</Project>
+      <Name>G7_Planets</Name>
+    </ProjectReference>
     <ProjectReference Include="..\G7_Species\G7_Species.csproj">
       <Project>{dad669f9-a675-48f7-b607-2c73039f725c}</Project>
       <Name>G7_Species</Name>
