@@ -71,7 +71,7 @@
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(344, 303);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(285, 22);
             this.textBox1.TabIndex = 2;
@@ -79,7 +79,7 @@
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(344, 358);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2.Name = "textBox2";
             this.textBox2.PasswordChar = '*';
             this.textBox2.Size = new System.Drawing.Size(285, 22);
@@ -88,7 +88,7 @@
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(404, 412);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(163, 41);
             this.button1.TabIndex = 4;
@@ -101,7 +101,7 @@
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(376, 134);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(209, 135);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -144,6 +144,7 @@
             this.class11.Size = new System.Drawing.Size(33, 25);
             this.class11.TabIndex = 12;
             this.class11.UseVisualStyleBackColor = true;
+            this.class11.Click += new System.EventHandler(this.class11_Click);
             // 
             // swTextbox1
             // 
@@ -175,7 +176,7 @@
             this.Controls.Add(this.lblPassword);
             this.Controls.Add(this.lblUser);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Login";
             this.Text = "login";
             this.Load += new System.EventHandler(this.Login_Load);

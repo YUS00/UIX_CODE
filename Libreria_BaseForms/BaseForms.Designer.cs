@@ -28,9 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BaseForms));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.class11 = new Controls.Class1();
+            this.button1 = new System.Windows.Forms.Button();
             this.labelUsername = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
@@ -39,7 +38,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Purple;
-            this.panel1.Controls.Add(this.class11);
+            this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.labelUsername);
             this.panel1.Controls.Add(this.label5);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -49,16 +48,18 @@
             this.panel1.Size = new System.Drawing.Size(1198, 39);
             this.panel1.TabIndex = 10;
             // 
-            // class11
+            // button1
             // 
-            this.class11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("class11.BackgroundImage")));
-            this.class11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.class11.Location = new System.Drawing.Point(1151, 7);
-            this.class11.Name = "class11";
-            this.class11.Size = new System.Drawing.Size(35, 26);
-            this.class11.TabIndex = 11;
-            this.class11.UseVisualStyleBackColor = true;
-            this.class11.Click += new System.EventHandler(this.class11_Click);
+            this.button1.BackColor = System.Drawing.Color.Indigo;
+            this.button1.BackgroundImage = global::Libreria_BaseForms.Properties.Resources.iconfinder_Close_2001866;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.button1.Location = new System.Drawing.Point(1157, 7);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(29, 23);
+            this.button1.TabIndex = 17;
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // labelUsername
             // 
@@ -104,6 +105,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label labelUsername;
-        private Controls.Class1 class11;
+        private System.Windows.Forms.Button button1;
     }
 }

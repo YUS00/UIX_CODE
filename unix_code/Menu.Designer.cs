@@ -30,13 +30,11 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.class11 = new Controls.Class1();
             this.labelUsername = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
             this.cerrarsesion_btn = new System.Windows.Forms.Button();
             this.tbl = new System.Windows.Forms.TableLayoutPanel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.class11 = new Controls.Class1();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -51,6 +49,18 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(964, 37);
             this.panel1.TabIndex = 4;
+            // 
+            // class11
+            // 
+            this.class11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("class11.BackgroundImage")));
+            this.class11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.class11.Location = new System.Drawing.Point(913, 6);
+            this.class11.Margin = new System.Windows.Forms.Padding(4);
+            this.class11.Name = "class11";
+            this.class11.Size = new System.Drawing.Size(33, 25);
+            this.class11.TabIndex = 13;
+            this.class11.UseVisualStyleBackColor = true;
+            this.class11.Click += new System.EventHandler(this.class11_Click);
             // 
             // labelUsername
             // 
@@ -73,22 +83,6 @@
             this.label1.Size = new System.Drawing.Size(79, 16);
             this.label1.TabIndex = 6;
             this.label1.Text = "WELCOME";
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.Color.White;
-            this.button5.Font = new System.Drawing.Font("Arial", 15.75F);
-            this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
-            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.Location = new System.Drawing.Point(487, 43);
-            this.button5.Margin = new System.Windows.Forms.Padding(4);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(213, 81);
-            this.button5.TabIndex = 1;
-            this.button5.Text = "Opciò 2";
-            this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button5.UseVisualStyleBackColor = false;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // cerrarsesion_btn
             // 
@@ -123,27 +117,6 @@
             this.tbl.Size = new System.Drawing.Size(542, 219);
             this.tbl.TabIndex = 6;
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(72, 77);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click_1);
-            // 
-            // class11
-            // 
-            this.class11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("class11.BackgroundImage")));
-            this.class11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.class11.Location = new System.Drawing.Point(913, 6);
-            this.class11.Margin = new System.Windows.Forms.Padding(4);
-            this.class11.Name = "class11";
-            this.class11.Size = new System.Drawing.Size(33, 25);
-            this.class11.TabIndex = 13;
-            this.class11.UseVisualStyleBackColor = true;
-            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -151,14 +124,13 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(963, 549);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.tbl);
             this.Controls.Add(this.cerrarsesion_btn);
-            this.Controls.Add(this.button5);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Menu";
+            this.Load += new System.EventHandler(this.Menu_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
@@ -169,10 +141,8 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label labelUsername;
-        private System.Windows.Forms.Button button5;
         private Controls.Class1 class11;
         private System.Windows.Forms.Button cerrarsesion_btn;
         private System.Windows.Forms.TableLayoutPanel tbl;
-        private System.Windows.Forms.Button button1;
     }
 }

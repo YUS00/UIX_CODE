@@ -21,25 +21,31 @@ namespace unix_code
             Muestra Muestra = new Muestra(labelUsername.Text);
             Muestra.Show();
         }
-        private void button5_Click(object sender, EventArgs e)
-        {
-            Acces_bbdd basebbdd = new Acces_bbdd();
-            basebbdd.Show();
-            this.Hide();
-        }
+        //private void button5_Click(object sender, EventArgs e)
+        //{
+        //    Acces_bbdd basebbdd = new Acces_bbdd();
+        //    basebbdd.Show();
+        //    this.Hide();
+        //}
         private void cerrarsesion_btn_Click_1(object sender, EventArgs e)
         {
             this.Hide();
             Login Login = new Login();
             Login.Show();
         }
-        DataSet dts;
-        String form, classe, descripcio, color, foto;
-        private void button1_Click_1(object sender, EventArgs e)
+        DataSet dts, dtsLevel;
+        String form, classe, descripcio, color, foto, level;
+
+        private void Menu_Load(object sender, EventArgs e)
         {
             BaseDatos.DataBase bd = new BaseDatos.DataBase();
             String query = "select * from menu";
-            dts = bd.CarregarMenu("60");
+
+            String query2 = "SELECT * from USERS WHERE CodeUser = '" + labelUsername.Text + "';";
+            dtsLevel = bd.PortarPerConsulta(query2);
+            level = dtsLevel.Tables[0].Rows[0]["level"].ToString();
+            //MessageBox.Show(level);
+            dts = bd.CarregarMenu(level);
 
 
 
@@ -57,11 +63,16 @@ namespace unix_code
                 btn.ClasseObrir = classe;
                 btn.FormObrir = form;
                 btn.BackgroundColor = Color.FromName(color);
-                btn.Picture = Application.StartupPath+foto;
+                btn.Picture = Application.StartupPath + foto;
 
                 tbl.Controls.Add(btn);
 
             }
+        }
+
+        private void class11_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

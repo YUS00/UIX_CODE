@@ -43,5 +43,10 @@ namespace unix_code
                 this.Hide();
             }
         }
+
+        private void class11_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
