@@ -38,7 +38,7 @@ namespace LibreriaClases
             this.BackColor = Color.White;
         }
 
-        public enum tb_parametros { Texto, Fecha, Codigo, Numero };
+        public enum tb_parametros { Texto, Fecha, Codigo, Numero, Alfanumérico, Perzonalizado };
 
         private tb_parametros _tb_txtpermitido;
 
@@ -121,6 +121,13 @@ namespace LibreriaClases
                                 this.Clear();
                             }
                             break;
+                        case tb_parametros.Alfanumérico:
+                            if (!Formato_alfanumerico())
+                            {
+                                MessageBox.Show("Debe introducir un código válido");
+                                this.Clear();
+                            }
+                            break;
                         default:
                             break;
                     }
@@ -132,6 +139,25 @@ namespace LibreriaClases
                 bool codigo_correcto;
                 // Definir parámetros del regex
                 Regex rx = new Regex(@"^[0-9a-zA-Z]{4}\-\d{3}\/\d*[13579]{1}\w*[aeyiuo]{1}$",
+                  RegexOptions.Compiled | RegexOptions.IgnoreCase);
+
+                if (rx.IsMatch(this.Text))
+                {
+                    codigo_correcto = true;
+                }
+                else
+                {
+                    codigo_correcto = false;
+                }
+
+                return codigo_correcto;
+            }
+
+            bool Formato_alfanumerico()
+            {
+                bool codigo_correcto;
+                // Definir parámetros del regex
+                Regex rx = new Regex("^[a-zA-Z0-9]*$",
                   RegexOptions.Compiled | RegexOptions.IgnoreCase);
 
                 if (rx.IsMatch(this.Text))

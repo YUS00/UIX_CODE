@@ -16,5 +16,10 @@ namespace Libreria_BaseForms
         {
             InitializeComponent();
         }
+
+        private void class11_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

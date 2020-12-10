@@ -30,9 +30,9 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BaseForms));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.class11 = new Controls.Class1();
             this.labelUsername = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.class11 = new Controls.Class1();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -48,6 +48,17 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1198, 39);
             this.panel1.TabIndex = 10;
+            // 
+            // class11
+            // 
+            this.class11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("class11.BackgroundImage")));
+            this.class11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.class11.Location = new System.Drawing.Point(1151, 7);
+            this.class11.Name = "class11";
+            this.class11.Size = new System.Drawing.Size(35, 26);
+            this.class11.TabIndex = 11;
+            this.class11.UseVisualStyleBackColor = true;
+            this.class11.Click += new System.EventHandler(this.class11_Click);
             // 
             // labelUsername
             // 
@@ -70,16 +81,6 @@
             this.label5.Size = new System.Drawing.Size(79, 16);
             this.label5.TabIndex = 16;
             this.label5.Text = "WELCOME";
-            // 
-            // class11
-            // 
-            this.class11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("class11.BackgroundImage")));
-            this.class11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.class11.Location = new System.Drawing.Point(1151, 7);
-            this.class11.Name = "class11";
-            this.class11.Size = new System.Drawing.Size(35, 26);
-            this.class11.TabIndex = 11;
-            this.class11.UseVisualStyleBackColor = true;
             // 
             // BaseForms
             // 

@@ -95,7 +95,7 @@ namespace BaseDatos
         {
             Connectar();
             SqlDataAdapter adapter;
-            String consulta = "select * from menu where nivell <= " + nivell;
+            String consulta = "select * from MenuOptions where nivell <= " + nivell;
             adapter = new SqlDataAdapter(consulta, conn);
             DataSet dts = new DataSet();
             adapter.Fill(dts);

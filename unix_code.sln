@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G7_Species", "G7_Species\G7
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G7_Planets", "G7_Planets\G7_Planets.csproj", "{F405B17A-2C7A-4865-8F17-239AC7A16E81}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G7_Menu", "G7_Menu\G7_Menu.csproj", "{9044BE8F-D793-4D8C-B140-BD0DCA4801D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{F405B17A-2C7A-4865-8F17-239AC7A16E81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F405B17A-2C7A-4865-8F17-239AC7A16E81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F405B17A-2C7A-4865-8F17-239AC7A16E81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9044BE8F-D793-4D8C-B140-BD0DCA4801D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9044BE8F-D793-4D8C-B140-BD0DCA4801D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9044BE8F-D793-4D8C-B140-BD0DCA4801D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9044BE8F-D793-4D8C-B140-BD0DCA4801D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
