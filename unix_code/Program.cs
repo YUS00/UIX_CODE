@@ -14,7 +14,7 @@ namespace unix_code
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Menu("Pepe"));
+            Application.Run(new G7_UserCategories.frmUserCategories());
         }
     }
 }

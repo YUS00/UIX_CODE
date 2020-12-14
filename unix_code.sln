@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G7_Planets", "G7_Planets\G7
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G7_Menu", "G7_Menu\G7_Menu.csproj", "{9044BE8F-D793-4D8C-B140-BD0DCA4801D0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G7_UserCategories", "G7_UserCategories\G7_UserCategories.csproj", "{5C19EE45-A185-43BA-AA4F-41772190FE63}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{9044BE8F-D793-4D8C-B140-BD0DCA4801D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9044BE8F-D793-4D8C-B140-BD0DCA4801D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9044BE8F-D793-4D8C-B140-BD0DCA4801D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C19EE45-A185-43BA-AA4F-41772190FE63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C19EE45-A185-43BA-AA4F-41772190FE63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C19EE45-A185-43BA-AA4F-41772190FE63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C19EE45-A185-43BA-AA4F-41772190FE63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -176,6 +176,10 @@
       <Project>{dad669f9-a675-48f7-b607-2c73039f725c}</Project>
       <Name>G7_Species</Name>
     </ProjectReference>
+    <ProjectReference Include="..\G7_UserCategories\G7_UserCategories.csproj">
+      <Project>{5c19ee45-a185-43ba-aa4f-41772190fe63}</Project>
+      <Name>G7_UserCategories</Name>
+    </ProjectReference>
     <ProjectReference Include="..\LibreriaClases\LibreriaClases.csproj">
       <Project>{a1f21818-5a6d-43e1-b699-2f36859c4cfe}</Project>
       <Name>LibreriaClases</Name>

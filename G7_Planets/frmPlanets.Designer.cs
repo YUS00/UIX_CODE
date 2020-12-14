@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.swTextbox1 = new LibreriaClases.SWTextbox();
             this.swtCodePlanet = new LibreriaClases.SWTextbox();
             this.swtDescPlanet = new LibreriaClases.SWTextbox();
             this.lblCodePlanet = new System.Windows.Forms.Label();
@@ -46,17 +45,6 @@
             this.lblIdFiliation = new System.Windows.Forms.Label();
             this.cbxIdFiliation = new LibreriaControles.UIXCombobox();
             this.SuspendLayout();
-            // 
-            // swTextbox1
-            // 
-            this.swTextbox1.Campo_obligatorio = false;
-            this.swTextbox1.CampoBBDD = null;
-            this.swTextbox1.ForeignKey = false;
-            this.swTextbox1.Location = new System.Drawing.Point(0, 0);
-            this.swTextbox1.Name = "swTextbox1";
-            this.swTextbox1.Size = new System.Drawing.Size(100, 22);
-            this.swTextbox1.TabIndex = 15;
-            this.swTextbox1.tb_txtpermitido = LibreriaClases.SWTextbox.tb_parametros.Texto;
             // 
             // swtCodePlanet
             // 
@@ -261,11 +249,9 @@
             this.Controls.Add(this.lblCodePlanet);
             this.Controls.Add(this.swtDescPlanet);
             this.Controls.Add(this.swtCodePlanet);
-            this.Controls.Add(this.swTextbox1);
             this.Name = "frmPlanets";
             this.Taula = "Planets";
             this.Text = "frmPlanets";
-            this.Controls.SetChildIndex(this.swTextbox1, 0);
             this.Controls.SetChildIndex(this.swtCodePlanet, 0);
             this.Controls.SetChildIndex(this.swtDescPlanet, 0);
             this.Controls.SetChildIndex(this.lblCodePlanet, 0);
@@ -288,8 +274,6 @@
         }
 
         #endregion
-
-        private LibreriaClases.SWTextbox swTextbox1;
         private LibreriaClases.SWTextbox swtCodePlanet;
         private LibreriaClases.SWTextbox swtDescPlanet;
         private System.Windows.Forms.Label lblCodePlanet;
