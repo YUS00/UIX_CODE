@@ -1,0 +1,7 @@
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\LibreriaControles\bin\Release\LibreriaControles.dll
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\LibreriaControles\bin\Release\LibreriaControles.pdb
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\LibreriaControles\obj\Release\LibreriaControles.UIXCombobox.resources
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\LibreriaControles\obj\Release\LibreriaControles.csproj.GenerateResource.cache
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\LibreriaControles\obj\Release\LibreriaControles.csproj.CoreCompileInputs.cache
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\LibreriaControles\obj\Release\LibreriaControles.dll
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\LibreriaControles\obj\Release\LibreriaControles.pdb

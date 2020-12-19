@@ -1,0 +1,12 @@
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\Libreria_BaseForms\bin\Release\Libreria_BaseForms.dll
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\Libreria_BaseForms\bin\Release\Libreria_BaseForms.pdb
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\Libreria_BaseForms\bin\Release\Controls.dll
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\Libreria_BaseForms\bin\Release\Controls.pdb
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\Libreria_BaseForms\obj\Release\Libreria_BaseForms.csprojAssemblyReference.cache
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\Libreria_BaseForms\obj\Release\Libreria_BaseForms.BaseForms.resources
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\Libreria_BaseForms\obj\Release\Libreria_BaseForms.Properties.Resources.resources
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\Libreria_BaseForms\obj\Release\Libreria_BaseForms.csproj.GenerateResource.cache
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\Libreria_BaseForms\obj\Release\Libreria_BaseForms.csproj.CoreCompileInputs.cache
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\Libreria_BaseForms\obj\Release\Libreria_BaseForms.csproj.CopyComplete
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\Libreria_BaseForms\obj\Release\Libreria_BaseForms.dll
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\Libreria_BaseForms\obj\Release\Libreria_BaseForms.pdb
