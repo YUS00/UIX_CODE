@@ -31,6 +31,7 @@ namespace unix_code
                 attempt = 0;
                 this.WindowState = FormWindowState.Normal;
                 String user = textBox1.Text;
+                Modelos.User.setUserName(user);
                 LoginCarga lg = new LoginCarga(user);
                 lg.Show();
                 this.Hide();

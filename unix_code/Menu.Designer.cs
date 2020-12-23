@@ -67,7 +67,7 @@
             this.labelUsername.AutoSize = true;
             this.labelUsername.Font = new System.Drawing.Font("Arial", 8.25F);
             this.labelUsername.ForeColor = System.Drawing.Color.White;
-            this.labelUsername.Location = new System.Drawing.Point(103, 11);
+            this.labelUsername.Location = new System.Drawing.Point(100, 11);
             this.labelUsername.Name = "labelUsername";
             this.labelUsername.Size = new System.Drawing.Size(68, 16);
             this.labelUsername.TabIndex = 7;

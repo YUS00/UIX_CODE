@@ -14,6 +14,7 @@ namespace unix_code
             InitializeComponent();
             String username = user;
             labelUsername.Text = username;
+            Modelos.User.setUserName(username);
         }
         private void button1_Click(object sender, EventArgs e)
         {

@@ -74,6 +74,10 @@
       <Project>{981abd92-c863-4906-a4e3-2dbdfb3ecb97}</Project>
       <Name>Controls</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Modelos\Modelos.csproj">
+      <Project>{6d4cb7c2-2cb2-4e91-a5fd-441625ae953d}</Project>
+      <Name>Modelos</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\iconfinder_Close_2001866.png" />

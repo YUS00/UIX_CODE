@@ -15,6 +15,7 @@ namespace Libreria_BaseForms
         public BaseForms()
         {
             InitializeComponent();
+            this.labelUsername.Text = Modelos.User.getUserName();
         }
 
         private void class11_Click(object sender, EventArgs e)
