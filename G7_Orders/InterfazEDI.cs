@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace G7_Orders
 {
-    public partial class Form1 : Libreria_BaseForms.BaseForms
+    public partial class InterfazEDI : Libreria_BaseForms.BaseForms
     {
-        public Form1()
+        public InterfazEDI()
         {
             InitializeComponent();
         }

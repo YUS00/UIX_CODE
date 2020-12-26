@@ -55,27 +55,56 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Agencies.cs">
+      <DependentUpon>EDIModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="EDIModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>EDIModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDIModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EDIModel.tt</DependentUpon>
     </Compile>
     <Compile Include="EDIModel.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>EDIModel.edmx</DependentUpon>
     </Compile>
-    <Compile Include="Interzfaz.cs">
+    <Compile Include="Factories.cs">
+      <DependentUpon>EDIModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="InterfazEDI.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Interzfaz.Designer.cs">
-      <DependentUpon>Interzfaz.cs</DependentUpon>
+    <Compile Include="InterfazEDI.Designer.cs">
+      <DependentUpon>InterfazEDI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OperationalAreas.cs">
+      <DependentUpon>EDIModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OrderInfo.cs">
+      <DependentUpon>EDIModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Orders.cs">
+      <DependentUpon>EDIModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OrdersDetail.cs">
+      <DependentUpon>EDIModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Planets.cs">
+      <DependentUpon>EDIModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Priority.cs">
+      <DependentUpon>EDIModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Interzfaz.resx">
-      <DependentUpon>Interzfaz.cs</DependentUpon>
-    </EmbeddedResource>
+    <Compile Include="References.cs">
+      <DependentUpon>EDIModel.tt</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -120,6 +149,12 @@
     <Content Include="EDIModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>EDIModel.Context.cs</LastGenOutput>
+      <DependentUpon>EDIModel.edmx</DependentUpon>
+    </Content>
+    <Content Include="EDIModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>EDIModel.edmx</DependentUpon>
+      <LastGenOutput>EDIModel.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <ItemGroup>
