@@ -105,6 +105,9 @@
     <Compile Include="References.cs">
       <DependentUpon>EDIModel.tt</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="InterfazEDI.resx">
+      <DependentUpon>InterfazEDI.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

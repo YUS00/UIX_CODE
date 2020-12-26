@@ -16,7 +16,7 @@ namespace G7_Orders
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Interzfaz());
+            Application.Run(new G7_Orders.InterfazEDI());
         }
     }
 }

@@ -114,6 +114,18 @@
     </dependentAssembly>
   </dependency>
   <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="G7_Orders.exe" size="50688">
+      <assemblyIdentity name="G7_Orders" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>RTf85XYseZaJtorTJ2PlOUuuUP1CRUw+8cGTUt/hohY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="G7_Planets.dll" size="10240">
       <assemblyIdentity name="G7_Planets" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
@@ -229,7 +241,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>A2qIiFpA3qC1agbxduDBWAaWg8tMATpnp7gO/CAvdYI=</dsig:DigestValue>
+        <dsig:DigestValue>3HKOPV/bSNQ1aNOj5V/VH59uh+uI2CxROEoT5+cRwEI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -245,13 +257,13 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="UnixCode.exe.config" size="934">
+  <file name="UnixCode.exe.config" size="941">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>wSlQCNeDfMkpHmBM8LB2Yvj4Gx3iE3mt3Tl+B80ey4g=</dsig:DigestValue>
+      <dsig:DigestValue>s/zzXH3iOEo9Lly85CQcizKTVa4G778OBd9IKTlXw1U=</dsig:DigestValue>
     </hash>
   </file>
   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
