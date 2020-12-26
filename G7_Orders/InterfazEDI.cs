@@ -139,7 +139,12 @@ namespace G7_Orders
                             break;
                         case "QTYLIN":
                             //lastOrdersDetail = db.OrdersDetail.FirstOrDefault(o => o.idOrderDetail == lastOrdersDetailId);
-                            lastOrdersDetail.Quantity = Convert.ToInt16(array[2]);
+                            int cantidad = Convert.ToInt16(array[2]);
+                            if (array[1] == "61")
+                            {
+                                cantidad *= -1;
+                            }
+                            lastOrdersDetail.Quantity = (short)cantidad;
                             //db.SaveChanges();
                             break;
                         case "DTMLIN":
