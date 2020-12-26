@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2485e29502f64b5b84ec3e4e55625cfb" Name="Diagram1">
+        <EntityTypeShape EntityType="EDIModel.Agencies" Width="1.5" PointX="1" PointY="0.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EDIModel.Factories" Width="1.5" PointX="6.875" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EDIModel.OperationalAreas" Width="1.5" PointX="1" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EDIModel.OrderInfo" Width="1.5" PointX="1" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EDIModel.Orders" Width="1.5" PointX="4" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EDIModel.OrdersDetail" Width="1.5" PointX="3.875" PointY="0.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EDIModel.Planets" Width="1.5" PointX="8.625" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EDIModel.Priority" Width="1.5" PointX="4" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EDIModel.References" Width="1.5" PointX="6.25" PointY="1.375" IsExpanded="true" />
+        <AssociationConnector Association="EDIModel.FK_OrderInfo_Agencies" ManuallyRouted="false" />
+        <AssociationConnector Association="EDIModel.FK_Orders_Factories" ManuallyRouted="false" />
+        <AssociationConnector Association="EDIModel.FK_OrderInfo_OperationalAreas" ManuallyRouted="false" />
+        <AssociationConnector Association="EDIModel.FK_OrderInfo_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="EDIModel.FK_Orders_Priority" ManuallyRouted="false" />
+        <AssociationConnector Association="EDIModel.FK_OrdersDetail_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="EDIModel.FK_OrdersDetail_Planets" ManuallyRouted="false" />
+        <AssociationConnector Association="EDIModel.FK_OrdersDetail_References" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
