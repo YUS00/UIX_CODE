@@ -1,0 +1,4 @@
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\ComandaCR\obj\Debug\ComandaCR.csprojAssemblyReference.cache
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\ComandaCR\obj\Debug\ComandaCR.Properties.Resources.resources
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\ComandaCR\obj\Debug\ComandaCR.csproj.GenerateResource.cache
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\ComandaCR\obj\Debug\ComandaCR.csproj.CoreCompileInputs.cache
