@@ -208,6 +208,10 @@
       <Project>{981abd92-c863-4906-a4e3-2dbdfb3ecb97}</Project>
       <Name>Controls</Name>
     </ProjectReference>
+    <ProjectReference Include="..\G7_Comandes\G7_Comandes.csproj">
+      <Project>{3b12869d-125c-4361-a3ad-958f056773e6}</Project>
+      <Name>G7_Comandes</Name>
+    </ProjectReference>
     <ProjectReference Include="..\G7_Menu\G7_Menu.csproj">
       <Project>{9044be8f-d793-4d8c-b140-bd0dca4801d0}</Project>
       <Name>G7_Menu</Name>

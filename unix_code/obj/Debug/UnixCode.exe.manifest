@@ -102,6 +102,18 @@
     </dependentAssembly>
   </dependency>
   <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="G7_Comandes.exe" size="54272">
+      <assemblyIdentity name="G7_Comandes" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>IEO0bOzL5h7WguJthm+Skr52siYOiU+ZXGQTLT7y3+o=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="G7_Menu.dll" size="8704">
       <assemblyIdentity name="G7_Menu" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
@@ -241,7 +253,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>3HKOPV/bSNQ1aNOj5V/VH59uh+uI2CxROEoT5+cRwEI=</dsig:DigestValue>
+        <dsig:DigestValue>gVviolcn5z/W9k95RxSQcUgMK0TW2x1DMDcUgU1v3Q0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
