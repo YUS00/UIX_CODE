@@ -17,3 +17,6 @@ C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\G7_Comandes\obj\Debug\
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\G7_Comandes\obj\Debug\G7_Comandes.csproj.CopyComplete
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\G7_Comandes\obj\Debug\G7_Comandes.exe
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\G7_Comandes\obj\Debug\G7_Comandes.pdb
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DLL\G7_Comandes.exe.config
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DLL\G7_Comandes.exe
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DLL\G7_Comandes.pdb
