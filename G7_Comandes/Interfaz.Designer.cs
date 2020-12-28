@@ -51,15 +51,17 @@
             this.lsbLectura.Size = new System.Drawing.Size(233, 148);
             this.lsbLectura.TabIndex = 1;
             // 
-            // Form1
+            // Interfaz
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1459, 646);
             this.Controls.Add(this.lsbLectura);
             this.Controls.Add(this.button1);
-            this.Name = "Form1";
+            this.Name = "Interfaz";
             this.Text = "Form1";
+            this.Controls.SetChildIndex(this.button1, 0);
+            this.Controls.SetChildIndex(this.lsbLectura, 0);
             this.ResumeLayout(false);
 
         }

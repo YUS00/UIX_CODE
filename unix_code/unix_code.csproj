@@ -204,6 +204,10 @@
       <Project>{abf891bd-1ebc-4a51-96b5-14158d63df87}</Project>
       <Name>BaseTaulaSimple</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ComandaCR\ComandaCR.csproj">
+      <Project>{790ee089-d837-4338-8ebb-065d0336d2e0}</Project>
+      <Name>ComandaCR</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Controls\Controls.csproj">
       <Project>{981abd92-c863-4906-a4e3-2dbdfb3ecb97}</Project>
       <Name>Controls</Name>
