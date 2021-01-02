@@ -15,19 +15,7 @@ namespace G7_EnviarEdi
             lblStatus.Text = @"Uploaded 0%";
         }
         
-        //Creamos modelo para guardar config de Ftp
-        struct FtpSetting
-        {
-            public string Server { get; set; }
-            public string Username { get; set; }
-            public string Password { get; set; }
-            public string FileName { get; set; }
-            public string FullName { get; set; }
-
-        }
-
-        FtpSetting _inputParameter;
-
+       
         public string Username;
         public string Filename;
         public string Fullname;
@@ -52,6 +40,7 @@ namespace G7_EnviarEdi
 
         private void btnUpload_Click(object sender, EventArgs e)
         {
+            //Abrir dialogo para seleccionar el archivo
             using (OpenFileDialog ofd = new OpenFileDialog() { Multiselect = true, ValidateNames = true, Filter = "All Files|*.*" })
             {
                 if (ofd.ShowDialog() == DialogResult.OK)
@@ -62,26 +51,25 @@ namespace G7_EnviarEdi
                     Server = txtServer.Text;
                     Filename = fi.Name;
                     Fullname = fi.FullName;
+
+                    backgroundWorker.RunWorkerAsync();  //Importante para que empiece el backgroundWorker.DoWork()
                 }
             }
 
-            //Start the Background and wait a little to start it.
-            Thread.Sleep(1000);
-            backgroundWorker.RunWorkerAsync();  //the most important command to start the background worker
-            Thread.Sleep(1000);
+            
 
         }
 
         private void backgroundWorker_DoWork(object sender, DoWorkEventArgs e)
         {
-            //Upload Method.
+            //Upload file
             FtpWebRequest request = (FtpWebRequest)WebRequest.Create(new Uri(string.Format("{0}/{1}", Server, Filename)));
             request.Method = WebRequestMethods.Ftp.UploadFile;
             request.Credentials = new NetworkCredential(Username, Password);
             Stream ftpstream = request.GetRequestStream();
             FileStream fs = File.OpenRead(Fullname);
 
-            // Method to calculate and show the progress.
+            //Progreso de la lectura
             byte[] buffer = new byte[1024];
             double total = (double)fs.Length;
             int byteRead = 0;
