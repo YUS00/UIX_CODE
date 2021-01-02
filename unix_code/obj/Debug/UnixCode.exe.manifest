@@ -330,6 +330,18 @@
     </dependentAssembly>
   </dependency>
   <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="G7_EnviarEdi.exe" size="12800">
+      <assemblyIdentity name="G7_EnviarEdi" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>zOpkiGE0REomwdEhFkb+OXOCCMdtraauRSCK7pQ5gLE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="G7_Menu.dll" size="8704">
       <assemblyIdentity name="G7_Menu" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
@@ -493,7 +505,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>ppUrhq/pJ7FtaNExKYt91cY9hVayAOyWE0j1njhfhK8=</dsig:DigestValue>
+        <dsig:DigestValue>KJUaR3uBHa6vj3c/ok62Ok5CbIRznWxXk1iLGQ78Ioc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

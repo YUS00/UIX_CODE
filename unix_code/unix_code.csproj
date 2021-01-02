@@ -216,6 +216,10 @@
       <Project>{3b12869d-125c-4361-a3ad-958f056773e6}</Project>
       <Name>G7_Comandes</Name>
     </ProjectReference>
+    <ProjectReference Include="..\G7_EnviarEdi\G7_EnviarEdi.csproj">
+      <Project>{c1c74552-8ee2-493d-b7ea-a6ed1a84d047}</Project>
+      <Name>G7_EnviarEdi</Name>
+    </ProjectReference>
     <ProjectReference Include="..\G7_Menu\G7_Menu.csproj">
       <Project>{9044be8f-d793-4d8c-b140-bd0dca4801d0}</Project>
       <Name>G7_Menu</Name>
