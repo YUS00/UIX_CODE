@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Drawing;
 using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace BaseTaulaSimple
@@ -146,12 +140,12 @@ namespace BaseTaulaSimple
             {
                 dades.Actualizar();
             }
-            
+
         }
 
         private void btnAfegir_Click(object sender, EventArgs e)
         {
-            if(mostrarDadesPulsado)
+            if (mostrarDadesPulsado)
             {
                 if (newRow)
                 {
@@ -164,7 +158,8 @@ namespace BaseTaulaSimple
                     reanudarBindings();
                     newRow = !newRow;
                     btnAfegir.Text = "Afegir registre";
-                } else
+                }
+                else
                 {
                     dtg.CurrentCell = dtg.Rows[0].Cells[0];
                     dtg.CurrentCell = dtg.Rows[dtg.Rows.Count - 1].Cells[0];
@@ -174,7 +169,7 @@ namespace BaseTaulaSimple
                     btnAfegir.Text = "Nou registre";
                 }
             }
-            
+
 
         }
     }

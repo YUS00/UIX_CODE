@@ -91,7 +91,7 @@ namespace BaseDatos
             conn.Close();
         }
 
-        public DataSet CarregarMenu (String nivell)
+        public DataSet CarregarMenu(String nivell)
         {
             Connectar();
             SqlDataAdapter adapter;

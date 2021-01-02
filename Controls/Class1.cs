@@ -26,7 +26,7 @@ namespace Controls
 
         private void Class1_Click(object sender, EventArgs e)
         {
-            
+
         }
     }
 }
