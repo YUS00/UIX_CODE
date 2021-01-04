@@ -13,7 +13,7 @@ namespace unix_code
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new G7_EnviarEdi.EnviarEdi());
+            Application.Run(new DescargarEdi.InterfazDescarga());
         }
     }
 }

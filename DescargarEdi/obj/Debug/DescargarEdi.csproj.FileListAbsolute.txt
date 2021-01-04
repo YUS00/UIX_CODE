@@ -1,0 +1,13 @@
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DescargarEdi\bin\Debug\DescargarEdi.exe.config
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DescargarEdi\bin\Debug\DescargarEdi.exe
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DescargarEdi\bin\Debug\DescargarEdi.pdb
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DescargarEdi\bin\Debug\FluentFTP.dll
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DescargarEdi\bin\Debug\FluentFTP.xml
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DescargarEdi\obj\Debug\DescargarEdi.csprojAssemblyReference.cache
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DescargarEdi\obj\Debug\DescargarEdi.Properties.Resources.resources
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DescargarEdi\obj\Debug\DescargarEdi.csproj.GenerateResource.cache
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DescargarEdi\obj\Debug\DescargarEdi.csproj.CoreCompileInputs.cache
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DescargarEdi\obj\Debug\DescargarEdi.csproj.CopyComplete
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DescargarEdi\obj\Debug\DescargarEdi.exe
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DescargarEdi\obj\Debug\DescargarEdi.pdb
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DescargarEdi\obj\Debug\DescargarEdi.InterfazDescarga.resources
