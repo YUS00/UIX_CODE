@@ -59,17 +59,27 @@
       <DependentUpon>Comanda.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="CrystalReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CrystalReportForm.Designer.cs">
+      <DependentUpon>CrystalReportForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="InterfazComanda.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="InterfazComanda.Designer.cs">
       <DependentUpon>InterfazComanda.cs</DependentUpon>
     </Compile>
+    <Compile Include="OrderModel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Comanda.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>Comanda.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReportForm.resx">
+      <DependentUpon>CrystalReportForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="InterfazComanda.resx">
       <DependentUpon>InterfazComanda.cs</DependentUpon>
@@ -98,6 +108,16 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BaseDatos\BaseDatos.csproj">
+      <Project>{df4bbcb6-4528-405a-827b-28636890b64d}</Project>
+      <Name>BaseDatos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LibreriaClases\LibreriaClases.csproj">
+      <Project>{A1F21818-5A6D-43E1-B699-2F36859C4CFE}</Project>
+      <Name>LibreriaClases</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

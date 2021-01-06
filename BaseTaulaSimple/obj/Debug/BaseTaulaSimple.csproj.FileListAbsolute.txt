@@ -1,9 +1,7 @@
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\BaseTaulaSimple\bin\Debug\BaseTaulaSimple.dll
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\BaseTaulaSimple\bin\Debug\BaseTaulaSimple.pdb
-C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\BaseTaulaSimple\bin\Debug\BaseDatos.dll
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\BaseTaulaSimple\bin\Debug\LibreriaClases.dll
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\BaseTaulaSimple\bin\Debug\Libreria_BaseForms.dll
-C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\BaseTaulaSimple\bin\Debug\BaseDatos.pdb
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\BaseTaulaSimple\bin\Debug\LibreriaClases.pdb
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\BaseTaulaSimple\bin\Debug\Libreria_BaseForms.pdb
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\BaseTaulaSimple\obj\Debug\BaseTaulaSimple.csprojAssemblyReference.cache
@@ -17,3 +15,5 @@ C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\BaseTaulaSimple\bin\De
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\BaseTaulaSimple\bin\Debug\LibreriaControles.pdb
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\BaseTaulaSimple\bin\Debug\Modelos.dll
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\BaseTaulaSimple\bin\Debug\Modelos.pdb
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\BaseTaulaSimple\bin\Debug\BaseDatos.dll
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\BaseTaulaSimple\bin\Debug\BaseDatos.pdb

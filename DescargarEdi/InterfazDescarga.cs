@@ -19,44 +19,73 @@ namespace DescargarEdi
             InitializeComponent();
         }
 
+        FtpClient ftp = new FtpClient("localhost", new System.Net.NetworkCredential { UserName = "admin", Password = "mrrobot1234" });
+
+        FtpListItem[] listing;
+
         private async void processEdiFiles()
         {
-            FtpClient ftp = new FtpClient("localhost", new System.Net.NetworkCredential { UserName = "admin", Password = "mrrobot1234" });
+            
 
-            FtpListItem[] listing = await ftp.GetListingAsync();
+
+
+            
 
             foreach (FtpListItem ftpItem in listing)
             {
-                if (ftpItem.Type != FtpFileSystemObjectType.File)
+                if (ftpItem.Name.ToLower() != txbSelectedFile.Text.ToLower())
                 {
                     continue;
-                }
-
-                using (MemoryStream memoryStream = new MemoryStream())
+                } else
                 {
-                    await ftp.DownloadAsync(memoryStream, ftpItem.Name);
-
-                    memoryStream.Position = 0;
-
-                    using (StreamReader streamReader = new StreamReader(memoryStream))
+                    using (MemoryStream memoryStream = new MemoryStream())
                     {
-                        string fileContents = await streamReader.ReadToEndAsync();
+                        await ftp.DownloadAsync(memoryStream, ftpItem.Name);
+
+                        memoryStream.Position = 0;
+
+                        using (StreamReader streamReader = new StreamReader(memoryStream))
+                        {
+                            string fileContents = await streamReader.ReadToEndAsync();
 
 
-                       
-                        //Procesar el EDI
+
+                            //Procesar el EDI
+                        }
+
+                        await ftp.MoveFileAsync(ftpItem.Name, Path.Combine("Tractats", ftpItem.Name));
+
+
                     }
-
-                    await ftp.MoveFileAsync(ftpItem.Name, Path.Combine("Tractats", ftpItem.Name));
-
-
                 }
+
+                
             }
+
+            dtgFiles.Refresh();
+        }
+
+        private async void refresh()
+        {
+            listing = await ftp.GetListingAsync();
+            dtgFiles.DataSource = listing;
+
+            txbSelectedFile.DataBindings.Clear();
+            txbSelectedFile.DataBindings.Add("Text", listing, "Name");
         }
 
         private async void btnDownload_Click(object sender, EventArgs e)
         {
             processEdiFiles();
+        }
+
+        private async void InterfazDescarga_Load(object sender, EventArgs e)
+        {
+            listing = await ftp.GetListingAsync();
+            dtgFiles.DataSource = listing;
+
+            txbSelectedFile.DataBindings.Clear();
+            txbSelectedFile.DataBindings.Add("Text", listing, "Name");
         }
     }
 }

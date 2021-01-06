@@ -84,5 +84,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LibreriaClases\LibreriaClases.csproj">
+      <Project>{A1F21818-5A6D-43E1-B699-2F36859C4CFE}</Project>
+      <Name>LibreriaClases</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

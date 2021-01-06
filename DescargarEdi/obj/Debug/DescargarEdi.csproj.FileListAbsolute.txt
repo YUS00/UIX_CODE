@@ -11,3 +11,5 @@ C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DescargarEdi\obj\Debug
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DescargarEdi\obj\Debug\DescargarEdi.exe
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DescargarEdi\obj\Debug\DescargarEdi.pdb
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DescargarEdi\obj\Debug\DescargarEdi.InterfazDescarga.resources
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DescargarEdi\bin\Debug\LibreriaClases.dll
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DescargarEdi\bin\Debug\LibreriaClases.pdb
