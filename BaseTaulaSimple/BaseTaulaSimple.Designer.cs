@@ -39,18 +39,18 @@
             // 
             this.dtg.AllowUserToAddRows = false;
             this.dtg.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtg.Location = new System.Drawing.Point(31, 378);
+            this.dtg.Location = new System.Drawing.Point(292, 312);
             this.dtg.Name = "dtg";
             this.dtg.ReadOnly = true;
             this.dtg.RowHeadersWidth = 51;
             this.dtg.RowTemplate.Height = 24;
-            this.dtg.Size = new System.Drawing.Size(1138, 170);
+            this.dtg.Size = new System.Drawing.Size(871, 157);
             this.dtg.TabIndex = 11;
             this.dtg.CellMouseDoubleClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dtg_CellMouseDoubleClick);
             // 
             // btnMostrar
             // 
-            this.btnMostrar.Location = new System.Drawing.Point(859, 329);
+            this.btnMostrar.Location = new System.Drawing.Point(853, 256);
             this.btnMostrar.Name = "btnMostrar";
             this.btnMostrar.Size = new System.Drawing.Size(127, 34);
             this.btnMostrar.TabIndex = 12;
@@ -60,7 +60,7 @@
             // 
             // btnActualitzar
             // 
-            this.btnActualitzar.Location = new System.Drawing.Point(1024, 329);
+            this.btnActualitzar.Location = new System.Drawing.Point(1018, 256);
             this.btnActualitzar.Name = "btnActualitzar";
             this.btnActualitzar.Size = new System.Drawing.Size(145, 34);
             this.btnActualitzar.TabIndex = 13;
@@ -70,7 +70,7 @@
             // 
             // btnAfegir
             // 
-            this.btnAfegir.Location = new System.Drawing.Point(685, 329);
+            this.btnAfegir.Location = new System.Drawing.Point(679, 256);
             this.btnAfegir.Name = "btnAfegir";
             this.btnAfegir.Size = new System.Drawing.Size(132, 34);
             this.btnAfegir.TabIndex = 14;
@@ -88,10 +88,6 @@
             this.Controls.Add(this.btnMostrar);
             this.Controls.Add(this.dtg);
             this.Name = "BaseTaulaSimple";
-            this.Controls.SetChildIndex(this.dtg, 0);
-            this.Controls.SetChildIndex(this.btnMostrar, 0);
-            this.Controls.SetChildIndex(this.btnActualitzar, 0);
-            this.Controls.SetChildIndex(this.btnAfegir, 0);
             ((System.ComponentModel.ISupportInitialize)(this.dtg)).EndInit();
             this.ResumeLayout(false);
 

@@ -49,6 +49,12 @@
     <Compile Include="BaseForms.Designer.cs">
       <DependentUpon>BaseForms.cs</DependentUpon>
     </Compile>
+    <Compile Include="BaseFormVentana.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseFormVentana.Designer.cs">
+      <DependentUpon>BaseFormVentana.cs</DependentUpon>
+    </Compile>
     <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
@@ -60,6 +66,9 @@
   <ItemGroup>
     <EmbeddedResource Include="BaseForms.resx">
       <DependentUpon>BaseForms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseFormVentana.resx">
+      <DependentUpon>BaseFormVentana.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -4,7 +4,7 @@ using System.Windows.Forms;
 
 namespace BaseTaulaSimple
 {
-    public partial class BaseTaulaSimple : Libreria_BaseForms.BaseForms
+    public partial class BaseTaulaSimple : Libreria_BaseForms.BaseFormVentana
     {
         public BaseTaulaSimple()
         {

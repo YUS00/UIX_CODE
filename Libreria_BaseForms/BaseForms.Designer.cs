@@ -37,7 +37,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Purple;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.labelUsername);
             this.panel1.Controls.Add(this.label5);
@@ -45,7 +45,7 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1198, 39);
+            this.panel1.Size = new System.Drawing.Size(1349, 39);
             this.panel1.TabIndex = 10;
             // 
             // button1
@@ -54,7 +54,7 @@
             this.button1.BackgroundImage = global::Libreria_BaseForms.Properties.Resources.iconfinder_Close_2001866;
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.button1.Location = new System.Drawing.Point(1157, 7);
+            this.button1.Location = new System.Drawing.Point(1308, 7);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(29, 23);
             this.button1.TabIndex = 17;
@@ -65,18 +65,18 @@
             // 
             this.labelUsername.AutoSize = true;
             this.labelUsername.Font = new System.Drawing.Font("Arial", 8.25F);
-            this.labelUsername.ForeColor = System.Drawing.Color.White;
+            this.labelUsername.ForeColor = System.Drawing.Color.Gold;
             this.labelUsername.Location = new System.Drawing.Point(94, 7);
             this.labelUsername.Name = "labelUsername";
-            this.labelUsername.Size = new System.Drawing.Size(68, 16);
+            this.labelUsername.Size = new System.Drawing.Size(40, 16);
             this.labelUsername.TabIndex = 15;
-            this.labelUsername.Text = "------------";
+            this.labelUsername.Text = "........";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Arial", 8.25F);
-            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.ForeColor = System.Drawing.Color.Khaki;
             this.label5.Location = new System.Drawing.Point(9, 7);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(79, 16);
@@ -87,9 +87,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Libreria_BaseForms.Properties.Resources.fondo;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(38)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1198, 575);
+            this.ClientSize = new System.Drawing.Size(1349, 729);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "BaseForms";

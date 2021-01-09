@@ -7,7 +7,7 @@ namespace unix_code
 
 
 {
-    public partial class Menu : Form
+    public partial class Menu : Libreria_BaseForms.BaseForms
     {
         public Menu(String user)
         {
