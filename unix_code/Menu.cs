@@ -57,14 +57,12 @@ namespace unix_code
                 classe = dr["ensamblat"].ToString();
                 descripcio = dr["descOpcio"].ToString();
                 color = dr["backgroundColor"].ToString();
-                foto = dr["foto"].ToString();
 
                 LibreriaUserControls.ControlLlencaApplicacions btn = new LibreriaUserControls.ControlLlencaApplicacions();
                 btn.LabelText = descripcio;
                 btn.ClasseObrir = classe;
                 btn.FormObrir = form;
                 btn.BackgroundColor = Color.FromName(color);
-                btn.Picture = Application.StartupPath + foto;
 
                 tbl.Controls.Add(btn);
 

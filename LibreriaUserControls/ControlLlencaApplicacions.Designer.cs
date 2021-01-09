@@ -29,42 +29,31 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.pctBox = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pctBox)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(83, 44);
+            this.label1.Location = new System.Drawing.Point(50, 44);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(64, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "label1";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // pctBox
-            // 
-            this.pctBox.Location = new System.Drawing.Point(20, 26);
-            this.pctBox.Name = "pctBox";
-            this.pctBox.Size = new System.Drawing.Size(57, 56);
-            this.pctBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pctBox.TabIndex = 1;
-            this.pctBox.TabStop = false;
-            this.pctBox.Click += new System.EventHandler(this.pctBox_Click);
-            // 
             // ControlLlencaApplicacions
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.Controls.Add(this.pctBox);
             this.Controls.Add(this.label1);
             this.Name = "ControlLlencaApplicacions";
             this.Size = new System.Drawing.Size(212, 113);
             this.Click += new System.EventHandler(this.ControlLlencaApplicacions_Click);
-            ((System.ComponentModel.ISupportInitialize)(this.pctBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -73,6 +62,5 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox pctBox;
     }
 }

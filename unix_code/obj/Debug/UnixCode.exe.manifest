@@ -462,14 +462,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LibreriaUserControls.dll" size="8704">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LibreriaUserControls.dll" size="8192">
       <assemblyIdentity name="LibreriaUserControls" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>DxBBTWAKSagzw75Sahezk21rUt/WXcDc7xGZUthRRuo=</dsig:DigestValue>
+        <dsig:DigestValue>Vw2ENCVzw/qhSYbiHMTjRkkUJIqY7VqFAR59g2mC7/U=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -529,7 +529,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>g3UoI28jDHwCbdb1CrEPfkmGwYhkxDPKPw/5FC0cSqk=</dsig:DigestValue>
+        <dsig:DigestValue>hzF9N/msRVEwM7otBggdZ4k/Bxt+KwpenWpzRpPnVzw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
