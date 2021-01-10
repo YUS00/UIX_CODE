@@ -3,7 +3,7 @@ using System.Windows.Forms;
 
 namespace unix_code
 {
-    public partial class Splash : Form
+    public partial class Splash : Libreria_BaseForms.BaseFormVentana
     {
         public Splash()
         {

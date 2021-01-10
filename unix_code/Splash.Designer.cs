@@ -48,9 +48,10 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(253, 131);
+            this.pictureBox1.Location = new System.Drawing.Point(337, 161);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(229, 168);
+            this.pictureBox1.Size = new System.Drawing.Size(305, 207);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
@@ -65,7 +66,8 @@
             this.circularProgressBar1.InnerColor = System.Drawing.Color.Transparent;
             this.circularProgressBar1.InnerMargin = 2;
             this.circularProgressBar1.InnerWidth = -1;
-            this.circularProgressBar1.Location = new System.Drawing.Point(195, 72);
+            this.circularProgressBar1.Location = new System.Drawing.Point(260, 89);
+            this.circularProgressBar1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.circularProgressBar1.MarqueeAnimationSpeed = 2000;
             this.circularProgressBar1.Name = "circularProgressBar1";
             this.circularProgressBar1.OuterColor = System.Drawing.Color.White;
@@ -74,7 +76,7 @@
             this.circularProgressBar1.ProgressColor = System.Drawing.Color.Black;
             this.circularProgressBar1.ProgressWidth = 10;
             this.circularProgressBar1.SecondaryFont = new System.Drawing.Font("Microsoft Sans Serif", 36F);
-            this.circularProgressBar1.Size = new System.Drawing.Size(340, 289);
+            this.circularProgressBar1.Size = new System.Drawing.Size(453, 356);
             this.circularProgressBar1.StartAngle = 270;
             this.circularProgressBar1.SubscriptColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(166)))), ((int)(((byte)(166)))));
             this.circularProgressBar1.SubscriptMargin = new System.Windows.Forms.Padding(10, -35, 0, 0);
@@ -90,27 +92,31 @@
             // 
             this.class11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("class11.BackgroundImage")));
             this.class11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.class11.Location = new System.Drawing.Point(701, 12);
+            this.class11.Location = new System.Drawing.Point(935, 15);
+            this.class11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.class11.Name = "class11";
-            this.class11.Size = new System.Drawing.Size(25, 20);
+            this.class11.Size = new System.Drawing.Size(33, 25);
             this.class11.TabIndex = 13;
             this.class11.UseVisualStyleBackColor = true;
             // 
             // Splash
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(738, 485);
+            this.ClientSize = new System.Drawing.Size(984, 727);
             this.Controls.Add(this.class11);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.circularProgressBar1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Splash";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Splash_Load);
+            this.Controls.SetChildIndex(this.circularProgressBar1, 0);
+            this.Controls.SetChildIndex(this.pictureBox1, 0);
+            this.Controls.SetChildIndex(this.class11, 0);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 

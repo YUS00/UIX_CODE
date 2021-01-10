@@ -4,7 +4,7 @@ using System.Windows.Forms;
 
 namespace unix_code
 {
-    public partial class Login : Form
+    public partial class Login : Libreria_BaseForms.BaseFormVentana
     {
         public Login()
         {
@@ -13,7 +13,6 @@ namespace unix_code
         int attempt = 0;
         private void Login_Load(object sender, EventArgs e)
         {
-            this.WindowState = FormWindowState.Maximized;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -45,9 +44,6 @@ namespace unix_code
             }
         }
 
-        private void class11_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
+        
     }
 }

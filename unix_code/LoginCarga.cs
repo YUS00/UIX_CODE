@@ -3,7 +3,7 @@ using System.Windows.Forms;
 
 namespace unix_code
 {
-    public partial class LoginCarga : Form
+    public partial class LoginCarga : Libreria_BaseForms.BaseFormVentana
     {
         String username;
         public LoginCarga(String user)

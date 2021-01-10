@@ -109,7 +109,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>w9f7T2QN/6Pj4ef3lQsmJJwsd9dev6ZHuIWKaX2pndU=</dsig:DigestValue>
+        <dsig:DigestValue>gqJzJ6fQW19TvgaB4Iu4Gz/TcbpvQC2kV9sAtb5FsxE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -534,14 +534,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="UnixCode.exe" size="303584">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="UnixCode.exe" size="303072">
       <assemblyIdentity name="UnixCode" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>+Ph4rIFwKG3kDIkWVVJT3+DxUb8Zlc+IgtOZ1yAy1yM=</dsig:DigestValue>
+        <dsig:DigestValue>BIb7ZM4/f6DUKUybip6RzWOAAZSwraQeGVfFTdxHyM4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
