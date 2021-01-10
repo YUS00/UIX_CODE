@@ -47,7 +47,9 @@
             this.btnMaximizar = new Bunifu.Framework.UI.BunifuImageButton();
             this.btnCerrar = new Bunifu.Framework.UI.BunifuImageButton();
             this.pnlBackground = new System.Windows.Forms.Panel();
-            this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
+            this.drcMenu = new Bunifu.Framework.UI.BunifuDragControl(this.components);
+            this.elipseMenu = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.elipsePnlPrincipal = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.panel1.SuspendLayout();
             this.pnlLeft.SuspendLayout();
@@ -283,17 +285,27 @@
             this.pnlBackground.Size = new System.Drawing.Size(1200, 700);
             this.pnlBackground.TabIndex = 16;
             // 
-            // bunifuDragControl1
+            // drcMenu
             // 
-            this.bunifuDragControl1.Fixed = true;
-            this.bunifuDragControl1.Horizontal = true;
-            this.bunifuDragControl1.TargetControl = this.pnlTop;
-            this.bunifuDragControl1.Vertical = true;
+            this.drcMenu.Fixed = true;
+            this.drcMenu.Horizontal = true;
+            this.drcMenu.TargetControl = this.pnlTop;
+            this.drcMenu.Vertical = true;
+            // 
+            // elipseMenu
+            // 
+            this.elipseMenu.ElipseRadius = 10;
+            this.elipseMenu.TargetControl = this;
+            // 
+            // elipsePnlPrincipal
+            // 
+            this.elipsePnlPrincipal.ElipseRadius = 15;
+            this.elipsePnlPrincipal.TargetControl = this.pnlPrincipal;
             // 
             // bunifuElipse1
             // 
-            this.bunifuElipse1.ElipseRadius = 0;
-            this.bunifuElipse1.TargetControl = this;
+            this.bunifuElipse1.ElipseRadius = 5;
+            this.bunifuElipse1.TargetControl = this.cerrarsesion_btn;
             // 
             // Menu
             // 
@@ -337,13 +349,15 @@
         private System.Windows.Forms.Panel pnlTop;
         private System.Windows.Forms.Panel pnlPrincipal;
         private System.Windows.Forms.Panel pnlBackground;
-        private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl1;
+        private Bunifu.Framework.UI.BunifuDragControl drcMenu;
         private Bunifu.Framework.UI.BunifuImageButton btnMinimizar;
         private Bunifu.Framework.UI.BunifuImageButton btnRestaurar;
         private Bunifu.Framework.UI.BunifuImageButton btnMaximizar;
         private Bunifu.Framework.UI.BunifuImageButton btnCerrar;
-        private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
+        private Bunifu.Framework.UI.BunifuElipse elipseMenu;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label lblUser;
+        private Bunifu.Framework.UI.BunifuElipse elipsePnlPrincipal;
+        private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
     }
 }

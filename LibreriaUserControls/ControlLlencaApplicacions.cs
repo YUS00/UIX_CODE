@@ -78,6 +78,7 @@ namespace LibreriaUserControls
             tipus = ensamblat.GetType(FormObrir);
             //instanciem l’objecte
             dllBD = Activator.CreateInstance(tipus);
+            
             //el mostrem assumint que es tracta d’un form
             // i per això fem un cast amb (Form)
             ((Form)dllBD).Show();
