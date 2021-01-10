@@ -45,7 +45,7 @@
             // 
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(187, 424);
+            this.dataGridView1.Location = new System.Drawing.Point(72, 396);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersWidth = 51;
@@ -55,7 +55,7 @@
             // 
             // btnNew
             // 
-            this.btnNew.Location = new System.Drawing.Point(744, 380);
+            this.btnNew.Location = new System.Drawing.Point(629, 352);
             this.btnNew.Name = "btnNew";
             this.btnNew.Size = new System.Drawing.Size(114, 23);
             this.btnNew.TabIndex = 12;
@@ -65,7 +65,7 @@
             // 
             // btnUpdate
             // 
-            this.btnUpdate.Location = new System.Drawing.Point(899, 380);
+            this.btnUpdate.Location = new System.Drawing.Point(784, 352);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(101, 23);
             this.btnUpdate.TabIndex = 13;
@@ -141,7 +141,7 @@
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(620, 380);
+            this.btnDelete.Location = new System.Drawing.Point(505, 352);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(75, 23);
             this.btnDelete.TabIndex = 33;
@@ -153,7 +153,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1191, 607);
+            this.ClientSize = new System.Drawing.Size(960, 558);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.swtAccessLevel);
             this.Controls.Add(this.swtDescCategory);

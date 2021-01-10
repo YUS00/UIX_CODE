@@ -30,8 +30,6 @@
         {
             this.components = new System.ComponentModel.Container();
             this.pnlMain = new System.Windows.Forms.Panel();
-            this.pnlWindow = new System.Windows.Forms.Panel();
-            this.pnlLeft = new System.Windows.Forms.Panel();
             this.pnlBottom = new System.Windows.Forms.Panel();
             this.pnlTop = new System.Windows.Forms.Panel();
             this.bunifuImageButton4 = new Bunifu.Framework.UI.BunifuImageButton();
@@ -55,43 +53,21 @@
             // pnlMain
             // 
             this.pnlMain.BackColor = System.Drawing.Color.Gray;
-            this.pnlMain.Controls.Add(this.pnlWindow);
-            this.pnlMain.Controls.Add(this.pnlLeft);
             this.pnlMain.Controls.Add(this.pnlBottom);
             this.pnlMain.Controls.Add(this.pnlTop);
             this.pnlMain.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlMain.Location = new System.Drawing.Point(0, 0);
             this.pnlMain.Name = "pnlMain";
-            this.pnlMain.Size = new System.Drawing.Size(1344, 700);
+            this.pnlMain.Size = new System.Drawing.Size(960, 558);
             this.pnlMain.TabIndex = 11;
-            // 
-            // pnlWindow
-            // 
-            this.pnlWindow.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pnlWindow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.pnlWindow.Location = new System.Drawing.Point(206, 55);
-            this.pnlWindow.Name = "pnlWindow";
-            this.pnlWindow.Size = new System.Drawing.Size(1135, 589);
-            this.pnlWindow.TabIndex = 14;
-            // 
-            // pnlLeft
-            // 
-            this.pnlLeft.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.pnlLeft.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pnlLeft.Location = new System.Drawing.Point(0, 50);
-            this.pnlLeft.Name = "pnlLeft";
-            this.pnlLeft.Size = new System.Drawing.Size(200, 600);
-            this.pnlLeft.TabIndex = 13;
             // 
             // pnlBottom
             // 
             this.pnlBottom.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
             this.pnlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlBottom.Location = new System.Drawing.Point(0, 650);
+            this.pnlBottom.Location = new System.Drawing.Point(0, 508);
             this.pnlBottom.Name = "pnlBottom";
-            this.pnlBottom.Size = new System.Drawing.Size(1344, 50);
+            this.pnlBottom.Size = new System.Drawing.Size(960, 50);
             this.pnlBottom.TabIndex = 12;
             // 
             // pnlTop
@@ -108,7 +84,7 @@
             this.pnlTop.Location = new System.Drawing.Point(0, 0);
             this.pnlTop.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pnlTop.Name = "pnlTop";
-            this.pnlTop.Size = new System.Drawing.Size(1344, 50);
+            this.pnlTop.Size = new System.Drawing.Size(960, 50);
             this.pnlTop.TabIndex = 11;
             // 
             // bunifuImageButton4
@@ -118,7 +94,7 @@
             this.bunifuImageButton4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuImageButton4.Image = global::Libreria_BaseForms.Properties.Resources.minimizeRounded;
             this.bunifuImageButton4.ImageActive = null;
-            this.bunifuImageButton4.Location = new System.Drawing.Point(1000, 9);
+            this.bunifuImageButton4.Location = new System.Drawing.Point(616, 9);
             this.bunifuImageButton4.Name = "bunifuImageButton4";
             this.bunifuImageButton4.Size = new System.Drawing.Size(35, 35);
             this.bunifuImageButton4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -133,7 +109,7 @@
             this.bunifuImageButton3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuImageButton3.Image = global::Libreria_BaseForms.Properties.Resources.minSquare;
             this.bunifuImageButton3.ImageActive = null;
-            this.bunifuImageButton3.Location = new System.Drawing.Point(1051, 9);
+            this.bunifuImageButton3.Location = new System.Drawing.Point(667, 9);
             this.bunifuImageButton3.Name = "bunifuImageButton3";
             this.bunifuImageButton3.Size = new System.Drawing.Size(35, 35);
             this.bunifuImageButton3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -148,7 +124,7 @@
             this.bunifuImageButton2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuImageButton2.Image = global::Libreria_BaseForms.Properties.Resources.maxSquare;
             this.bunifuImageButton2.ImageActive = null;
-            this.bunifuImageButton2.Location = new System.Drawing.Point(1102, 9);
+            this.bunifuImageButton2.Location = new System.Drawing.Point(718, 9);
             this.bunifuImageButton2.Name = "bunifuImageButton2";
             this.bunifuImageButton2.Size = new System.Drawing.Size(35, 35);
             this.bunifuImageButton2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -163,7 +139,7 @@
             this.bunifuImageButton1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuImageButton1.Image = global::Libreria_BaseForms.Properties.Resources.close;
             this.bunifuImageButton1.ImageActive = null;
-            this.bunifuImageButton1.Location = new System.Drawing.Point(1153, 9);
+            this.bunifuImageButton1.Location = new System.Drawing.Point(769, 9);
             this.bunifuImageButton1.Name = "bunifuImageButton1";
             this.bunifuImageButton1.Size = new System.Drawing.Size(35, 35);
             this.bunifuImageButton1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -220,7 +196,6 @@
             // bunifuElipse2
             // 
             this.bunifuElipse2.ElipseRadius = 15;
-            this.bunifuElipse2.TargetControl = this.pnlWindow;
             // 
             // BaseForms
             // 
@@ -228,7 +203,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(38)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1344, 700);
+            this.ClientSize = new System.Drawing.Size(960, 558);
             this.Controls.Add(this.pnlMain);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MinimumSize = new System.Drawing.Size(960, 480);
@@ -253,8 +228,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label labelUsername;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Panel pnlWindow;
-        private System.Windows.Forms.Panel pnlLeft;
         private System.Windows.Forms.Panel pnlBottom;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
         private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl1;

@@ -5,7 +5,7 @@ using System.Windows.Forms;
 
 namespace G7_UserCategories
 {
-    public partial class frmUserCategories : Libreria_BaseForms.BaseForms
+    public partial class frmUserCategories : Libreria_BaseForms.BaseFormVentana
     {
 
         SecureCoreEntities db;

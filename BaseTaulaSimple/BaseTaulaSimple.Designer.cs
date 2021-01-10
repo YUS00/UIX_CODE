@@ -39,7 +39,7 @@
             // 
             this.dtg.AllowUserToAddRows = false;
             this.dtg.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtg.Location = new System.Drawing.Point(292, 312);
+            this.dtg.Location = new System.Drawing.Point(46, 389);
             this.dtg.Name = "dtg";
             this.dtg.ReadOnly = true;
             this.dtg.RowHeadersWidth = 51;
@@ -50,7 +50,7 @@
             // 
             // btnMostrar
             // 
-            this.btnMostrar.Location = new System.Drawing.Point(853, 256);
+            this.btnMostrar.Location = new System.Drawing.Point(607, 333);
             this.btnMostrar.Name = "btnMostrar";
             this.btnMostrar.Size = new System.Drawing.Size(127, 34);
             this.btnMostrar.TabIndex = 12;
@@ -60,7 +60,7 @@
             // 
             // btnActualitzar
             // 
-            this.btnActualitzar.Location = new System.Drawing.Point(1018, 256);
+            this.btnActualitzar.Location = new System.Drawing.Point(772, 333);
             this.btnActualitzar.Name = "btnActualitzar";
             this.btnActualitzar.Size = new System.Drawing.Size(145, 34);
             this.btnActualitzar.TabIndex = 13;
@@ -70,7 +70,7 @@
             // 
             // btnAfegir
             // 
-            this.btnAfegir.Location = new System.Drawing.Point(679, 256);
+            this.btnAfegir.Location = new System.Drawing.Point(433, 333);
             this.btnAfegir.Name = "btnAfegir";
             this.btnAfegir.Size = new System.Drawing.Size(132, 34);
             this.btnAfegir.TabIndex = 14;
@@ -82,7 +82,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1198, 575);
+            this.ClientSize = new System.Drawing.Size(960, 558);
             this.Controls.Add(this.btnAfegir);
             this.Controls.Add(this.btnActualitzar);
             this.Controls.Add(this.btnMostrar);

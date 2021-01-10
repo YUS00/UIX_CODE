@@ -232,7 +232,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1198, 573);
+            this.ClientSize = new System.Drawing.Size(960, 558);
             this.Controls.Add(this.lblIdFiliation);
             this.Controls.Add(this.cbxIdFiliation);
             this.Controls.Add(this.lblIdNatives);
