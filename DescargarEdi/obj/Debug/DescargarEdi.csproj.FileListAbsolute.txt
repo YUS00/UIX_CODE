@@ -8,8 +8,11 @@ C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DescargarEdi\obj\Debug
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DescargarEdi\obj\Debug\DescargarEdi.csproj.GenerateResource.cache
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DescargarEdi\obj\Debug\DescargarEdi.csproj.CoreCompileInputs.cache
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DescargarEdi\obj\Debug\DescargarEdi.csproj.CopyComplete
-C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DescargarEdi\obj\Debug\DescargarEdi.exe
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DescargarEdi\obj\Debug\DescargarEdi.pdb
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DescargarEdi\obj\Debug\DescargarEdi.InterfazDescarga.resources
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DescargarEdi\bin\Debug\LibreriaClases.dll
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DescargarEdi\bin\Debug\LibreriaClases.pdb
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DLL\DescargarEdi.pdb
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DLL\DescargarEdi.dll.config
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DLL\DescargarEdi.dll
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DescargarEdi\obj\Debug\DescargarEdi.dll

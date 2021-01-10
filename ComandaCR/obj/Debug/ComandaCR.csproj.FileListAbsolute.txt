@@ -26,10 +26,13 @@ C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\ComandaCR\bin\Debug\Cr
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\ComandaCR\bin\Debug\stdole.dll
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\ComandaCR\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\ComandaCR\obj\Debug\ComandaCR.csproj.CopyComplete
-C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\ComandaCR\obj\Debug\ComandaCR.exe
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\ComandaCR\obj\Debug\ComandaCR.pdb
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\ComandaCR\bin\Debug\LibreriaClases.dll
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\ComandaCR\bin\Debug\LibreriaClases.pdb
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\ComandaCR\bin\Debug\BaseDatos.dll
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\ComandaCR\bin\Debug\BaseDatos.pdb
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\ComandaCR\obj\Debug\ComandaCR.CrystalReportForm.resources
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DLL\ComandaCR.pdb
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DLL\ComandaCR.dll.config
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DLL\ComandaCR.dll
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\ComandaCR\obj\Debug\ComandaCR.dll

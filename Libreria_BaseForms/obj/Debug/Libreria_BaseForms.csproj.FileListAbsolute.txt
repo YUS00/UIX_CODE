@@ -26,3 +26,5 @@ C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\Libreria_BaseForms\bin
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\Libreria_BaseForms\bin\Debug\Modelos.pdb
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\Libreria_BaseForms\obj\Debug\Libreria_BaseForms.BaseFormVentana.resources
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\Libreria_BaseForms\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DLL\Libreria_BaseForms.dll
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DLL\Libreria_BaseForms.pdb

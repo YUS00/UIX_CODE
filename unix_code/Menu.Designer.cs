@@ -40,6 +40,7 @@
             this.cerrarsesion_btn = new System.Windows.Forms.Button();
             this.pnlBottom = new System.Windows.Forms.Panel();
             this.pnlTop = new System.Windows.Forms.Panel();
+            this.lblUser = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.btnMinimizar = new Bunifu.Framework.UI.BunifuImageButton();
             this.btnRestaurar = new Bunifu.Framework.UI.BunifuImageButton();
@@ -48,7 +49,6 @@
             this.pnlBackground = new System.Windows.Forms.Panel();
             this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.lblUser = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.pnlLeft.SuspendLayout();
             this.pnlBottom.SuspendLayout();
@@ -109,7 +109,7 @@
             this.tbl.BackColor = System.Drawing.Color.Transparent;
             this.tbl.ColumnCount = 1;
             this.tbl.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tbl.Location = new System.Drawing.Point(34, 106);
+            this.tbl.Location = new System.Drawing.Point(12, 111);
             this.tbl.Name = "tbl";
             this.tbl.RowCount = 8;
             this.tbl.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
@@ -120,7 +120,7 @@
             this.tbl.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
             this.tbl.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
             this.tbl.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
-            this.tbl.Size = new System.Drawing.Size(170, 533);
+            this.tbl.Size = new System.Drawing.Size(218, 533);
             this.tbl.TabIndex = 6;
             // 
             // pnlLeft
@@ -188,6 +188,18 @@
             this.pnlTop.Name = "pnlTop";
             this.pnlTop.Size = new System.Drawing.Size(1200, 80);
             this.pnlTop.TabIndex = 14;
+            // 
+            // lblUser
+            // 
+            this.lblUser.AutoSize = true;
+            this.lblUser.Font = new System.Drawing.Font("Arial", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.lblUser.ForeColor = System.Drawing.Color.Khaki;
+            this.lblUser.Location = new System.Drawing.Point(189, 29);
+            this.lblUser.Name = "lblUser";
+            this.lblUser.Size = new System.Drawing.Size(108, 24);
+            this.lblUser.TabIndex = 20;
+            this.lblUser.Text = "--------------";
+            this.lblUser.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label5
             // 
@@ -282,18 +294,6 @@
             // 
             this.bunifuElipse1.ElipseRadius = 0;
             this.bunifuElipse1.TargetControl = this;
-            // 
-            // lblUser
-            // 
-            this.lblUser.AutoSize = true;
-            this.lblUser.Font = new System.Drawing.Font("Arial", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-            this.lblUser.ForeColor = System.Drawing.Color.Khaki;
-            this.lblUser.Location = new System.Drawing.Point(189, 29);
-            this.lblUser.Name = "lblUser";
-            this.lblUser.Size = new System.Drawing.Size(108, 24);
-            this.lblUser.TabIndex = 20;
-            this.lblUser.Text = "--------------";
-            this.lblUser.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // Menu
             // 

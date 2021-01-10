@@ -83,5 +83,24 @@ namespace LibreriaUserControls
             ((Form)dllBD).Show();
         }
 
+        private void ControlLlencaApplicacions_MouseHover(object sender, EventArgs e)
+        {
+            this.BackColor = Color.Green;
+        }
+
+        private void ControlLlencaApplicacions_MouseLeave(object sender, EventArgs e)
+        {
+            this.BackColor = Color.Black;
+        }
+
+        private void label1_MouseHover(object sender, EventArgs e)
+        {
+            this.BackColor = Color.Green;
+        }
+
+        private void label1_MouseLeave(object sender, EventArgs e)
+        {
+            this.BackColor = Color.Black;
+        }
     }
 }

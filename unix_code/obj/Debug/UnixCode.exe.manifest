@@ -102,14 +102,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ComandaCR.exe" size="81408">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ComandaCR.dll" size="80896">
       <assemblyIdentity name="ComandaCR" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>gqJzJ6fQW19TvgaB4Iu4Gz/TcbpvQC2kV9sAtb5FsxE=</dsig:DigestValue>
+        <dsig:DigestValue>TQfep+Tpxl3irTk4C7PoPsiY6XFLeCgDeCSuHSpQDIs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -318,14 +318,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DescargarEdi.exe" size="13824">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DescargarEdi.dll" size="13312">
       <assemblyIdentity name="DescargarEdi" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>sLaAVrqsomQkqKBiwkyttfBjAQcbUZcG6gNarx1m3jI=</dsig:DigestValue>
+        <dsig:DigestValue>7a66uyEVsS/wCFPUMc2LTY8VNU9IifXO5z/3QQJGUQg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -366,14 +366,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="G7_EnviarEdi.exe" size="11776">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="G7_EnviarEdi.dll" size="11264">
       <assemblyIdentity name="G7_EnviarEdi" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>F6fLyQv9auEWfLgLnKe9Q2/+BaUcN7g4WZtXVUJpbms=</dsig:DigestValue>
+        <dsig:DigestValue>TKfxizD2aYwsa5rp9Goj8fabgVc3RJ0umI/G16iHci0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -474,14 +474,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LibreriaUserControls.dll" size="8192">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LibreriaUserControls.dll" size="8704">
       <assemblyIdentity name="LibreriaUserControls" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>pGwPbH+ZMOTTl1Ow1oKujH3G/XeP8SC5aEFYBMPvKXY=</dsig:DigestValue>
+        <dsig:DigestValue>TWYgWCnMWgES4QKvdEx9KCqGJTbwHE3obqF0O3xlRR8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -534,14 +534,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="UnixCode.exe" size="303072">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="UnixCode.exe" size="224736">
       <assemblyIdentity name="UnixCode" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>BIb7ZM4/f6DUKUybip6RzWOAAZSwraQeGVfFTdxHyM4=</dsig:DigestValue>
+        <dsig:DigestValue>a2eBnODrbkBLfZSRGVRyCkbxH/IhiRFK92UvuNOVX3k=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
