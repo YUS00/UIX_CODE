@@ -12,11 +12,12 @@ namespace unix_code
         public Menu(String user)
         {
             InitializeComponent();
-            String username = user;
+            username = user;
             labelUsername.Text = username;
             Modelos.User.setUserName(username);
         }
 
+        String username;
 
         private const int gridSize = 10;
         private const int areamouse = 132;
@@ -83,7 +84,7 @@ namespace unix_code
             Login.Show();
         }
         DataSet dts, dtsLevel;
-        String form, classe, descripcio, color, foto, level;
+        String form, classe, descripcio, color, level;
 
         private void btnMaximizar_Click(object sender, EventArgs e)
         {
@@ -132,6 +133,8 @@ namespace unix_code
             level = dtsLevel.Tables[0].Rows[0]["level"].ToString();
             //MessageBox.Show(level);
             dts = bd.CarregarMenu(level);
+            //Cargar nombre en pantalla
+            lblUser.Text = username;
 
 
 

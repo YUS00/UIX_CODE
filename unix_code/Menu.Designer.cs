@@ -36,17 +36,19 @@
             this.labelUsername = new System.Windows.Forms.Label();
             this.tbl = new System.Windows.Forms.TableLayoutPanel();
             this.pnlLeft = new System.Windows.Forms.Panel();
+            this.pnlPrincipal = new System.Windows.Forms.Panel();
             this.cerrarsesion_btn = new System.Windows.Forms.Button();
             this.pnlBottom = new System.Windows.Forms.Panel();
             this.pnlTop = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
             this.btnMinimizar = new Bunifu.Framework.UI.BunifuImageButton();
             this.btnRestaurar = new Bunifu.Framework.UI.BunifuImageButton();
             this.btnMaximizar = new Bunifu.Framework.UI.BunifuImageButton();
             this.btnCerrar = new Bunifu.Framework.UI.BunifuImageButton();
-            this.pnlPrincipal = new System.Windows.Forms.Panel();
             this.pnlBackground = new System.Windows.Forms.Panel();
             this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.lblUser = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.pnlLeft.SuspendLayout();
             this.pnlBottom.SuspendLayout();
@@ -125,22 +127,34 @@
             // 
             this.pnlLeft.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.pnlLeft.Controls.Add(this.tbl);
+            this.pnlLeft.Controls.Add(this.pnlPrincipal);
             this.pnlLeft.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlLeft.Location = new System.Drawing.Point(0, 0);
             this.pnlLeft.Name = "pnlLeft";
-            this.pnlLeft.Size = new System.Drawing.Size(1200, 663);
+            this.pnlLeft.Size = new System.Drawing.Size(1200, 650);
             this.pnlLeft.TabIndex = 12;
+            // 
+            // pnlPrincipal
+            // 
+            this.pnlPrincipal.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pnlPrincipal.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.pnlPrincipal.Location = new System.Drawing.Point(236, 86);
+            this.pnlPrincipal.Name = "pnlPrincipal";
+            this.pnlPrincipal.Size = new System.Drawing.Size(952, 558);
+            this.pnlPrincipal.TabIndex = 15;
             // 
             // cerrarsesion_btn
             // 
-            this.cerrarsesion_btn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.cerrarsesion_btn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.cerrarsesion_btn.BackColor = System.Drawing.Color.Black;
             this.cerrarsesion_btn.FlatAppearance.BorderSize = 2;
             this.cerrarsesion_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cerrarsesion_btn.Font = new System.Drawing.Font("Arial", 8.25F);
             this.cerrarsesion_btn.ForeColor = System.Drawing.Color.Gold;
             this.cerrarsesion_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.cerrarsesion_btn.Location = new System.Drawing.Point(0, 3);
+            this.cerrarsesion_btn.Location = new System.Drawing.Point(1074, 7);
             this.cerrarsesion_btn.Margin = new System.Windows.Forms.Padding(0);
             this.cerrarsesion_btn.Name = "cerrarsesion_btn";
             this.cerrarsesion_btn.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -155,14 +169,16 @@
             this.pnlBottom.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
             this.pnlBottom.Controls.Add(this.cerrarsesion_btn);
             this.pnlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlBottom.Location = new System.Drawing.Point(0, 663);
+            this.pnlBottom.Location = new System.Drawing.Point(0, 650);
             this.pnlBottom.Name = "pnlBottom";
-            this.pnlBottom.Size = new System.Drawing.Size(1200, 37);
+            this.pnlBottom.Size = new System.Drawing.Size(1200, 50);
             this.pnlBottom.TabIndex = 13;
             // 
             // pnlTop
             // 
             this.pnlTop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.pnlTop.Controls.Add(this.lblUser);
+            this.pnlTop.Controls.Add(this.label5);
             this.pnlTop.Controls.Add(this.btnMinimizar);
             this.pnlTop.Controls.Add(this.btnRestaurar);
             this.pnlTop.Controls.Add(this.btnMaximizar);
@@ -172,6 +188,17 @@
             this.pnlTop.Name = "pnlTop";
             this.pnlTop.Size = new System.Drawing.Size(1200, 80);
             this.pnlTop.TabIndex = 14;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Arial", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.label5.ForeColor = System.Drawing.Color.Khaki;
+            this.label5.Location = new System.Drawing.Point(42, 29);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(114, 24);
+            this.label5.TabIndex = 18;
+            this.label5.Text = "WELCOME";
             // 
             // btnMinimizar
             // 
@@ -234,17 +261,6 @@
             this.btnCerrar.Zoom = 10;
             this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
             // 
-            // pnlPrincipal
-            // 
-            this.pnlPrincipal.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pnlPrincipal.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.pnlPrincipal.Location = new System.Drawing.Point(236, 86);
-            this.pnlPrincipal.Name = "pnlPrincipal";
-            this.pnlPrincipal.Size = new System.Drawing.Size(952, 568);
-            this.pnlPrincipal.TabIndex = 15;
-            // 
             // pnlBackground
             // 
             this.pnlBackground.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -267,13 +283,24 @@
             this.bunifuElipse1.ElipseRadius = 0;
             this.bunifuElipse1.TargetControl = this;
             // 
+            // lblUser
+            // 
+            this.lblUser.AutoSize = true;
+            this.lblUser.Font = new System.Drawing.Font("Arial", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.lblUser.ForeColor = System.Drawing.Color.Khaki;
+            this.lblUser.Location = new System.Drawing.Point(189, 29);
+            this.lblUser.Name = "lblUser";
+            this.lblUser.Size = new System.Drawing.Size(108, 24);
+            this.lblUser.TabIndex = 20;
+            this.lblUser.Text = "--------------";
+            this.lblUser.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1200, 700);
             this.Controls.Add(this.pnlTop);
-            this.Controls.Add(this.pnlPrincipal);
             this.Controls.Add(this.pnlLeft);
             this.Controls.Add(this.pnlBottom);
             this.Controls.Add(this.pnlBackground);
@@ -289,6 +316,7 @@
             this.pnlLeft.ResumeLayout(false);
             this.pnlBottom.ResumeLayout(false);
             this.pnlTop.ResumeLayout(false);
+            this.pnlTop.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnRestaurar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMaximizar)).EndInit();
@@ -315,5 +343,7 @@
         private Bunifu.Framework.UI.BunifuImageButton btnMaximizar;
         private Bunifu.Framework.UI.BunifuImageButton btnCerrar;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label lblUser;
     }
 }

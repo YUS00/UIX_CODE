@@ -534,14 +534,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="UnixCode.exe" size="303072">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="UnixCode.exe" size="303584">
       <assemblyIdentity name="UnixCode" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>95j/PULmY8lr6l+X4ZaghKMah/aF+rhFGAA3IPJIX0Q=</dsig:DigestValue>
+        <dsig:DigestValue>+Ph4rIFwKG3kDIkWVVJT3+DxUb8Zlc+IgtOZ1yAy1yM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
