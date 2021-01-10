@@ -7,7 +7,7 @@ namespace unix_code
 
 
 {
-    public partial class Menu : Libreria_BaseForms.BaseForms
+    public partial class Menu : Form
     {
         public Menu(String user)
         {
@@ -16,12 +16,52 @@ namespace unix_code
             labelUsername.Text = username;
             Modelos.User.setUserName(username);
         }
-        private void button1_Click(object sender, EventArgs e)
+
+
+        private const int gridSize = 10;
+        private const int areamouse = 132;
+        private const int botonizquierdo = 17;
+        private Rectangle rectangulogrid;
+
+        protected override void OnSizeChanged(EventArgs e)
         {
-            this.Hide();
-            Muestra Muestra = new Muestra(labelUsername.Text);
-            Muestra.Show();
+            base.OnSizeChanged(e);
+
+            var region = new Region(new Rectangle(0, 0, ClientRectangle.Width, ClientRectangle.Height));
+            rectangulogrid = new Rectangle(ClientRectangle.Width - gridSize, ClientRectangle.Height - gridSize, gridSize, gridSize);
+            region.Exclude(rectangulogrid);
+
+            pnlPrincipal.Region = region;
+            Invalidate();
         }
+
+        protected override void WndProc(ref Message sms)
+        {
+
+            switch (sms.Msg)
+            {
+                case areamouse:
+                    base.WndProc(ref sms);
+
+                    var RefPoint = PointToClient(new Point(sms.LParam.ToInt32() & 0xffff, sms.LParam.ToInt32() >> 16));
+                    if (!rectangulogrid.Contains(RefPoint))
+                    {
+                        break;
+                    }
+
+                    sms.Result = new IntPtr(botonizquierdo);
+                    break;
+                default:
+                    base.WndProc(ref sms);
+                    break;
+            }
+        }
+        //private void button1_Click(object sender, EventArgs e)
+        //{
+        //    this.Hide();
+        //    Muestra Muestra = new Muestra(labelUsername.Text);
+        //    Muestra.Show();
+        //}
         //private void button5_Click(object sender, EventArgs e)
         //{
         //    Acces_bbdd basebbdd = new Acces_bbdd();

@@ -28,18 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.class11 = new Controls.Class1();
             this.label1 = new System.Windows.Forms.Label();
             this.labelUsername = new System.Windows.Forms.Label();
-            this.cerrarsesion_btn = new System.Windows.Forms.Button();
             this.tbl = new System.Windows.Forms.TableLayoutPanel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.pnlLeft = new System.Windows.Forms.Panel();
+            this.cerrarsesion_btn = new System.Windows.Forms.Button();
+            this.pnlBottom = new System.Windows.Forms.Panel();
+            this.pnlTop = new System.Windows.Forms.Panel();
+            this.pnlPrincipal = new System.Windows.Forms.Panel();
+            this.pnlBackground = new System.Windows.Forms.Panel();
+            this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.bunifuElipse2 = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
+            this.btnMinimizar = new Bunifu.Framework.UI.BunifuImageButton();
+            this.btnRestaurar = new Bunifu.Framework.UI.BunifuImageButton();
+            this.btnMaximizar = new Bunifu.Framework.UI.BunifuImageButton();
+            this.btnCerrar = new Bunifu.Framework.UI.BunifuImageButton();
+            this.class11 = new Controls.Class1();
             this.panel1.SuspendLayout();
-            this.panel3.SuspendLayout();
-            this.panel2.SuspendLayout();
+            this.pnlLeft.SuspendLayout();
+            this.pnlTop.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnRestaurar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnMaximizar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -52,18 +67,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(964, 37);
             this.panel1.TabIndex = 4;
-            // 
-            // class11
-            // 
-            this.class11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("class11.BackgroundImage")));
-            this.class11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.class11.Location = new System.Drawing.Point(913, 6);
-            this.class11.Margin = new System.Windows.Forms.Padding(4);
-            this.class11.Name = "class11";
-            this.class11.Size = new System.Drawing.Size(33, 25);
-            this.class11.TabIndex = 13;
-            this.class11.UseVisualStyleBackColor = true;
-            this.class11.Click += new System.EventHandler(this.class11_Click);
             // 
             // label1
             // 
@@ -87,30 +90,12 @@
             this.labelUsername.TabIndex = 7;
             this.labelUsername.Text = "------------";
             // 
-            // cerrarsesion_btn
-            // 
-            this.cerrarsesion_btn.BackColor = System.Drawing.Color.Black;
-            this.cerrarsesion_btn.FlatAppearance.BorderSize = 2;
-            this.cerrarsesion_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cerrarsesion_btn.Font = new System.Drawing.Font("Arial", 8.25F);
-            this.cerrarsesion_btn.ForeColor = System.Drawing.Color.Gold;
-            this.cerrarsesion_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.cerrarsesion_btn.Location = new System.Drawing.Point(1232, 0);
-            this.cerrarsesion_btn.Margin = new System.Windows.Forms.Padding(0);
-            this.cerrarsesion_btn.Name = "cerrarsesion_btn";
-            this.cerrarsesion_btn.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.cerrarsesion_btn.Size = new System.Drawing.Size(117, 35);
-            this.cerrarsesion_btn.TabIndex = 5;
-            this.cerrarsesion_btn.Text = "Cerrar sesion";
-            this.cerrarsesion_btn.UseVisualStyleBackColor = false;
-            this.cerrarsesion_btn.Click += new System.EventHandler(this.cerrarsesion_btn_Click_1);
-            // 
             // tbl
             // 
             this.tbl.BackColor = System.Drawing.Color.Transparent;
             this.tbl.ColumnCount = 1;
             this.tbl.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tbl.Location = new System.Drawing.Point(12, 18);
+            this.tbl.Location = new System.Drawing.Point(12, 12);
             this.tbl.Name = "tbl";
             this.tbl.RowCount = 8;
             this.tbl.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
@@ -121,43 +106,185 @@
             this.tbl.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
             this.tbl.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
             this.tbl.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
-            this.tbl.Size = new System.Drawing.Size(170, 617);
+            this.tbl.Size = new System.Drawing.Size(170, 627);
             this.tbl.TabIndex = 6;
             // 
-            // panel3
+            // pnlLeft
             // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.panel3.Controls.Add(this.tbl);
-            this.panel3.Location = new System.Drawing.Point(0, 39);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(200, 659);
-            this.panel3.TabIndex = 12;
+            this.pnlLeft.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.pnlLeft.Controls.Add(this.cerrarsesion_btn);
+            this.pnlLeft.Controls.Add(this.tbl);
+            this.pnlLeft.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pnlLeft.Location = new System.Drawing.Point(0, 0);
+            this.pnlLeft.Name = "pnlLeft";
+            this.pnlLeft.Size = new System.Drawing.Size(230, 700);
+            this.pnlLeft.TabIndex = 12;
             // 
-            // panel2
+            // cerrarsesion_btn
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.panel2.Controls.Add(this.cerrarsesion_btn);
-            this.panel2.Location = new System.Drawing.Point(0, 694);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1349, 35);
-            this.panel2.TabIndex = 13;
+            this.cerrarsesion_btn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.cerrarsesion_btn.BackColor = System.Drawing.Color.Black;
+            this.cerrarsesion_btn.FlatAppearance.BorderSize = 2;
+            this.cerrarsesion_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cerrarsesion_btn.Font = new System.Drawing.Font("Arial", 8.25F);
+            this.cerrarsesion_btn.ForeColor = System.Drawing.Color.Gold;
+            this.cerrarsesion_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.cerrarsesion_btn.Location = new System.Drawing.Point(12, 656);
+            this.cerrarsesion_btn.Margin = new System.Windows.Forms.Padding(0);
+            this.cerrarsesion_btn.Name = "cerrarsesion_btn";
+            this.cerrarsesion_btn.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.cerrarsesion_btn.Size = new System.Drawing.Size(117, 35);
+            this.cerrarsesion_btn.TabIndex = 5;
+            this.cerrarsesion_btn.Text = "Cerrar sesion";
+            this.cerrarsesion_btn.UseVisualStyleBackColor = false;
+            this.cerrarsesion_btn.Click += new System.EventHandler(this.cerrarsesion_btn_Click_1);
+            // 
+            // pnlBottom
+            // 
+            this.pnlBottom.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.pnlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnlBottom.Location = new System.Drawing.Point(230, 663);
+            this.pnlBottom.Name = "pnlBottom";
+            this.pnlBottom.Size = new System.Drawing.Size(970, 37);
+            this.pnlBottom.TabIndex = 13;
+            // 
+            // pnlTop
+            // 
+            this.pnlTop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.pnlTop.Controls.Add(this.btnMinimizar);
+            this.pnlTop.Controls.Add(this.btnRestaurar);
+            this.pnlTop.Controls.Add(this.btnMaximizar);
+            this.pnlTop.Controls.Add(this.btnCerrar);
+            this.pnlTop.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlTop.Location = new System.Drawing.Point(230, 0);
+            this.pnlTop.Name = "pnlTop";
+            this.pnlTop.Size = new System.Drawing.Size(970, 80);
+            this.pnlTop.TabIndex = 14;
+            // 
+            // pnlPrincipal
+            // 
+            this.pnlPrincipal.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pnlPrincipal.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.pnlPrincipal.Location = new System.Drawing.Point(236, 86);
+            this.pnlPrincipal.Name = "pnlPrincipal";
+            this.pnlPrincipal.Size = new System.Drawing.Size(952, 568);
+            this.pnlPrincipal.TabIndex = 15;
+            // 
+            // pnlBackground
+            // 
+            this.pnlBackground.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlBackground.Location = new System.Drawing.Point(0, 0);
+            this.pnlBackground.Name = "pnlBackground";
+            this.pnlBackground.Size = new System.Drawing.Size(1200, 700);
+            this.pnlBackground.TabIndex = 16;
+            // 
+            // bunifuElipse1
+            // 
+            this.bunifuElipse1.ElipseRadius = 15;
+            this.bunifuElipse1.TargetControl = this;
+            // 
+            // bunifuElipse2
+            // 
+            this.bunifuElipse2.ElipseRadius = 15;
+            this.bunifuElipse2.TargetControl = this.pnlPrincipal;
+            // 
+            // bunifuDragControl1
+            // 
+            this.bunifuDragControl1.Fixed = true;
+            this.bunifuDragControl1.Horizontal = true;
+            this.bunifuDragControl1.TargetControl = this.pnlTop;
+            this.bunifuDragControl1.Vertical = true;
+            // 
+            // btnMinimizar
+            // 
+            this.btnMinimizar.BackColor = System.Drawing.Color.Transparent;
+            this.btnMinimizar.Image = global::UnixCode.Properties.Resources.minimizeRounded;
+            this.btnMinimizar.ImageActive = null;
+            this.btnMinimizar.Location = new System.Drawing.Point(780, 12);
+            this.btnMinimizar.Name = "btnMinimizar";
+            this.btnMinimizar.Size = new System.Drawing.Size(40, 40);
+            this.btnMinimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnMinimizar.TabIndex = 3;
+            this.btnMinimizar.TabStop = false;
+            this.btnMinimizar.Zoom = 10;
+            // 
+            // btnRestaurar
+            // 
+            this.btnRestaurar.BackColor = System.Drawing.Color.Transparent;
+            this.btnRestaurar.Image = global::UnixCode.Properties.Resources.minSquare;
+            this.btnRestaurar.ImageActive = null;
+            this.btnRestaurar.Location = new System.Drawing.Point(826, 12);
+            this.btnRestaurar.Name = "btnRestaurar";
+            this.btnRestaurar.Size = new System.Drawing.Size(40, 40);
+            this.btnRestaurar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnRestaurar.TabIndex = 2;
+            this.btnRestaurar.TabStop = false;
+            this.btnRestaurar.Zoom = 10;
+            // 
+            // btnMaximizar
+            // 
+            this.btnMaximizar.BackColor = System.Drawing.Color.Transparent;
+            this.btnMaximizar.Image = global::UnixCode.Properties.Resources.maxSquare;
+            this.btnMaximizar.ImageActive = null;
+            this.btnMaximizar.Location = new System.Drawing.Point(872, 12);
+            this.btnMaximizar.Name = "btnMaximizar";
+            this.btnMaximizar.Size = new System.Drawing.Size(40, 40);
+            this.btnMaximizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnMaximizar.TabIndex = 1;
+            this.btnMaximizar.TabStop = false;
+            this.btnMaximizar.Zoom = 10;
+            // 
+            // btnCerrar
+            // 
+            this.btnCerrar.BackColor = System.Drawing.Color.Transparent;
+            this.btnCerrar.Image = global::UnixCode.Properties.Resources.close;
+            this.btnCerrar.ImageActive = null;
+            this.btnCerrar.Location = new System.Drawing.Point(918, 12);
+            this.btnCerrar.Name = "btnCerrar";
+            this.btnCerrar.Size = new System.Drawing.Size(40, 40);
+            this.btnCerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnCerrar.TabIndex = 0;
+            this.btnCerrar.TabStop = false;
+            this.btnCerrar.Zoom = 10;
+            // 
+            // class11
+            // 
+            this.class11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("class11.BackgroundImage")));
+            this.class11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.class11.Location = new System.Drawing.Point(913, 6);
+            this.class11.Margin = new System.Windows.Forms.Padding(4);
+            this.class11.Name = "class11";
+            this.class11.Size = new System.Drawing.Size(33, 25);
+            this.class11.TabIndex = 13;
+            this.class11.UseVisualStyleBackColor = true;
+            this.class11.Click += new System.EventHandler(this.class11_Click);
             // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1200, 700);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.pnlPrincipal);
+            this.Controls.Add(this.pnlTop);
+            this.Controls.Add(this.pnlBottom);
+            this.Controls.Add(this.pnlLeft);
+            this.Controls.Add(this.pnlBackground);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.MinimumSize = new System.Drawing.Size(960, 480);
             this.Name = "Menu";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.Menu_Load);
-            this.Controls.SetChildIndex(this.panel3, 0);
-            this.Controls.SetChildIndex(this.panel2, 0);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
+            this.pnlLeft.ResumeLayout(false);
+            this.pnlTop.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnRestaurar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnMaximizar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -167,9 +294,19 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label labelUsername;
         private Controls.Class1 class11;
-        private System.Windows.Forms.Button cerrarsesion_btn;
         private System.Windows.Forms.TableLayoutPanel tbl;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel pnlLeft;
+        private System.Windows.Forms.Button cerrarsesion_btn;
+        private System.Windows.Forms.Panel pnlBottom;
+        private System.Windows.Forms.Panel pnlTop;
+        private System.Windows.Forms.Panel pnlPrincipal;
+        private System.Windows.Forms.Panel pnlBackground;
+        private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
+        private Bunifu.Framework.UI.BunifuElipse bunifuElipse2;
+        private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl1;
+        private Bunifu.Framework.UI.BunifuImageButton btnMinimizar;
+        private Bunifu.Framework.UI.BunifuImageButton btnRestaurar;
+        private Bunifu.Framework.UI.BunifuImageButton btnMaximizar;
+        private Bunifu.Framework.UI.BunifuImageButton btnCerrar;
     }
 }
