@@ -30,21 +30,20 @@ namespace unix_code
             var region = new Region(new Rectangle(0, 0, ClientRectangle.Width, ClientRectangle.Height));
             rectangulogrid = new Rectangle(ClientRectangle.Width - gridSize, ClientRectangle.Height - gridSize, gridSize, gridSize);
             region.Exclude(rectangulogrid);
-
             pnlPrincipal.Region = region;
             Invalidate();
         }
 
         protected override void WndProc(ref Message sms)
         {
-
+            base.WndProc(ref sms);
             switch (sms.Msg)
             {
                 case areamouse:
                     base.WndProc(ref sms);
 
                     var RefPoint = PointToClient(new Point(sms.LParam.ToInt32() & 0xffff, sms.LParam.ToInt32() >> 16));
-                    if (!rectangulogrid.Contains(RefPoint))
+                    if (rectangulogrid.Contains(RefPoint))
                     {
                         break;
                     }
@@ -56,6 +55,15 @@ namespace unix_code
                     break;
             }
         }
+
+        protected override void OnPaint(PaintEventArgs e)
+        {
+            SolidBrush solidBrush = new SolidBrush(Color.FromArgb(55, 61, 69));
+            e.Graphics.FillRectangle(solidBrush, rectangulogrid);
+            base.OnPaint(e);
+            ControlPaint.DrawSizeGrip(e.Graphics, Color.Transparent, rectangulogrid);
+        }
+
         //private void button1_Click(object sender, EventArgs e)
         //{
         //    this.Hide();

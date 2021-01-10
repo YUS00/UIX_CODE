@@ -31,6 +31,7 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.class11 = new Controls.Class1();
             this.label1 = new System.Windows.Forms.Label();
             this.labelUsername = new System.Windows.Forms.Label();
             this.tbl = new System.Windows.Forms.TableLayoutPanel();
@@ -38,16 +39,14 @@
             this.cerrarsesion_btn = new System.Windows.Forms.Button();
             this.pnlBottom = new System.Windows.Forms.Panel();
             this.pnlTop = new System.Windows.Forms.Panel();
-            this.pnlPrincipal = new System.Windows.Forms.Panel();
-            this.pnlBackground = new System.Windows.Forms.Panel();
-            this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.bunifuElipse2 = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.btnMinimizar = new Bunifu.Framework.UI.BunifuImageButton();
             this.btnRestaurar = new Bunifu.Framework.UI.BunifuImageButton();
             this.btnMaximizar = new Bunifu.Framework.UI.BunifuImageButton();
             this.btnCerrar = new Bunifu.Framework.UI.BunifuImageButton();
-            this.class11 = new Controls.Class1();
+            this.pnlPrincipal = new System.Windows.Forms.Panel();
+            this.pnlBackground = new System.Windows.Forms.Panel();
+            this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
+            this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.panel1.SuspendLayout();
             this.pnlLeft.SuspendLayout();
             this.pnlTop.SuspendLayout();
@@ -67,6 +66,18 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(964, 37);
             this.panel1.TabIndex = 4;
+            // 
+            // class11
+            // 
+            this.class11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("class11.BackgroundImage")));
+            this.class11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.class11.Location = new System.Drawing.Point(913, 6);
+            this.class11.Margin = new System.Windows.Forms.Padding(4);
+            this.class11.Name = "class11";
+            this.class11.Size = new System.Drawing.Size(33, 25);
+            this.class11.TabIndex = 13;
+            this.class11.UseVisualStyleBackColor = true;
+            this.class11.Click += new System.EventHandler(this.class11_Click);
             // 
             // label1
             // 
@@ -117,7 +128,7 @@
             this.pnlLeft.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnlLeft.Location = new System.Drawing.Point(0, 0);
             this.pnlLeft.Name = "pnlLeft";
-            this.pnlLeft.Size = new System.Drawing.Size(230, 700);
+            this.pnlLeft.Size = new System.Drawing.Size(230, 663);
             this.pnlLeft.TabIndex = 12;
             // 
             // cerrarsesion_btn
@@ -129,7 +140,7 @@
             this.cerrarsesion_btn.Font = new System.Drawing.Font("Arial", 8.25F);
             this.cerrarsesion_btn.ForeColor = System.Drawing.Color.Gold;
             this.cerrarsesion_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.cerrarsesion_btn.Location = new System.Drawing.Point(12, 656);
+            this.cerrarsesion_btn.Location = new System.Drawing.Point(12, 619);
             this.cerrarsesion_btn.Margin = new System.Windows.Forms.Padding(0);
             this.cerrarsesion_btn.Name = "cerrarsesion_btn";
             this.cerrarsesion_btn.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -143,9 +154,9 @@
             // 
             this.pnlBottom.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
             this.pnlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlBottom.Location = new System.Drawing.Point(230, 663);
+            this.pnlBottom.Location = new System.Drawing.Point(0, 663);
             this.pnlBottom.Name = "pnlBottom";
-            this.pnlBottom.Size = new System.Drawing.Size(970, 37);
+            this.pnlBottom.Size = new System.Drawing.Size(1200, 37);
             this.pnlBottom.TabIndex = 13;
             // 
             // pnlTop
@@ -160,42 +171,6 @@
             this.pnlTop.Name = "pnlTop";
             this.pnlTop.Size = new System.Drawing.Size(970, 80);
             this.pnlTop.TabIndex = 14;
-            // 
-            // pnlPrincipal
-            // 
-            this.pnlPrincipal.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pnlPrincipal.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.pnlPrincipal.Location = new System.Drawing.Point(236, 86);
-            this.pnlPrincipal.Name = "pnlPrincipal";
-            this.pnlPrincipal.Size = new System.Drawing.Size(952, 568);
-            this.pnlPrincipal.TabIndex = 15;
-            // 
-            // pnlBackground
-            // 
-            this.pnlBackground.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlBackground.Location = new System.Drawing.Point(0, 0);
-            this.pnlBackground.Name = "pnlBackground";
-            this.pnlBackground.Size = new System.Drawing.Size(1200, 700);
-            this.pnlBackground.TabIndex = 16;
-            // 
-            // bunifuElipse1
-            // 
-            this.bunifuElipse1.ElipseRadius = 15;
-            this.bunifuElipse1.TargetControl = this;
-            // 
-            // bunifuElipse2
-            // 
-            this.bunifuElipse2.ElipseRadius = 15;
-            this.bunifuElipse2.TargetControl = this.pnlPrincipal;
-            // 
-            // bunifuDragControl1
-            // 
-            this.bunifuDragControl1.Fixed = true;
-            this.bunifuDragControl1.Horizontal = true;
-            this.bunifuDragControl1.TargetControl = this.pnlTop;
-            this.bunifuDragControl1.Vertical = true;
             // 
             // btnMinimizar
             // 
@@ -249,17 +224,36 @@
             this.btnCerrar.TabStop = false;
             this.btnCerrar.Zoom = 10;
             // 
-            // class11
+            // pnlPrincipal
             // 
-            this.class11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("class11.BackgroundImage")));
-            this.class11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.class11.Location = new System.Drawing.Point(913, 6);
-            this.class11.Margin = new System.Windows.Forms.Padding(4);
-            this.class11.Name = "class11";
-            this.class11.Size = new System.Drawing.Size(33, 25);
-            this.class11.TabIndex = 13;
-            this.class11.UseVisualStyleBackColor = true;
-            this.class11.Click += new System.EventHandler(this.class11_Click);
+            this.pnlPrincipal.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pnlPrincipal.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.pnlPrincipal.Location = new System.Drawing.Point(236, 86);
+            this.pnlPrincipal.Name = "pnlPrincipal";
+            this.pnlPrincipal.Size = new System.Drawing.Size(952, 568);
+            this.pnlPrincipal.TabIndex = 15;
+            // 
+            // pnlBackground
+            // 
+            this.pnlBackground.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlBackground.Location = new System.Drawing.Point(0, 0);
+            this.pnlBackground.Name = "pnlBackground";
+            this.pnlBackground.Size = new System.Drawing.Size(1200, 700);
+            this.pnlBackground.TabIndex = 16;
+            // 
+            // bunifuDragControl1
+            // 
+            this.bunifuDragControl1.Fixed = true;
+            this.bunifuDragControl1.Horizontal = true;
+            this.bunifuDragControl1.TargetControl = this.pnlTop;
+            this.bunifuDragControl1.Vertical = true;
+            // 
+            // bunifuElipse1
+            // 
+            this.bunifuElipse1.ElipseRadius = 0;
+            this.bunifuElipse1.TargetControl = this;
             // 
             // Menu
             // 
@@ -268,8 +262,8 @@
             this.ClientSize = new System.Drawing.Size(1200, 700);
             this.Controls.Add(this.pnlPrincipal);
             this.Controls.Add(this.pnlTop);
-            this.Controls.Add(this.pnlBottom);
             this.Controls.Add(this.pnlLeft);
+            this.Controls.Add(this.pnlBottom);
             this.Controls.Add(this.pnlBackground);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -301,12 +295,11 @@
         private System.Windows.Forms.Panel pnlTop;
         private System.Windows.Forms.Panel pnlPrincipal;
         private System.Windows.Forms.Panel pnlBackground;
-        private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
-        private Bunifu.Framework.UI.BunifuElipse bunifuElipse2;
         private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl1;
         private Bunifu.Framework.UI.BunifuImageButton btnMinimizar;
         private Bunifu.Framework.UI.BunifuImageButton btnRestaurar;
         private Bunifu.Framework.UI.BunifuImageButton btnMaximizar;
         private Bunifu.Framework.UI.BunifuImageButton btnCerrar;
+        private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
     }
 }
