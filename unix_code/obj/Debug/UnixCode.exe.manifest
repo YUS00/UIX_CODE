@@ -438,14 +438,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Libreria_BaseForms.dll" size="167424">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Libreria_BaseForms.dll" size="166400">
       <assemblyIdentity name="Libreria_BaseForms" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Zkur1ZopMcP3+w6oLuvnTSlD6z1zB+usk9kVMhkOL+M=</dsig:DigestValue>
+        <dsig:DigestValue>cwU2p3ypULhsMq0ITikm8RPPKreaUcTgjouLVWjytvE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

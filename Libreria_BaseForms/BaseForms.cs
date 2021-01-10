@@ -9,8 +9,27 @@ namespace Libreria_BaseForms
         public BaseForms()
         {
             InitializeComponent();
-            this.labelUsername.Text = Modelos.User.getUserName();
         }
+
+        int locationX, locationY;
+        int formWidth, formHeight;
+
+        
+
+        private void btnMinimizar_Click(object sender, EventArgs e)
+        {
+            WindowState = FormWindowState.Minimized;
+        }
+
+        private void btnCerrar_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("The application will be closed, do you agree?", "Alert!", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+        }
+
+        
 
         //private const int gridSize = 10;
         //private const int areamouse = 132;
