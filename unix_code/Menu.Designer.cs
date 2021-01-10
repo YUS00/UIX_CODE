@@ -49,6 +49,7 @@
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.panel1.SuspendLayout();
             this.pnlLeft.SuspendLayout();
+            this.pnlBottom.SuspendLayout();
             this.pnlTop.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnRestaurar)).BeginInit();
@@ -106,7 +107,7 @@
             this.tbl.BackColor = System.Drawing.Color.Transparent;
             this.tbl.ColumnCount = 1;
             this.tbl.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tbl.Location = new System.Drawing.Point(12, 12);
+            this.tbl.Location = new System.Drawing.Point(34, 106);
             this.tbl.Name = "tbl";
             this.tbl.RowCount = 8;
             this.tbl.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
@@ -117,18 +118,17 @@
             this.tbl.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
             this.tbl.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
             this.tbl.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
-            this.tbl.Size = new System.Drawing.Size(170, 627);
+            this.tbl.Size = new System.Drawing.Size(170, 533);
             this.tbl.TabIndex = 6;
             // 
             // pnlLeft
             // 
             this.pnlLeft.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.pnlLeft.Controls.Add(this.cerrarsesion_btn);
             this.pnlLeft.Controls.Add(this.tbl);
-            this.pnlLeft.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pnlLeft.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlLeft.Location = new System.Drawing.Point(0, 0);
             this.pnlLeft.Name = "pnlLeft";
-            this.pnlLeft.Size = new System.Drawing.Size(230, 663);
+            this.pnlLeft.Size = new System.Drawing.Size(1200, 663);
             this.pnlLeft.TabIndex = 12;
             // 
             // cerrarsesion_btn
@@ -140,11 +140,11 @@
             this.cerrarsesion_btn.Font = new System.Drawing.Font("Arial", 8.25F);
             this.cerrarsesion_btn.ForeColor = System.Drawing.Color.Gold;
             this.cerrarsesion_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.cerrarsesion_btn.Location = new System.Drawing.Point(12, 619);
+            this.cerrarsesion_btn.Location = new System.Drawing.Point(0, 3);
             this.cerrarsesion_btn.Margin = new System.Windows.Forms.Padding(0);
             this.cerrarsesion_btn.Name = "cerrarsesion_btn";
             this.cerrarsesion_btn.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.cerrarsesion_btn.Size = new System.Drawing.Size(117, 35);
+            this.cerrarsesion_btn.Size = new System.Drawing.Size(117, 34);
             this.cerrarsesion_btn.TabIndex = 5;
             this.cerrarsesion_btn.Text = "Cerrar sesion";
             this.cerrarsesion_btn.UseVisualStyleBackColor = false;
@@ -153,6 +153,7 @@
             // pnlBottom
             // 
             this.pnlBottom.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.pnlBottom.Controls.Add(this.cerrarsesion_btn);
             this.pnlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.pnlBottom.Location = new System.Drawing.Point(0, 663);
             this.pnlBottom.Name = "pnlBottom";
@@ -167,62 +168,71 @@
             this.pnlTop.Controls.Add(this.btnMaximizar);
             this.pnlTop.Controls.Add(this.btnCerrar);
             this.pnlTop.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlTop.Location = new System.Drawing.Point(230, 0);
+            this.pnlTop.Location = new System.Drawing.Point(0, 0);
             this.pnlTop.Name = "pnlTop";
-            this.pnlTop.Size = new System.Drawing.Size(970, 80);
+            this.pnlTop.Size = new System.Drawing.Size(1200, 80);
             this.pnlTop.TabIndex = 14;
             // 
             // btnMinimizar
             // 
+            this.btnMinimizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnMinimizar.BackColor = System.Drawing.Color.Transparent;
             this.btnMinimizar.Image = global::UnixCode.Properties.Resources.minimizeRounded;
             this.btnMinimizar.ImageActive = null;
-            this.btnMinimizar.Location = new System.Drawing.Point(780, 12);
+            this.btnMinimizar.Location = new System.Drawing.Point(1056, 12);
             this.btnMinimizar.Name = "btnMinimizar";
             this.btnMinimizar.Size = new System.Drawing.Size(40, 40);
             this.btnMinimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnMinimizar.TabIndex = 3;
             this.btnMinimizar.TabStop = false;
             this.btnMinimizar.Zoom = 10;
+            this.btnMinimizar.Click += new System.EventHandler(this.btnMinimizar_Click);
             // 
             // btnRestaurar
             // 
+            this.btnRestaurar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnRestaurar.BackColor = System.Drawing.Color.Transparent;
             this.btnRestaurar.Image = global::UnixCode.Properties.Resources.minSquare;
             this.btnRestaurar.ImageActive = null;
-            this.btnRestaurar.Location = new System.Drawing.Point(826, 12);
+            this.btnRestaurar.Location = new System.Drawing.Point(1102, 12);
             this.btnRestaurar.Name = "btnRestaurar";
             this.btnRestaurar.Size = new System.Drawing.Size(40, 40);
             this.btnRestaurar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnRestaurar.TabIndex = 2;
             this.btnRestaurar.TabStop = false;
+            this.btnRestaurar.Visible = false;
             this.btnRestaurar.Zoom = 10;
+            this.btnRestaurar.Click += new System.EventHandler(this.btnRestaurar_Click);
             // 
             // btnMaximizar
             // 
+            this.btnMaximizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnMaximizar.BackColor = System.Drawing.Color.Transparent;
             this.btnMaximizar.Image = global::UnixCode.Properties.Resources.maxSquare;
             this.btnMaximizar.ImageActive = null;
-            this.btnMaximizar.Location = new System.Drawing.Point(872, 12);
+            this.btnMaximizar.Location = new System.Drawing.Point(1102, 12);
             this.btnMaximizar.Name = "btnMaximizar";
             this.btnMaximizar.Size = new System.Drawing.Size(40, 40);
             this.btnMaximizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnMaximizar.TabIndex = 1;
             this.btnMaximizar.TabStop = false;
             this.btnMaximizar.Zoom = 10;
+            this.btnMaximizar.Click += new System.EventHandler(this.btnMaximizar_Click);
             // 
             // btnCerrar
             // 
+            this.btnCerrar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnCerrar.BackColor = System.Drawing.Color.Transparent;
             this.btnCerrar.Image = global::UnixCode.Properties.Resources.close;
             this.btnCerrar.ImageActive = null;
-            this.btnCerrar.Location = new System.Drawing.Point(918, 12);
+            this.btnCerrar.Location = new System.Drawing.Point(1148, 12);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(40, 40);
             this.btnCerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnCerrar.TabIndex = 0;
             this.btnCerrar.TabStop = false;
             this.btnCerrar.Zoom = 10;
+            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
             // 
             // pnlPrincipal
             // 
@@ -237,7 +247,9 @@
             // 
             // pnlBackground
             // 
-            this.pnlBackground.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlBackground.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.pnlBackground.Location = new System.Drawing.Point(0, 0);
             this.pnlBackground.Name = "pnlBackground";
             this.pnlBackground.Size = new System.Drawing.Size(1200, 700);
@@ -260,8 +272,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1200, 700);
-            this.Controls.Add(this.pnlPrincipal);
             this.Controls.Add(this.pnlTop);
+            this.Controls.Add(this.pnlPrincipal);
             this.Controls.Add(this.pnlLeft);
             this.Controls.Add(this.pnlBottom);
             this.Controls.Add(this.pnlBackground);
@@ -269,11 +281,13 @@
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MinimumSize = new System.Drawing.Size(960, 480);
             this.Name = "Menu";
+            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.Menu_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.pnlLeft.ResumeLayout(false);
+            this.pnlBottom.ResumeLayout(false);
             this.pnlTop.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnRestaurar)).EndInit();
