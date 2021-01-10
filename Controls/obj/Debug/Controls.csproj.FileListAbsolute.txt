@@ -26,3 +26,4 @@ C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\Controls\obj\Debug\Con
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\Controls\obj\Debug\Controls.csproj.CoreCompileInputs.cache
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\Controls\obj\Debug\Controls.dll
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\Controls\obj\Debug\Controls.pdb
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\Controls\obj\Debug\Controls.csprojAssemblyReference.cache

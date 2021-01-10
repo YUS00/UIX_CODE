@@ -426,14 +426,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Libreria_BaseForms.dll" size="48640">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Libreria_BaseForms.dll" size="49152">
       <assemblyIdentity name="Libreria_BaseForms" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>sME9+/6ZoK+SJ+OqJSsrlzRPtXqr+6r4AeqGt/4GHDs=</dsig:DigestValue>
+        <dsig:DigestValue>G/jNIYFcPB2wcDBYWZOb1DaJws5zb2c3j4N8K5G94/k=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -522,14 +522,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="UnixCode.exe" size="276448">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="UnixCode.exe" size="238048">
       <assemblyIdentity name="UnixCode" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>wkw+bMNeLlygmBn2ooN6l2CqI5HMDUQzmDt03DQqkBM=</dsig:DigestValue>
+        <dsig:DigestValue>NirK1YRohKUDhb2FvQNqhwPXeEcd/4moa8EdDWuVLIw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -3,3 +3,4 @@ C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\Modelos\bin\Debug\Mode
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\Modelos\obj\Debug\Modelos.csproj.CoreCompileInputs.cache
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\Modelos\obj\Debug\Modelos.dll
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\Modelos\obj\Debug\Modelos.pdb
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\Modelos\obj\Debug\Modelos.csprojAssemblyReference.cache
