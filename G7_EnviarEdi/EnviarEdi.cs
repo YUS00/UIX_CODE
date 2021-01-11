@@ -7,7 +7,7 @@ using System.Threading;
 
 namespace G7_EnviarEdi
 {
-    public partial class EnviarEdi : Form
+    public partial class EnviarEdi : Libreria_BaseForms.BaseFormVentana
     {
         public EnviarEdi()
         {

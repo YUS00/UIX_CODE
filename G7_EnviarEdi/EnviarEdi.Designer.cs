@@ -43,7 +43,8 @@
             // lblServer
             // 
             this.lblServer.AutoSize = true;
-            this.lblServer.Location = new System.Drawing.Point(62, 43);
+            this.lblServer.ForeColor = System.Drawing.Color.Gold;
+            this.lblServer.Location = new System.Drawing.Point(66, 124);
             this.lblServer.Name = "lblServer";
             this.lblServer.Size = new System.Drawing.Size(54, 17);
             this.lblServer.TabIndex = 0;
@@ -51,14 +52,15 @@
             // 
             // txtServer
             // 
-            this.txtServer.Location = new System.Drawing.Point(122, 43);
+            this.txtServer.Location = new System.Drawing.Point(126, 124);
             this.txtServer.Name = "txtServer";
             this.txtServer.Size = new System.Drawing.Size(293, 22);
             this.txtServer.TabIndex = 1;
+            this.txtServer.Text = "ftp://127.0.0.1";
             // 
             // txtUsername
             // 
-            this.txtUsername.Location = new System.Drawing.Point(122, 71);
+            this.txtUsername.Location = new System.Drawing.Point(126, 152);
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(293, 22);
             this.txtUsername.TabIndex = 3;
@@ -66,7 +68,8 @@
             // lblUsername
             // 
             this.lblUsername.AutoSize = true;
-            this.lblUsername.Location = new System.Drawing.Point(43, 71);
+            this.lblUsername.ForeColor = System.Drawing.Color.Gold;
+            this.lblUsername.Location = new System.Drawing.Point(47, 152);
             this.lblUsername.Name = "lblUsername";
             this.lblUsername.Size = new System.Drawing.Size(73, 17);
             this.lblUsername.TabIndex = 2;
@@ -74,7 +77,7 @@
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(122, 99);
+            this.txtPassword.Location = new System.Drawing.Point(126, 180);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(293, 22);
@@ -83,7 +86,8 @@
             // lblPassword
             // 
             this.lblPassword.AutoSize = true;
-            this.lblPassword.Location = new System.Drawing.Point(43, 99);
+            this.lblPassword.ForeColor = System.Drawing.Color.Gold;
+            this.lblPassword.Location = new System.Drawing.Point(47, 180);
             this.lblPassword.Name = "lblPassword";
             this.lblPassword.Size = new System.Drawing.Size(73, 17);
             this.lblPassword.TabIndex = 4;
@@ -91,7 +95,7 @@
             // 
             // btnUpload
             // 
-            this.btnUpload.Location = new System.Drawing.Point(557, 83);
+            this.btnUpload.Location = new System.Drawing.Point(561, 164);
             this.btnUpload.Name = "btnUpload";
             this.btnUpload.Size = new System.Drawing.Size(98, 38);
             this.btnUpload.TabIndex = 6;
@@ -109,15 +113,16 @@
             // 
             // progressBar
             // 
-            this.progressBar.Location = new System.Drawing.Point(46, 152);
+            this.progressBar.Location = new System.Drawing.Point(50, 247);
             this.progressBar.Name = "progressBar";
-            this.progressBar.Size = new System.Drawing.Size(702, 37);
+            this.progressBar.Size = new System.Drawing.Size(702, 23);
             this.progressBar.TabIndex = 7;
             // 
             // lblStatus
             // 
             this.lblStatus.AutoSize = true;
-            this.lblStatus.Location = new System.Drawing.Point(352, 214);
+            this.lblStatus.ForeColor = System.Drawing.Color.Gold;
+            this.lblStatus.Location = new System.Drawing.Point(356, 295);
             this.lblStatus.Name = "lblStatus";
             this.lblStatus.Size = new System.Drawing.Size(93, 17);
             this.lblStatus.TabIndex = 8;
@@ -127,7 +132,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 259);
+            this.ClientSize = new System.Drawing.Size(800, 339);
             this.Controls.Add(this.lblStatus);
             this.Controls.Add(this.progressBar);
             this.Controls.Add(this.btnUpload);
@@ -139,6 +144,15 @@
             this.Controls.Add(this.lblServer);
             this.Name = "EnviarEdi";
             this.Text = "EnviarEdi";
+            this.Controls.SetChildIndex(this.lblServer, 0);
+            this.Controls.SetChildIndex(this.txtServer, 0);
+            this.Controls.SetChildIndex(this.lblUsername, 0);
+            this.Controls.SetChildIndex(this.txtUsername, 0);
+            this.Controls.SetChildIndex(this.lblPassword, 0);
+            this.Controls.SetChildIndex(this.txtPassword, 0);
+            this.Controls.SetChildIndex(this.btnUpload, 0);
+            this.Controls.SetChildIndex(this.progressBar, 0);
+            this.Controls.SetChildIndex(this.lblStatus, 0);
             this.ResumeLayout(false);
             this.PerformLayout();
 

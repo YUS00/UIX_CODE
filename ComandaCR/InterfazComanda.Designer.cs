@@ -46,7 +46,7 @@
             this.crystalReportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.crystalReportViewer1.Location = new System.Drawing.Point(0, 0);
             this.crystalReportViewer1.Name = "crystalReportViewer1";
-            this.crystalReportViewer1.Size = new System.Drawing.Size(703, 132);
+            this.crystalReportViewer1.Size = new System.Drawing.Size(703, 179);
             this.crystalReportViewer1.TabIndex = 0;
             this.crystalReportViewer1.ToolPanelView = CrystalDecisions.Windows.Forms.ToolPanelViewType.None;
             // 
@@ -60,7 +60,7 @@
             this.crystalReportViewer2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.crystalReportViewer2.Location = new System.Drawing.Point(0, 0);
             this.crystalReportViewer2.Name = "crystalReportViewer2";
-            this.crystalReportViewer2.Size = new System.Drawing.Size(703, 132);
+            this.crystalReportViewer2.Size = new System.Drawing.Size(703, 179);
             this.crystalReportViewer2.TabIndex = 1;
             this.crystalReportViewer2.ToolPanelView = CrystalDecisions.Windows.Forms.ToolPanelViewType.None;
             // 
@@ -69,7 +69,7 @@
             this.swtCodeOrder.Campo_obligatorio = false;
             this.swtCodeOrder.CampoBBDD = null;
             this.swtCodeOrder.ForeignKey = false;
-            this.swtCodeOrder.Location = new System.Drawing.Point(250, 36);
+            this.swtCodeOrder.Location = new System.Drawing.Point(266, 98);
             this.swtCodeOrder.Name = "swtCodeOrder";
             this.swtCodeOrder.Size = new System.Drawing.Size(143, 22);
             this.swtCodeOrder.TabIndex = 3;
@@ -78,7 +78,8 @@
             // lblCodeOrder
             // 
             this.lblCodeOrder.AutoSize = true;
-            this.lblCodeOrder.Location = new System.Drawing.Point(130, 39);
+            this.lblCodeOrder.ForeColor = System.Drawing.Color.Gold;
+            this.lblCodeOrder.Location = new System.Drawing.Point(146, 101);
             this.lblCodeOrder.Name = "lblCodeOrder";
             this.lblCodeOrder.Size = new System.Drawing.Size(105, 17);
             this.lblCodeOrder.TabIndex = 4;
@@ -86,7 +87,7 @@
             // 
             // btnDisplayReport
             // 
-            this.btnDisplayReport.Location = new System.Drawing.Point(424, 28);
+            this.btnDisplayReport.Location = new System.Drawing.Point(440, 90);
             this.btnDisplayReport.Name = "btnDisplayReport";
             this.btnDisplayReport.Size = new System.Drawing.Size(152, 38);
             this.btnDisplayReport.TabIndex = 5;
@@ -98,7 +99,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(703, 132);
+            this.ClientSize = new System.Drawing.Size(703, 179);
             this.Controls.Add(this.btnDisplayReport);
             this.Controls.Add(this.lblCodeOrder);
             this.Controls.Add(this.swtCodeOrder);
@@ -106,6 +107,11 @@
             this.Controls.Add(this.crystalReportViewer1);
             this.Name = "InterfazComanda";
             this.Text = "InterfazComanda";
+            this.Controls.SetChildIndex(this.crystalReportViewer1, 0);
+            this.Controls.SetChildIndex(this.crystalReportViewer2, 0);
+            this.Controls.SetChildIndex(this.swtCodeOrder, 0);
+            this.Controls.SetChildIndex(this.lblCodeOrder, 0);
+            this.Controls.SetChildIndex(this.btnDisplayReport, 0);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -42,7 +42,7 @@
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(360, 97);
+            this.pictureBox2.Location = new System.Drawing.Point(347, 97);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(286, 215);
@@ -52,10 +52,12 @@
             // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(276, 487);
+            this.progressBar1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.progressBar1.ForeColor = System.Drawing.Color.Gold;
+            this.progressBar1.Location = new System.Drawing.Point(0, 548);
             this.progressBar1.Margin = new System.Windows.Forms.Padding(4);
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(416, 18);
+            this.progressBar1.Size = new System.Drawing.Size(952, 10);
             this.progressBar1.TabIndex = 16;
             // 
             // timer1

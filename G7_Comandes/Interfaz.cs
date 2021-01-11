@@ -5,7 +5,7 @@ using System.Windows.Forms;
 
 namespace G7_Comandes
 {
-    public partial class Interfaz : Libreria_BaseForms.BaseForms
+    public partial class Interfaz : Libreria_BaseForms.BaseFormVentana
     {
         public Interfaz()
         {

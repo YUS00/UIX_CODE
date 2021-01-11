@@ -92,6 +92,10 @@
       <Project>{A1F21818-5A6D-43E1-B699-2F36859C4CFE}</Project>
       <Name>LibreriaClases</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Libreria_BaseForms\Libreria_BaseForms.csproj">
+      <Project>{09319958-7623-4470-80b8-5ad571210457}</Project>
+      <Name>Libreria_BaseForms</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

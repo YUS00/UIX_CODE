@@ -12,7 +12,7 @@ using System.Windows.Forms;
 
 namespace DescargarEdi
 {
-    public partial class InterfazDescarga : Form
+    public partial class InterfazDescarga : Libreria_BaseForms.BaseFormVentana
     {
         public InterfazDescarga()
         {

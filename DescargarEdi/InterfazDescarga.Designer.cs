@@ -36,7 +36,7 @@
             // 
             // btnDownload
             // 
-            this.btnDownload.Location = new System.Drawing.Point(142, 178);
+            this.btnDownload.Location = new System.Drawing.Point(139, 231);
             this.btnDownload.Name = "btnDownload";
             this.btnDownload.Size = new System.Drawing.Size(134, 40);
             this.btnDownload.TabIndex = 0;
@@ -48,7 +48,7 @@
             // dtgFiles
             // 
             this.dtgFiles.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgFiles.Location = new System.Drawing.Point(476, 74);
+            this.dtgFiles.Location = new System.Drawing.Point(473, 127);
             this.dtgFiles.Name = "dtgFiles";
             this.dtgFiles.RowHeadersWidth = 51;
             this.dtgFiles.RowTemplate.Height = 24;
@@ -57,7 +57,7 @@
             // 
             // txbSelectedFile
             // 
-            this.txbSelectedFile.Location = new System.Drawing.Point(94, 117);
+            this.txbSelectedFile.Location = new System.Drawing.Point(91, 170);
             this.txbSelectedFile.Name = "txbSelectedFile";
             this.txbSelectedFile.Size = new System.Drawing.Size(227, 22);
             this.txbSelectedFile.TabIndex = 3;

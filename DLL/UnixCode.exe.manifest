@@ -102,14 +102,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ComandaCR.dll" size="80896">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ComandaCR.dll" size="81408">
       <assemblyIdentity name="ComandaCR" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>TQfep+Tpxl3irTk4C7PoPsiY6XFLeCgDeCSuHSpQDIs=</dsig:DigestValue>
+        <dsig:DigestValue>wiXpgLg+Lkfp5Stx9VyRQLEkBVlhfIKBb9GYP6BtD2g=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -325,7 +325,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>7a66uyEVsS/wCFPUMc2LTY8VNU9IifXO5z/3QQJGUQg=</dsig:DigestValue>
+        <dsig:DigestValue>SpOY/DJvCj/Q1N7pPrEWDiZqJVQPZqj5yIBeg2TjE1A=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -354,26 +354,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="G7_Comandes.exe" size="54272">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="G7_Comandes.dll" size="53760">
       <assemblyIdentity name="G7_Comandes" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>VoVkHskPJ8c8wxMW1b9tXtWrpyq6eEf4DPuti82Uadc=</dsig:DigestValue>
+        <dsig:DigestValue>gahwPYRDPQp8TGPkJfNZ4YOfY65OXpPifittn1ZFO4Q=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="G7_EnviarEdi.dll" size="11264">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="G7_EnviarEdi.dll" size="11776">
       <assemblyIdentity name="G7_EnviarEdi" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>TKfxizD2aYwsa5rp9Goj8fabgVc3RJ0umI/G16iHci0=</dsig:DigestValue>
+        <dsig:DigestValue>a9SPDzkhU5kTsVXkMyGBqE8MuGQ/GHNuE4WuKxZxnnc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -541,7 +541,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>GemAGxit6joWIWSu1hnXd4sDelIrx9JNp5tILVO7JOQ=</dsig:DigestValue>
+        <dsig:DigestValue>ZbWZFjKogb4YbilWkiZ0v9T4vSFEYpyMeg+ZqlcnxhA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -557,13 +557,13 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="UnixCode.exe.config" size="941">
+  <file name="UnixCode.exe.config" size="1346">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>s/zzXH3iOEo9Lly85CQcizKTVa4G778OBd9IKTlXw1U=</dsig:DigestValue>
+      <dsig:DigestValue>u28Okcy9fGDVb8Dam4n65JHhK1ECKkTgUhSh6I7E3BM=</dsig:DigestValue>
     </hash>
   </file>
   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">

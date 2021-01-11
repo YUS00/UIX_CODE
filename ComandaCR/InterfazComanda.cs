@@ -3,7 +3,7 @@
 
 namespace ComandaCR
 {
-    public partial class InterfazComanda : Form
+    public partial class InterfazComanda : Libreria_BaseForms.BaseFormVentana
     {
         public InterfazComanda()
         {
