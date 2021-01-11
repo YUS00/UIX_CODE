@@ -154,7 +154,7 @@ namespace G7_Comandes
                     }
                 }
 
-
+                MessageBox.Show("EDI File Processed!");
 
             }
         }

@@ -35,7 +35,7 @@ namespace G7_EnviarEdi
         private void backgroundWorker_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
         {
             lblStatus.Text = "Upload Completed!";
-            MessageBox.Show("Upload Complete!");
+            MessageBox.Show("Upload Completed!");
         }
 
         private void btnUpload_Click(object sender, EventArgs e)

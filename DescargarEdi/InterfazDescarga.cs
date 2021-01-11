@@ -54,7 +54,7 @@ namespace DescargarEdi
                         }
 
                         await ftp.MoveFileAsync(ftpItem.Name, Path.Combine("Tractats", ftpItem.Name));
-
+                        
 
                     }
                 }
@@ -77,6 +77,7 @@ namespace DescargarEdi
         private async void btnDownload_Click(object sender, EventArgs e)
         {
             processEdiFiles();
+            MessageBox.Show("File Downloaded!");
         }
 
         private async void InterfazDescarga_Load(object sender, EventArgs e)

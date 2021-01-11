@@ -36,7 +36,7 @@
             // 
             this.button1.Location = new System.Drawing.Point(113, 104);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 40);
+            this.button1.Size = new System.Drawing.Size(121, 65);
             this.button1.TabIndex = 0;
             this.button1.Text = "SELECT EDI";
             this.button1.UseVisualStyleBackColor = true;
