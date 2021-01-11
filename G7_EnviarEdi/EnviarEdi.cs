@@ -41,7 +41,7 @@ namespace G7_EnviarEdi
         private void btnUpload_Click(object sender, EventArgs e)
         {
             //Abrir dialogo para seleccionar el archivo
-            using (OpenFileDialog ofd = new OpenFileDialog() { Multiselect = true, ValidateNames = true, Filter = "All Files|*.*" })
+            using (OpenFileDialog ofd = new OpenFileDialog() { Multiselect = true, ValidateNames = true, Filter = "EDI Files (*.edi)|*.edi" })
             {
                 if (ofd.ShowDialog() == DialogResult.OK)
                 {
