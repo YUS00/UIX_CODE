@@ -63,7 +63,30 @@ namespace LibreriaUserControls
             dllBD = Activator.CreateInstance(tipus);
             //el mostrem assumint que es tracta d’un form
             // i per això fem un cast amb (Form)
-            ((Form)dllBD).Show();
+            Form frm = FindForm();
+            Form formScreen = (Form)dllBD;
+            formScreen.TopLevel = false;
+            formScreen.Dock = DockStyle.Fill;
+            formScreen.TopMost = true;
+
+
+            foreach (Control ctr in frm.Controls)
+            {
+                if (ctr.Name == "pnlBackground")
+                {
+                    Panel panel = (Panel)ctr;
+                    panel.Controls.Clear();
+                    panel.Refresh();
+                    panel.Controls.Add(formScreen);
+                    panel.Tag = formScreen;
+                    panel.Refresh();
+
+                    formScreen.Show();
+                    formScreen.BringToFront();
+
+                }
+            }
+            //((Form)dllBD).Show();
         }
 
         private void label1_Click(object sender, EventArgs e)

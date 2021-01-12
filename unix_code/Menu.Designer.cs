@@ -34,9 +34,6 @@
             this.class11 = new Controls.Class1();
             this.label1 = new System.Windows.Forms.Label();
             this.labelUsername = new System.Windows.Forms.Label();
-            this.tbl = new System.Windows.Forms.TableLayoutPanel();
-            this.pnlLeft = new System.Windows.Forms.Panel();
-            this.pnlPrincipal = new System.Windows.Forms.Panel();
             this.cerrarsesion_btn = new System.Windows.Forms.Button();
             this.pnlBottom = new System.Windows.Forms.Panel();
             this.pnlTop = new System.Windows.Forms.Panel();
@@ -49,16 +46,17 @@
             this.pnlBackground = new System.Windows.Forms.Panel();
             this.drcMenu = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.elipseMenu = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.elipsePnlPrincipal = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.tbl = new System.Windows.Forms.TableLayoutPanel();
+            this.pnlLeft = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
-            this.pnlLeft.SuspendLayout();
             this.pnlBottom.SuspendLayout();
             this.pnlTop.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnRestaurar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMaximizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).BeginInit();
+            this.pnlLeft.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -105,47 +103,6 @@
             this.labelUsername.Size = new System.Drawing.Size(68, 16);
             this.labelUsername.TabIndex = 7;
             this.labelUsername.Text = "------------";
-            // 
-            // tbl
-            // 
-            this.tbl.BackColor = System.Drawing.Color.Transparent;
-            this.tbl.ColumnCount = 1;
-            this.tbl.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tbl.Location = new System.Drawing.Point(12, 111);
-            this.tbl.Name = "tbl";
-            this.tbl.RowCount = 8;
-            this.tbl.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
-            this.tbl.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
-            this.tbl.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
-            this.tbl.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
-            this.tbl.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
-            this.tbl.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
-            this.tbl.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
-            this.tbl.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
-            this.tbl.Size = new System.Drawing.Size(218, 533);
-            this.tbl.TabIndex = 6;
-            // 
-            // pnlLeft
-            // 
-            this.pnlLeft.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.pnlLeft.Controls.Add(this.tbl);
-            this.pnlLeft.Controls.Add(this.pnlPrincipal);
-            this.pnlLeft.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlLeft.Location = new System.Drawing.Point(0, 0);
-            this.pnlLeft.Name = "pnlLeft";
-            this.pnlLeft.Size = new System.Drawing.Size(1200, 650);
-            this.pnlLeft.TabIndex = 12;
-            // 
-            // pnlPrincipal
-            // 
-            this.pnlPrincipal.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pnlPrincipal.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.pnlPrincipal.Location = new System.Drawing.Point(236, 86);
-            this.pnlPrincipal.Name = "pnlPrincipal";
-            this.pnlPrincipal.Size = new System.Drawing.Size(952, 558);
-            this.pnlPrincipal.TabIndex = 15;
             // 
             // cerrarsesion_btn
             // 
@@ -280,9 +237,9 @@
             this.pnlBackground.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pnlBackground.Location = new System.Drawing.Point(0, 0);
+            this.pnlBackground.Location = new System.Drawing.Point(236, 86);
             this.pnlBackground.Name = "pnlBackground";
-            this.pnlBackground.Size = new System.Drawing.Size(1200, 700);
+            this.pnlBackground.Size = new System.Drawing.Size(952, 558);
             this.pnlBackground.TabIndex = 16;
             // 
             // drcMenu
@@ -297,25 +254,49 @@
             this.elipseMenu.ElipseRadius = 10;
             this.elipseMenu.TargetControl = this;
             // 
-            // elipsePnlPrincipal
-            // 
-            this.elipsePnlPrincipal.ElipseRadius = 15;
-            this.elipsePnlPrincipal.TargetControl = this.pnlPrincipal;
-            // 
             // bunifuElipse1
             // 
             this.bunifuElipse1.ElipseRadius = 5;
             this.bunifuElipse1.TargetControl = this.cerrarsesion_btn;
+            // 
+            // tbl
+            // 
+            this.tbl.BackColor = System.Drawing.Color.Transparent;
+            this.tbl.ColumnCount = 1;
+            this.tbl.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tbl.Location = new System.Drawing.Point(12, 111);
+            this.tbl.Name = "tbl";
+            this.tbl.RowCount = 8;
+            this.tbl.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.tbl.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.tbl.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.tbl.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.tbl.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.tbl.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.tbl.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.tbl.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.tbl.Size = new System.Drawing.Size(218, 533);
+            this.tbl.TabIndex = 6;
+            // 
+            // pnlLeft
+            // 
+            this.pnlLeft.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.pnlLeft.Controls.Add(this.tbl);
+            this.pnlLeft.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlLeft.Location = new System.Drawing.Point(0, 0);
+            this.pnlLeft.Name = "pnlLeft";
+            this.pnlLeft.Size = new System.Drawing.Size(1200, 700);
+            this.pnlLeft.TabIndex = 12;
             // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1200, 700);
-            this.Controls.Add(this.pnlTop);
-            this.Controls.Add(this.pnlLeft);
-            this.Controls.Add(this.pnlBottom);
             this.Controls.Add(this.pnlBackground);
+            this.Controls.Add(this.pnlTop);
+            this.Controls.Add(this.pnlBottom);
+            this.Controls.Add(this.pnlLeft);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MinimumSize = new System.Drawing.Size(960, 480);
@@ -325,7 +306,6 @@
             this.Load += new System.EventHandler(this.Menu_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.pnlLeft.ResumeLayout(false);
             this.pnlBottom.ResumeLayout(false);
             this.pnlTop.ResumeLayout(false);
             this.pnlTop.PerformLayout();
@@ -333,6 +313,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnRestaurar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMaximizar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).EndInit();
+            this.pnlLeft.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -342,12 +323,9 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label labelUsername;
         private Controls.Class1 class11;
-        private System.Windows.Forms.TableLayoutPanel tbl;
-        private System.Windows.Forms.Panel pnlLeft;
         private System.Windows.Forms.Button cerrarsesion_btn;
         private System.Windows.Forms.Panel pnlBottom;
         private System.Windows.Forms.Panel pnlTop;
-        private System.Windows.Forms.Panel pnlPrincipal;
         private System.Windows.Forms.Panel pnlBackground;
         private Bunifu.Framework.UI.BunifuDragControl drcMenu;
         private Bunifu.Framework.UI.BunifuImageButton btnMinimizar;
@@ -357,7 +335,8 @@
         private Bunifu.Framework.UI.BunifuElipse elipseMenu;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label lblUser;
-        private Bunifu.Framework.UI.BunifuElipse elipsePnlPrincipal;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
+        private System.Windows.Forms.Panel pnlLeft;
+        private System.Windows.Forms.TableLayoutPanel tbl;
     }
 }
