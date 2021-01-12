@@ -49,6 +49,34 @@ namespace LibreriaUserControls
             set { _form = value; }
         }
 
+        private void insertFormInPanel(Object form, String panelName = "pnlBackground")
+        {
+            Form frm = FindForm();
+            Form formScreen = (Form)form;
+            formScreen.TopLevel = false;
+            formScreen.Dock = DockStyle.Fill;
+            formScreen.TopMost = true;
+
+
+            foreach (Control ctr in frm.Controls)
+            {
+                if (ctr.Name == panelName)
+                {
+                    Panel panel = (Panel)ctr;
+                    panel.Controls.Clear();
+                    panel.Refresh();
+                    panel.Controls.Add(formScreen);
+                    panel.Tag = formScreen;
+                    panel.Refresh();
+
+                    formScreen.Show();
+                    formScreen.BringToFront();
+                    return;
+
+                }
+            }
+        }
+
         private void ControlLlencaApplicacions_Click(object sender, EventArgs e)
         {
             //Carreguem la dll. No fem constar cap path per que la
@@ -63,29 +91,7 @@ namespace LibreriaUserControls
             dllBD = Activator.CreateInstance(tipus);
             //el mostrem assumint que es tracta d’un form
             // i per això fem un cast amb (Form)
-            Form frm = FindForm();
-            Form formScreen = (Form)dllBD;
-            formScreen.TopLevel = false;
-            formScreen.Dock = DockStyle.Fill;
-            formScreen.TopMost = true;
-
-
-            foreach (Control ctr in frm.Controls)
-            {
-                if (ctr.Name == "pnlBackground")
-                {
-                    Panel panel = (Panel)ctr;
-                    panel.Controls.Clear();
-                    panel.Refresh();
-                    panel.Controls.Add(formScreen);
-                    panel.Tag = formScreen;
-                    panel.Refresh();
-
-                    formScreen.Show();
-                    formScreen.BringToFront();
-
-                }
-            }
+            insertFormInPanel(dllBD);
             //((Form)dllBD).Show();
         }
 
@@ -101,10 +107,11 @@ namespace LibreriaUserControls
             tipus = ensamblat.GetType(FormObrir);
             //instanciem l’objecte
             dllBD = Activator.CreateInstance(tipus);
-            
+
             //el mostrem assumint que es tracta d’un form
             // i per això fem un cast amb (Form)
-            ((Form)dllBD).Show();
+            insertFormInPanel(dllBD);
+
         }
 
         private void ControlLlencaApplicacions_MouseHover(object sender, EventArgs e)
