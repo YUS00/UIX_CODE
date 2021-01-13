@@ -57,7 +57,6 @@ namespace LibreriaUserControls
             formScreen.Dock = DockStyle.Fill;
             formScreen.TopMost = true;
 
-
             foreach (Control ctr in frm.Controls)
             {
                 if (ctr.Name == panelName)

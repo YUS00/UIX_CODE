@@ -438,14 +438,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Libreria_BaseForms.dll" size="166400">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Libreria_BaseForms.dll" size="165888">
       <assemblyIdentity name="Libreria_BaseForms" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>cwU2p3ypULhsMq0ITikm8RPPKreaUcTgjouLVWjytvE=</dsig:DigestValue>
+        <dsig:DigestValue>79poSOoD6Da8t6n5KV7Uml7B0IoYtBK6AengmoaFLaU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -481,7 +481,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>oX0P9WoME/0C93RiJUhA97mjfE6MF3VWSjnRuGO6DqY=</dsig:DigestValue>
+        <dsig:DigestValue>9tFAqt/i+xn1v9GdSmtGkQRaWvTP53Kr5ja7mhhEa0Q=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
