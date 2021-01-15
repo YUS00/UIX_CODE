@@ -65,19 +65,22 @@ namespace DescargarEdi
             dtgFiles.Refresh();
         }
 
-        private async void refresh()
-        {
-            listing = await ftp.GetListingAsync();
-            dtgFiles.DataSource = listing;
+        //private async void refresh()
+        //{
+        //    listing = await ftp.GetListingAsync();
+        //    dtgFiles.DataSource = listing;
 
-            txbSelectedFile.DataBindings.Clear();
-            txbSelectedFile.DataBindings.Add("Text", listing, "Name");
-        }
+        //    txbSelectedFile.DataBindings.Clear();
+        //    txbSelectedFile.DataBindings.Add("Text", listing, "Name");
+        //}
+
 
         private async void btnDownload_Click(object sender, EventArgs e)
         {
+          
             processEdiFiles();
             MessageBox.Show("File Downloaded!");
+
         }
 
         private async void InterfazDescarga_Load(object sender, EventArgs e)

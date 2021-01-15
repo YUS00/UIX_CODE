@@ -20,3 +20,14 @@ C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DLL\G7_Comandes.pdb
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DLL\G7_Comandes.dll.config
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DLL\G7_Comandes.dll
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\G7_Comandes\obj\Debug\G7_Comandes.dll
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\DLL\G7_Comandes.dll.config
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\DLL\G7_Comandes.dll
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\DLL\G7_Comandes.pdb
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\G7_Comandes\obj\Debug\G7_Comandes.csprojAssemblyReference.cache
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\G7_Comandes\obj\Debug\G7_Comandes.Interfaz.resources
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\G7_Comandes\obj\Debug\G7_Comandes.Properties.Resources.resources
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\G7_Comandes\obj\Debug\G7_Comandes.csproj.GenerateResource.cache
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\G7_Comandes\obj\Debug\G7_Comandes.csproj.CoreCompileInputs.cache
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\G7_Comandes\obj\Debug\G7_Comandes.csproj.CopyComplete
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\G7_Comandes\obj\Debug\G7_Comandes.dll
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\G7_Comandes\obj\Debug\G7_Comandes.pdb

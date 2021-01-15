@@ -16,3 +16,14 @@ C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DLL\DescargarEdi.pdb
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DLL\DescargarEdi.dll.config
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DLL\DescargarEdi.dll
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DescargarEdi\obj\Debug\DescargarEdi.dll
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\DLL\DescargarEdi.dll.config
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\DLL\DescargarEdi.dll
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\DLL\DescargarEdi.pdb
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\DescargarEdi\obj\Debug\DescargarEdi.csprojAssemblyReference.cache
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\DescargarEdi\obj\Debug\DescargarEdi.InterfazDescarga.resources
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\DescargarEdi\obj\Debug\DescargarEdi.Properties.Resources.resources
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\DescargarEdi\obj\Debug\DescargarEdi.csproj.GenerateResource.cache
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\DescargarEdi\obj\Debug\DescargarEdi.csproj.CoreCompileInputs.cache
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\DescargarEdi\obj\Debug\DescargarEdi.csproj.CopyComplete
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\DescargarEdi\obj\Debug\DescargarEdi.dll
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\DescargarEdi\obj\Debug\DescargarEdi.pdb

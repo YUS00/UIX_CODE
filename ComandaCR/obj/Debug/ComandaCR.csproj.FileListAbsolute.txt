@@ -36,3 +36,15 @@ C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DLL\ComandaCR.pdb
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DLL\ComandaCR.dll.config
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DLL\ComandaCR.dll
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\ComandaCR\obj\Debug\ComandaCR.dll
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\DLL\ComandaCR.dll.config
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\DLL\ComandaCR.dll
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\DLL\ComandaCR.pdb
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\ComandaCR\obj\Debug\ComandaCR.csprojAssemblyReference.cache
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\ComandaCR\obj\Debug\ComandaCR.CrystalReportForm.resources
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\ComandaCR\obj\Debug\ComandaCR.InterfazComanda.resources
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\ComandaCR\obj\Debug\ComandaCR.Properties.Resources.resources
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\ComandaCR\obj\Debug\ComandaCR.csproj.GenerateResource.cache
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\ComandaCR\obj\Debug\ComandaCR.csproj.CoreCompileInputs.cache
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\ComandaCR\obj\Debug\ComandaCR.csproj.CopyComplete
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\ComandaCR\obj\Debug\ComandaCR.dll
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\ComandaCR\obj\Debug\ComandaCR.pdb

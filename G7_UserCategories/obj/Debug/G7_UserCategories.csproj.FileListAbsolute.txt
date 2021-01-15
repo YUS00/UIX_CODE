@@ -8,3 +8,13 @@ C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DLL\G7_UserCategories.
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\G7_UserCategories\obj\Debug\G7_UserCategories.frmUserCategories.resources
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\G7_UserCategories\obj\Debug\G7_UserCategories.csproj.GenerateResource.cache
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\G7_UserCategories\obj\Debug\G7_UserCategories.csproj.CopyComplete
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\DLL\G7_UserCategories.dll.config
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\DLL\G7_UserCategories.dll
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\DLL\G7_UserCategories.pdb
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\G7_UserCategories\obj\Debug\G7_UserCategories.csprojAssemblyReference.cache
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\G7_UserCategories\obj\Debug\G7_UserCategories.frmUserCategories.resources
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\G7_UserCategories\obj\Debug\G7_UserCategories.csproj.GenerateResource.cache
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\G7_UserCategories\obj\Debug\G7_UserCategories.csproj.CoreCompileInputs.cache
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\G7_UserCategories\obj\Debug\G7_UserCategories.csproj.CopyComplete
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\G7_UserCategories\obj\Debug\G7_UserCategories.dll
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\G7_UserCategories\obj\Debug\G7_UserCategories.pdb

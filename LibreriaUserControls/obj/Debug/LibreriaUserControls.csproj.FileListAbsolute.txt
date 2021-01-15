@@ -18,3 +18,5 @@ C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\LibreriaUserControls\obj\Debug\
 C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\LibreriaUserControls\obj\Debug\LibreriaUserControls.pdb
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\LibreriaUserControls\obj\Debug\LibreriaUserControls.csprojAssemblyReference.cache
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\LibreriaUserControls\obj\Debug\LibreriaUserControls.csproj.CopyComplete
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\LibreriaUserControls\obj\Debug\LibreriaUserControls.csproj.CopyComplete
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\LibreriaUserControls\obj\Debug\LibreriaUserControls.csprojAssemblyReference.cache

@@ -1,0 +1,7 @@
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\ConsolaServidorFTP\bin\Debug\ConsolaServidorFTP.exe.config
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\ConsolaServidorFTP\bin\Debug\ConsolaServidorFTP.exe
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\ConsolaServidorFTP\bin\Debug\ConsolaServidorFTP.pdb
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\ConsolaServidorFTP\obj\Debug\ConsolaServidorFTP.csproj.CoreCompileInputs.cache
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\ConsolaServidorFTP\obj\Debug\ConsolaServidorFTP.exe
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\ConsolaServidorFTP\obj\Debug\ConsolaServidorFTP.pdb
+C:\Users\CR\Documents\GitHub\UIX_CODEv3\UIX_CODE\ConsolaServidorFTP\obj\Debug\ConsolaServidorFTP.csprojAssemblyReference.cache
