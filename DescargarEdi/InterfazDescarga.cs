@@ -1,13 +1,6 @@
 ﻿using FluentFTP;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace DescargarEdi
@@ -25,18 +18,19 @@ namespace DescargarEdi
 
         private async void processEdiFiles()
         {
-            
 
 
 
-            
+
+
 
             foreach (FtpListItem ftpItem in listing)
             {
                 if (ftpItem.Name.ToLower() != txbSelectedFile.Text.ToLower())
                 {
                     continue;
-                } else
+                }
+                else
                 {
                     using (MemoryStream memoryStream = new MemoryStream())
                     {
@@ -54,12 +48,12 @@ namespace DescargarEdi
                         }
 
                         await ftp.MoveFileAsync(ftpItem.Name, Path.Combine("Tractats", ftpItem.Name));
-                        
+
 
                     }
                 }
 
-                
+
             }
 
             dtgFiles.Refresh();
@@ -77,7 +71,7 @@ namespace DescargarEdi
 
         private async void btnDownload_Click(object sender, EventArgs e)
         {
-          
+
             processEdiFiles();
             MessageBox.Show("File Downloaded!");
 

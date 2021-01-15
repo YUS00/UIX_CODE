@@ -1,7 +1,4 @@
-﻿using System.Windows.Forms;
-
-
-namespace ComandaCR
+﻿namespace ComandaCR
 {
     public partial class InterfazComanda : Libreria_BaseForms.BaseFormVentana
     {
@@ -17,7 +14,7 @@ namespace ComandaCR
             crystalReportForm.Show();
             //Comanda comanda = new Comanda();
             //crvComanda.ReportSource = comanda.ParameterFields;
-            
+
             //crvComanda.Show();
         }
     }

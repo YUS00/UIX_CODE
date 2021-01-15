@@ -1,14 +1,5 @@
-﻿using System.Net;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using System.IO;
+using System.Net;
 
 namespace ConsolaServidorFTP
 {
@@ -26,7 +17,6 @@ namespace ConsolaServidorFTP
         //}
 
 
-
         internal string FTP_Upload()
 
         {
@@ -34,10 +24,10 @@ namespace ConsolaServidorFTP
             string result = string.Empty;
 
 
-            string URL = "http://192.168.10.1:10000";
-            string FTPLogin = "";
-            string FTPPassword = "";
-            string nombre_archivo_local = "states.txt";
+            string URL = "ftp://192.168.10.1/";
+            string FTPLogin = "g7";
+            string FTPPassword = "12345aA";
+            string nombre_archivo_local = "RARROrderSample.edi";
 
 
             //Iniciar petición hacia el servidor FTP

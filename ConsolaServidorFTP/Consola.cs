@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ConsolaServidorFTP
 {
@@ -43,9 +39,15 @@ namespace ConsolaServidorFTP
                     case 'd':
                         try
                         {
-                            Console.WriteLine("\t"+ FTPDownload.FTP_Upload());
+                            Console.WriteLine("\t");
+                            Console.WriteLine("\tIniciando descarga, espere porfavor...");
+                            Console.WriteLine("\t");
+                            Console.WriteLine("\t" + FTPDownload.FTP_Upload());
+                            Console.WriteLine("\t");
+                            Console.WriteLine("\tDescarga realizada con éxito!");
 
                         }
+
                         catch (Exception error)
                         {
                             Console.WriteLine("\t");
@@ -57,11 +59,16 @@ namespace ConsolaServidorFTP
                             Console.WriteLine("Código de error:");
                             Console.WriteLine("\t");
                             Console.WriteLine(error.ToString() + ".");
-                            Console.WriteLine("\t");
-                            Console.WriteLine("\t Presione ENTER para volver.");
-                            Console.ReadLine();
+
                         }
-                      break;
+
+                        Console.WriteLine("\t");
+                        Console.WriteLine("********************************************");
+                        Console.WriteLine("\t");
+                        Console.WriteLine("Presione ENTER para volver.");
+                        Console.ReadLine();
+
+                        break;
                 }
             } while (sentencia != 's');
 
