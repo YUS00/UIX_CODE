@@ -30,10 +30,10 @@
         {
             this.crystalReportViewer1 = new CrystalDecisions.Windows.Forms.CrystalReportViewer();
             this.crystalReportViewer2 = new CrystalDecisions.Windows.Forms.CrystalReportViewer();
-            this.Comanda1 = new ComandaCR.Comanda();
             this.swtCodeOrder = new LibreriaClases.SWTextbox();
             this.lblCodeOrder = new System.Windows.Forms.Label();
             this.btnDisplayReport = new System.Windows.Forms.Button();
+            this.Comanda1 = new ComandaCR.Comanda();
             this.SuspendLayout();
             // 
             // crystalReportViewer1
@@ -44,9 +44,9 @@
             this.crystalReportViewer1.DisplayStatusBar = false;
             this.crystalReportViewer1.DisplayToolbar = false;
             this.crystalReportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.crystalReportViewer1.Location = new System.Drawing.Point(0, 0);
+            this.crystalReportViewer1.Location = new System.Drawing.Point(0, 50);
             this.crystalReportViewer1.Name = "crystalReportViewer1";
-            this.crystalReportViewer1.Size = new System.Drawing.Size(703, 179);
+            this.crystalReportViewer1.Size = new System.Drawing.Size(703, 129);
             this.crystalReportViewer1.TabIndex = 0;
             this.crystalReportViewer1.ToolPanelView = CrystalDecisions.Windows.Forms.ToolPanelViewType.None;
             // 
@@ -58,9 +58,9 @@
             this.crystalReportViewer2.DisplayStatusBar = false;
             this.crystalReportViewer2.DisplayToolbar = false;
             this.crystalReportViewer2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.crystalReportViewer2.Location = new System.Drawing.Point(0, 0);
+            this.crystalReportViewer2.Location = new System.Drawing.Point(0, 50);
             this.crystalReportViewer2.Name = "crystalReportViewer2";
-            this.crystalReportViewer2.Size = new System.Drawing.Size(703, 179);
+            this.crystalReportViewer2.Size = new System.Drawing.Size(703, 129);
             this.crystalReportViewer2.TabIndex = 1;
             this.crystalReportViewer2.ToolPanelView = CrystalDecisions.Windows.Forms.ToolPanelViewType.None;
             // 
@@ -73,7 +73,7 @@
             this.swtCodeOrder.Name = "swtCodeOrder";
             this.swtCodeOrder.Size = new System.Drawing.Size(143, 22);
             this.swtCodeOrder.TabIndex = 3;
-            this.swtCodeOrder.tb_txtpermitido = LibreriaClases.SWTextbox.tb_parametros.Numero;
+            this.swtCodeOrder.tb_txtpermitido = LibreriaClases.SWTextbox.tb_parametros.Perzonalizado;
             // 
             // lblCodeOrder
             // 

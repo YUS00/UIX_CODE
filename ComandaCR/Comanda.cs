@@ -90,7 +90,7 @@ namespace ComandaCR {
         
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
-        public CrystalDecisions.Shared.IParameterField Parameter_OrderCode {
+        public CrystalDecisions.Shared.IParameterField Parameter_codeOrder {
             get {
                 return this.DataDefinition.ParameterFields[0];
             }
