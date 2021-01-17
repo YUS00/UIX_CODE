@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using CrystalDecisions.Shared;
+using CrystalDecisions.CrystalReports.Engine;
 
 namespace ComandaCR
 {
@@ -38,6 +39,26 @@ namespace ComandaCR
             OrderCodeParameter.CurrentValues.Add(val);
             parameterFields.Add(OrderCodeParameter);
             crvComanda.ParameterFieldInfo = parameterFields;
+
+            //
+            TableLogOnInfos crtableLogoninfos = new TableLogOnInfos();
+            TableLogOnInfo crtableLogoninfo = new TableLogOnInfo();
+            ConnectionInfo crConnectionInfo = new ConnectionInfo();
+            Tables CrTables;
+
+
+            crConnectionInfo.ServerName = "DESKTOP-8FAQTCN\\SQLEXPRESS";
+            crConnectionInfo.DatabaseName = "SecureCore";
+            crConnectionInfo.UserID = "sa";
+            crConnectionInfo.Password = "mrrobot1234";
+
+            CrTables = comanda.Database.Tables;
+            foreach (Table CrTable in CrTables)
+            {
+                crtableLogoninfo = CrTable.LogOnInfo;
+                crtableLogoninfo.ConnectionInfo = crConnectionInfo;
+                CrTable.ApplyLogOnInfo(crtableLogoninfo);
+            }
 
             dts = bd.PortarPerConsulta(query);
             comanda.SetDataSource(dts.Tables[0]);
