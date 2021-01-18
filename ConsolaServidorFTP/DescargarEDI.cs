@@ -6,28 +6,18 @@ namespace ConsolaServidorFTP
     class DescargarEDI
     {
 
-        //private void FTP_File()
-        //{
+        //Variable global que contiene el nombre del archivo que queremos descargar
+        string nombre_archivo_local = "RARROrderSample.edi";
 
-        //    string richfile;
-        //    string file = string.Empty;
-
-        //    richfile = FTP_Upload(file);
-
-        //}
-
-
-        internal string FTP_Upload()
+        internal FtpWebResponse FTP_Connect()
 
         {
 
-            string result = string.Empty;
-
+            //string result = string.Empty;
 
             string URL = "ftp://192.168.10.1/";
             string FTPLogin = "g7";
             string FTPPassword = "12345aA";
-            string nombre_archivo_local = "RARROrderSample.edi";
 
 
             //Iniciar petición hacia el servidor FTP
@@ -40,14 +30,23 @@ namespace ConsolaServidorFTP
             //Iniciar la petición de respuesta del FTP
             FtpWebResponse response = (FtpWebResponse)request.GetResponse();
 
+            return response;
+
+        }
+
+        internal void FTP_Upload(string path, FtpWebResponse response)
+        {
+            //String vacío que contendrá la información del archivo del servidor FTP
+            string result = string.Empty;
+
             //Readers
             Stream responseStream = response.GetResponseStream();
             StreamReader reader = new StreamReader(responseStream);
 
-            //Transferir el reader a la variable "result"
+            //Transferir el reader a la variable "result" anteriormente vacía
             result = reader.ReadToEnd();
 
-            using (StreamWriter file = File.CreateText(nombre_archivo_local))
+            using (StreamWriter file = File.CreateText(path + "/" + nombre_archivo_local))
             {
                 file.WriteLine(result);
                 file.Close();
@@ -57,8 +56,30 @@ namespace ConsolaServidorFTP
 
             response.Close();
 
-            return result;
         }
+
+
+        //internal void File_location(string file, string path)
+        //{
+
+        //    string path;
+
+        //    path = @"D:\test\";
+        //    path = path + file;
+
+
+        //    SaveFileDialog file_dialog = new SaveFileDialog();
+
+        //    file_dialog.Filter = "EDI(*.EDI)|*.edi";
+
+        //    file.
+
+        //    //path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, file);
+        //    //FileStream fs = new System.IO.FileStream(path, System.IO.FileMode.Append, System.IO.FileAccess.Write);
+
+
+
+        //}
 
 
 
