@@ -34,6 +34,7 @@ namespace ConsolaServidorFTP
 
         }
 
+
         internal void FTP_Upload(string path, FtpWebResponse response)
         {
             //String vacío que contendrá la información del archivo del servidor FTP
@@ -57,6 +58,11 @@ namespace ConsolaServidorFTP
             response.Close();
 
         }
+
+
+
+
+
 
 
         //internal void File_location(string file, string path)
