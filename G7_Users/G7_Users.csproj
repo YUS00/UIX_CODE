@@ -61,12 +61,32 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Planets.cs">
+      <DependentUpon>UsersDataModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Species.cs">
+      <DependentUpon>UsersDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UserCategories.cs">
+      <DependentUpon>UsersDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UserRanks.cs">
+      <DependentUpon>UsersDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Users.cs">
+      <DependentUpon>UsersDataModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="UsersDataModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>UsersDataModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UsersDataModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UsersDataModel.tt</DependentUpon>
     </Compile>
     <Compile Include="UsersDataModel.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -128,6 +148,12 @@
     <Content Include="UsersDataModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>UsersDataModel.Context.cs</LastGenOutput>
+      <DependentUpon>UsersDataModel.edmx</DependentUpon>
+    </Content>
+    <Content Include="UsersDataModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>UsersDataModel.edmx</DependentUpon>
+      <LastGenOutput>UsersDataModel.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <ItemGroup>

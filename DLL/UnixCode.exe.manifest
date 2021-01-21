@@ -438,6 +438,18 @@
     </dependentAssembly>
   </dependency>
   <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="G7_Users.exe" size="43520">
+      <assemblyIdentity name="G7_Users" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>M0ttAVAa+TAbyu+8Ibd+NV+Jhd98BE8uunJ9lijtzZE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Libreria_BaseForms.dll" size="165888">
       <assemblyIdentity name="Libreria_BaseForms" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
@@ -541,7 +553,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>tF0FgKLvNMe8ayaR8PYar6sunBk7B2hCT4ZW2yUuwkc=</dsig:DigestValue>
+        <dsig:DigestValue>EI5gZ8TShkdWww/pc8qlXegOUoc0wBMq+OylwajOGXw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -557,13 +569,13 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="UnixCode.exe.config" size="1346">
+  <file name="UnixCode.exe.config" size="1740">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>u28Okcy9fGDVb8Dam4n65JHhK1ECKkTgUhSh6I7E3BM=</dsig:DigestValue>
+      <dsig:DigestValue>AkH6O7oqkByuchFk+pgZw9mEdMlzMaSkvsoWhJbRC2E=</dsig:DigestValue>
     </hash>
   </file>
   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">

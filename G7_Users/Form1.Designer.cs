@@ -130,7 +130,7 @@
             // swtCodeUser
             // 
             this.swtCodeUser.Campo_obligatorio = false;
-            this.swtCodeUser.CampoBBDD = null;
+            this.swtCodeUser.CampoBBDD = "CodeUser";
             this.swtCodeUser.ForeignKey = false;
             this.swtCodeUser.Location = new System.Drawing.Point(125, 69);
             this.swtCodeUser.Name = "swtCodeUser";
@@ -141,7 +141,7 @@
             // swtUsername
             // 
             this.swtUsername.Campo_obligatorio = false;
-            this.swtUsername.CampoBBDD = null;
+            this.swtUsername.CampoBBDD = "UserName";
             this.swtUsername.ForeignKey = false;
             this.swtUsername.Location = new System.Drawing.Point(125, 120);
             this.swtUsername.Name = "swtUsername";
@@ -152,9 +152,9 @@
             // swtLogin
             // 
             this.swtLogin.Campo_obligatorio = false;
-            this.swtLogin.CampoBBDD = null;
+            this.swtLogin.CampoBBDD = "Login";
             this.swtLogin.ForeignKey = false;
-            this.swtLogin.Location = new System.Drawing.Point(125, 178);
+            this.swtLogin.Location = new System.Drawing.Point(125, 165);
             this.swtLogin.Name = "swtLogin";
             this.swtLogin.Size = new System.Drawing.Size(135, 22);
             this.swtLogin.TabIndex = 43;
@@ -163,9 +163,9 @@
             // swtPassword
             // 
             this.swtPassword.Campo_obligatorio = false;
-            this.swtPassword.CampoBBDD = null;
+            this.swtPassword.CampoBBDD = "Password";
             this.swtPassword.ForeignKey = false;
-            this.swtPassword.Location = new System.Drawing.Point(125, 226);
+            this.swtPassword.Location = new System.Drawing.Point(125, 213);
             this.swtPassword.Name = "swtPassword";
             this.swtPassword.Size = new System.Drawing.Size(135, 22);
             this.swtPassword.TabIndex = 45;
@@ -195,29 +195,29 @@
             // 
             // cbxUserRank
             // 
-            this.cbxUserRank.CampID = null;
-            this.cbxUserRank.CampMostrar = null;
-            this.cbxUserRank.CampoBBDD = null;
+            this.cbxUserRank.CampID = "idUserRank";
+            this.cbxUserRank.CampMostrar = "DescRank";
+            this.cbxUserRank.CampoBBDD = "idUserRank";
             this.cbxUserRank.ControlId = null;
             this.cbxUserRank.FormattingEnabled = true;
             this.cbxUserRank.Location = new System.Drawing.Point(419, 65);
             this.cbxUserRank.Name = "cbxUserRank";
             this.cbxUserRank.Size = new System.Drawing.Size(137, 24);
             this.cbxUserRank.TabIndex = 47;
-            this.cbxUserRank.TaulaForanea = null;
+            this.cbxUserRank.TaulaForanea = "UserRanks";
             // 
             // cbxUserCategory
             // 
-            this.cbxUserCategory.CampID = null;
-            this.cbxUserCategory.CampMostrar = null;
-            this.cbxUserCategory.CampoBBDD = null;
+            this.cbxUserCategory.CampID = "idUserCategory";
+            this.cbxUserCategory.CampMostrar = "DescCategory";
+            this.cbxUserCategory.CampoBBDD = "idUserCategory";
             this.cbxUserCategory.ControlId = null;
             this.cbxUserCategory.FormattingEnabled = true;
             this.cbxUserCategory.Location = new System.Drawing.Point(419, 116);
             this.cbxUserCategory.Name = "cbxUserCategory";
             this.cbxUserCategory.Size = new System.Drawing.Size(137, 24);
             this.cbxUserCategory.TabIndex = 49;
-            this.cbxUserCategory.TaulaForanea = null;
+            this.cbxUserCategory.TaulaForanea = "UserCategories";
             // 
             // lblUserCategory
             // 
@@ -233,9 +233,9 @@
             // swtPhoto
             // 
             this.swtPhoto.Campo_obligatorio = false;
-            this.swtPhoto.CampoBBDD = null;
+            this.swtPhoto.CampoBBDD = "Photo";
             this.swtPhoto.ForeignKey = false;
-            this.swtPhoto.Location = new System.Drawing.Point(419, 178);
+            this.swtPhoto.Location = new System.Drawing.Point(419, 165);
             this.swtPhoto.Name = "swtPhoto";
             this.swtPhoto.Size = new System.Drawing.Size(135, 22);
             this.swtPhoto.TabIndex = 51;
@@ -246,7 +246,7 @@
             this.lblPhoto.AutoSize = true;
             this.lblPhoto.BackColor = System.Drawing.Color.Transparent;
             this.lblPhoto.ForeColor = System.Drawing.Color.White;
-            this.lblPhoto.Location = new System.Drawing.Point(345, 181);
+            this.lblPhoto.Location = new System.Drawing.Point(345, 168);
             this.lblPhoto.Name = "lblPhoto";
             this.lblPhoto.Size = new System.Drawing.Size(62, 17);
             this.lblPhoto.TabIndex = 50;
@@ -254,23 +254,23 @@
             // 
             // cbxPlanet
             // 
-            this.cbxPlanet.CampID = null;
-            this.cbxPlanet.CampMostrar = null;
-            this.cbxPlanet.CampoBBDD = null;
+            this.cbxPlanet.CampID = "idPlanet";
+            this.cbxPlanet.CampMostrar = "DescPlanet";
+            this.cbxPlanet.CampoBBDD = "idPlanet";
             this.cbxPlanet.ControlId = null;
             this.cbxPlanet.FormattingEnabled = true;
-            this.cbxPlanet.Location = new System.Drawing.Point(419, 224);
+            this.cbxPlanet.Location = new System.Drawing.Point(659, 165);
             this.cbxPlanet.Name = "cbxPlanet";
             this.cbxPlanet.Size = new System.Drawing.Size(137, 24);
             this.cbxPlanet.TabIndex = 53;
-            this.cbxPlanet.TaulaForanea = null;
+            this.cbxPlanet.TaulaForanea = "Planets";
             // 
             // lblPlanet
             // 
             this.lblPlanet.AutoSize = true;
             this.lblPlanet.BackColor = System.Drawing.Color.Transparent;
             this.lblPlanet.ForeColor = System.Drawing.Color.White;
-            this.lblPlanet.Location = new System.Drawing.Point(341, 227);
+            this.lblPlanet.Location = new System.Drawing.Point(581, 168);
             this.lblPlanet.Name = "lblPlanet";
             this.lblPlanet.Size = new System.Drawing.Size(66, 17);
             this.lblPlanet.TabIndex = 52;
@@ -278,16 +278,16 @@
             // 
             // cbxSpecie
             // 
-            this.cbxSpecie.CampID = null;
-            this.cbxSpecie.CampMostrar = null;
-            this.cbxSpecie.CampoBBDD = null;
+            this.cbxSpecie.CampID = "idSpecie";
+            this.cbxSpecie.CampMostrar = "DescSpecie";
+            this.cbxSpecie.CampoBBDD = "idSpecie";
             this.cbxSpecie.ControlId = null;
             this.cbxSpecie.FormattingEnabled = true;
             this.cbxSpecie.Location = new System.Drawing.Point(661, 65);
             this.cbxSpecie.Name = "cbxSpecie";
             this.cbxSpecie.Size = new System.Drawing.Size(137, 24);
             this.cbxSpecie.TabIndex = 55;
-            this.cbxSpecie.TaulaForanea = null;
+            this.cbxSpecie.TaulaForanea = "Species";
             // 
             // lblSpecie
             // 
@@ -303,7 +303,7 @@
             // swtLevel
             // 
             this.swtLevel.Campo_obligatorio = false;
-            this.swtLevel.CampoBBDD = null;
+            this.swtLevel.CampoBBDD = "level";
             this.swtLevel.ForeignKey = false;
             this.swtLevel.Location = new System.Drawing.Point(661, 115);
             this.swtLevel.Name = "swtLevel";
@@ -353,6 +353,7 @@
             this.Controls.Add(this.dataGridView1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.Controls.SetChildIndex(this.dataGridView1, 0);
             this.Controls.SetChildIndex(this.btnNew, 0);
             this.Controls.SetChildIndex(this.btnUpdate, 0);
