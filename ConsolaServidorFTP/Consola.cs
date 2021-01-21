@@ -63,7 +63,7 @@ namespace ConsolaServidorFTP
 
                         try
                         {
-                            response = FTPDownload.FTP_Connect();
+                            response = FTPDownload.FTP_Download();
 
                             Console.WriteLine("\t");
                             Console.WriteLine("\tConexión establecida con éxito.");
@@ -97,12 +97,12 @@ namespace ConsolaServidorFTP
                                 {
                                     error_ubicacion = true;
                                 }
-                                
+
                                 else
                                 {
                                     try
                                     {
-                                        FTPDownload.FTP_Upload(path, response);
+                                        FTPDownload.FTP_File(path, response);
                                     }
 
                                     catch (Exception error)
@@ -125,7 +125,7 @@ namespace ConsolaServidorFTP
 
                                     if (error_ubicacion)
                                     {
-                                        response = FTPDownload.FTP_Connect();
+                                        response = FTPDownload.FTP_Download();
                                     }
                                 }
 
@@ -136,13 +136,11 @@ namespace ConsolaServidorFTP
                                 Console.WriteLine("\t");
                                 Console.WriteLine("\tIniciando descarga, espere porfavor...");
                                 Console.WriteLine("\t");
-
+                                FTPDownload.FTP_MoveFile();
                                 Console.WriteLine("|*************************************************************************************************************|");
                                 Console.WriteLine("\t");
                                 Console.WriteLine("\tDescarga realizada con éxito!");
                             }
-
-
                         }
 
 
@@ -154,7 +152,7 @@ namespace ConsolaServidorFTP
                             Console.WriteLine("\t");
                             Console.WriteLine("\tError de descarga:");
                             Console.WriteLine("\t");
-                            Console.WriteLine("\tNo se ha podido realizar la descarga del archivo. Revise su conexión y servidor al que quiere acceder.");
+                            Console.WriteLine("\tNo se ha podido realizar la descarga del archivo. Revise su conexión, servidor y archivo al que quiere acceder.");
                             Console.WriteLine("\t");
                             Console.WriteLine("\tCódigo de error:");
                             Console.WriteLine("\t");
