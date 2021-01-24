@@ -3,15 +3,21 @@ using System.Net;
 
 namespace ConsolaServidorFTP
 {
-    class DescargarEDI
+    public class DescargarEDI
     {
 
         //Variable global que contiene el nombre del archivo que queremos descargar
+        //string nombre_archivo_local = "RARROrderSample.edi";
+
+        //string URL = "ftp://192.168.10.1/";
+        //string FTPLogin = "g7";
+        //string FTPPassword = "12345aA";
+
         string nombre_archivo_local = "RARROrderSample.edi";
 
-        string URL = "ftp://192.168.10.1/";
-        string FTPLogin = "g7";
-        string FTPPassword = "12345aA";
+        string URL = "ftp://127.0.0.1/";
+        string FTPLogin = "admin";
+        string FTPPassword = "mrrobot1234";
 
 
         internal FtpWebResponse FTP_Download()

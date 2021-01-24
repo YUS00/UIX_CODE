@@ -213,6 +213,10 @@
       <Project>{790ee089-d837-4338-8ebb-065d0336d2e0}</Project>
       <Name>ComandaCR</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ConsolaServidorFTP\ConsolaServidorFTP.csproj">
+      <Project>{c07fe025-9c1b-4ded-831a-3ac83dcbc19a}</Project>
+      <Name>ConsolaServidorFTP</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Controls\Controls.csproj">
       <Project>{981abd92-c863-4906-a4e3-2dbdfb3ecb97}</Project>
       <Name>Controls</Name>

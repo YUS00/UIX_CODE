@@ -3,7 +3,7 @@ using System.Net;
 
 namespace ConsolaServidorFTP
 {
-    class Consola
+    public class Consola
     {
         static void Main(string[] args)
         {
