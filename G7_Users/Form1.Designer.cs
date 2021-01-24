@@ -57,7 +57,7 @@
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(433, 295);
+            this.btnDelete.Location = new System.Drawing.Point(433, 229);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(75, 23);
             this.btnDelete.TabIndex = 40;
@@ -69,7 +69,7 @@
             this.lblLogin.AutoSize = true;
             this.lblLogin.BackColor = System.Drawing.Color.Transparent;
             this.lblLogin.ForeColor = System.Drawing.Color.White;
-            this.lblLogin.Location = new System.Drawing.Point(51, 181);
+            this.lblLogin.Location = new System.Drawing.Point(51, 168);
             this.lblLogin.Name = "lblLogin";
             this.lblLogin.Size = new System.Drawing.Size(55, 17);
             this.lblLogin.TabIndex = 39;
@@ -99,7 +99,7 @@
             // 
             // btnUpdate
             // 
-            this.btnUpdate.Location = new System.Drawing.Point(712, 295);
+            this.btnUpdate.Location = new System.Drawing.Point(712, 229);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(101, 23);
             this.btnUpdate.TabIndex = 36;
@@ -108,7 +108,7 @@
             // 
             // btnNew
             // 
-            this.btnNew.Location = new System.Drawing.Point(557, 295);
+            this.btnNew.Location = new System.Drawing.Point(557, 229);
             this.btnNew.Name = "btnNew";
             this.btnNew.Size = new System.Drawing.Size(114, 23);
             this.btnNew.TabIndex = 35;
@@ -119,12 +119,12 @@
             // 
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(4, 324);
+            this.dataGridView1.Location = new System.Drawing.Point(4, 267);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(819, 109);
+            this.dataGridView1.Size = new System.Drawing.Size(819, 166);
             this.dataGridView1.TabIndex = 34;
             // 
             // swtCodeUser
@@ -176,7 +176,7 @@
             this.lblPassword.AutoSize = true;
             this.lblPassword.BackColor = System.Drawing.Color.Transparent;
             this.lblPassword.ForeColor = System.Drawing.Color.White;
-            this.lblPassword.Location = new System.Drawing.Point(14, 231);
+            this.lblPassword.Location = new System.Drawing.Point(14, 218);
             this.lblPassword.Name = "lblPassword";
             this.lblPassword.Size = new System.Drawing.Size(92, 17);
             this.lblPassword.TabIndex = 44;
@@ -205,6 +205,7 @@
             this.cbxUserRank.Size = new System.Drawing.Size(137, 24);
             this.cbxUserRank.TabIndex = 47;
             this.cbxUserRank.TaulaForanea = "UserRanks";
+            this.cbxUserRank.SelectedIndexChanged += new System.EventHandler(this.cbxUserRank_SelectedIndexChanged);
             // 
             // cbxUserCategory
             // 

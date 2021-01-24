@@ -438,14 +438,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="G7_Users.exe" size="43520">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="G7_Users.exe" size="45056">
       <assemblyIdentity name="G7_Users" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>M0ttAVAa+TAbyu+8Ibd+NV+Jhd98BE8uunJ9lijtzZE=</dsig:DigestValue>
+        <dsig:DigestValue>1AmANSPh/jnOPx5tSBrn5mJqARwQwW8IHJuGweuMwKA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -481,7 +481,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>qMfaiNDK4K76oTNqTnVKhptHf2fEDtUhzlEoxGsLM3I=</dsig:DigestValue>
+        <dsig:DigestValue>UwE1lgl7jXkpXnTvjsqS4nVmFggcc0ZtinoNEpssspM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
