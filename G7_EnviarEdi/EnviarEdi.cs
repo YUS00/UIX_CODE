@@ -1,9 +1,8 @@
 ﻿using System;
 using System.ComponentModel;
-using System.Windows.Forms;
 using System.IO;
 using System.Net;
-using System.Threading;
+using System.Windows.Forms;
 
 namespace G7_EnviarEdi
 {
@@ -14,15 +13,15 @@ namespace G7_EnviarEdi
             InitializeComponent();
             lblStatus.Text = @"Uploaded 0%";
         }
-        
-       
+
+
         public string Username;
         public string Filename;
         public string Fullname;
         public string Server;
         public string Password;
 
-        
+
 
         private void backgroundWorker_ProgressChanged(object sender, ProgressChangedEventArgs e)
         {
@@ -56,7 +55,7 @@ namespace G7_EnviarEdi
                 }
             }
 
-            
+
 
         }
 

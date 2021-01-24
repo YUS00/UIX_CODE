@@ -103,7 +103,7 @@ namespace unix_code
 
         private void btnCerrar_Click(object sender, EventArgs e)
         {
-            if(MessageBox.Show("The application will be closed, do you agree?", "Alert!", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            if (MessageBox.Show("The application will be closed, do you agree?", "Alert!", MessageBoxButtons.YesNo) == DialogResult.Yes)
             {
                 Application.Exit();
             }

@@ -25,7 +25,7 @@ namespace LibreriaUserControls
             set { label1.Text = value; }
         }
 
-        
+
 
         public Color BackgroundColor
         {

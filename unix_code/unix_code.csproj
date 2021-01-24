@@ -213,13 +213,13 @@
       <Project>{790ee089-d837-4338-8ebb-065d0336d2e0}</Project>
       <Name>ComandaCR</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ConsolaServidorFTP\ConsolaServidorFTP.csproj">
+      <Project>{c07fe025-9c1b-4ded-831a-3ac83dcbc19a}</Project>
+      <Name>ConsolaServidorFTP</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Controls\Controls.csproj">
       <Project>{981abd92-c863-4906-a4e3-2dbdfb3ecb97}</Project>
       <Name>Controls</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\DescargarEdi\DescargarEdi.csproj">
-      <Project>{d2b887a1-f118-4cbb-8334-25edf90b8587}</Project>
-      <Name>DescargarEdi</Name>
     </ProjectReference>
     <ProjectReference Include="..\G7_Comandes\G7_Comandes.csproj">
       <Project>{3b12869d-125c-4361-a3ad-958f056773e6}</Project>

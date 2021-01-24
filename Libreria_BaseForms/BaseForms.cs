@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Drawing;
 using System.Windows.Forms;
 
 namespace Libreria_BaseForms
@@ -14,7 +13,7 @@ namespace Libreria_BaseForms
         int locationX, locationY;
         int formWidth, formHeight;
 
-        
+
 
         private void btnMinimizar_Click(object sender, EventArgs e)
         {
@@ -29,7 +28,7 @@ namespace Libreria_BaseForms
             }
         }
 
-        
+
 
         //private const int gridSize = 10;
         //private const int areamouse = 132;

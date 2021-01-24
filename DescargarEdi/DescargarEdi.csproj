@@ -88,6 +88,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ConsolaServidorFTP\ConsolaServidorFTP.csproj">
+      <Project>{c07fe025-9c1b-4ded-831a-3ac83dcbc19a}</Project>
+      <Name>ConsolaServidorFTP</Name>
+    </ProjectReference>
     <ProjectReference Include="..\LibreriaClases\LibreriaClases.csproj">
       <Project>{A1F21818-5A6D-43E1-B699-2F36859C4CFE}</Project>
       <Name>LibreriaClases</Name>
