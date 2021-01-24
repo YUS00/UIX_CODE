@@ -49,6 +49,7 @@
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.tbl = new System.Windows.Forms.TableLayoutPanel();
             this.pnlLeft = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.pnlBottom.SuspendLayout();
             this.pnlTop.SuspendLayout();
@@ -126,6 +127,7 @@
             // pnlBottom
             // 
             this.pnlBottom.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.pnlBottom.Controls.Add(this.button1);
             this.pnlBottom.Controls.Add(this.cerrarsesion_btn);
             this.pnlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.pnlBottom.Location = new System.Drawing.Point(0, 650);
@@ -288,6 +290,16 @@
             this.pnlLeft.Size = new System.Drawing.Size(1200, 700);
             this.pnlLeft.TabIndex = 12;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(102, 7);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -338,5 +350,6 @@
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
         private System.Windows.Forms.Panel pnlLeft;
         private System.Windows.Forms.TableLayoutPanel tbl;
+        private System.Windows.Forms.Button button1;
     }
 }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Windows.Forms;
 
@@ -116,6 +117,15 @@ namespace unix_code
 
             btnRestaurar.Visible = false;
             btnMaximizar.Visible = true;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ProcessStartInfo startInfo = new ProcessStartInfo();
+            startInfo.FileName = Application.StartupPath + @"\ConsolaServidorFTP.exe";
+            Process.Start(startInfo);
+
+            //Console.WriteLine(Application.StartupPath);
         }
 
         private void btnMinimizar_Click(object sender, EventArgs e)
