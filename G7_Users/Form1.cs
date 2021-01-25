@@ -44,7 +44,7 @@ namespace G7_Users
                 {
                     LibreriaClases.SWTextbox SWctr = (LibreriaClases.SWTextbox)ctr;
                     SWctr.DataBindings.Clear();
-                    ctr.DataBindings.Add("Text", users, SWctr.CampoBBDD);
+                    ctr.DataBindings.Add("Text", dataGridView1.DataSource, SWctr.CampoBBDD);
                 }
                 else if (ctr is LibreriaControles.UIXCombobox)
                 {
@@ -76,7 +76,7 @@ namespace G7_Users
                             SWctr.DisplayMember = SWctr.CampMostrar;
                             SWctr.ValueMember = SWctr.CampID;
 
-                            SWctr.DataBindings.Add("SelectedValue", foreignTable, SWctr.CampoBBDD);
+                            SWctr.DataBindings.Add("SelectedValue", dataGridView1.DataSource, SWctr.CampoBBDD);
 
                             break;
                         case "UserCategories":
@@ -86,7 +86,7 @@ namespace G7_Users
                             SWctr.DisplayMember = SWctr.CampMostrar;
                             SWctr.ValueMember = SWctr.CampID;
 
-                            SWctr.DataBindings.Add("SelectedValue", foreignTable, SWctr.CampoBBDD);
+                            SWctr.DataBindings.Add("SelectedValue", dataGridView1.DataSource, SWctr.CampoBBDD);
                             break;
                         case "Species":
                             foreignTable = db.Species.ToList();
@@ -95,7 +95,7 @@ namespace G7_Users
                             SWctr.DisplayMember = SWctr.CampMostrar;
                             SWctr.ValueMember = SWctr.CampID;
 
-                            SWctr.DataBindings.Add("SelectedValue", foreignTable, SWctr.CampoBBDD);
+                            SWctr.DataBindings.Add("SelectedValue", dataGridView1.DataSource, SWctr.CampoBBDD);
                             break;
                         case "Planets":
                             foreignTable = db.Planets.ToList();
@@ -104,45 +104,13 @@ namespace G7_Users
                             SWctr.DisplayMember = SWctr.CampMostrar;
                             SWctr.ValueMember = SWctr.CampID;
 
-                            SWctr.DataBindings.Add("SelectedValue", foreignTable, SWctr.CampoBBDD);
+                            SWctr.DataBindings.Add("SelectedValue", dataGridView1.DataSource, SWctr.CampoBBDD);
                             break;
                         default:
                             break;
                     }
 
-                    //DbSet dbSet = db.Set(myDictionary[SWctr.TaulaForanea]);
-
-
-                    ////Carreguem la dll. No fem constar cap path per que la
-                    //// compilem a la carpeta on compilem tots els ensamblats
-                    ////Declarem les variables
-                    //Type tipus;
-                    ////recuperem el tipus de la classe que volem instanciar
-                    ////instanciem l’objecte
-                    //tipus = myDictionary[SWctr.TaulaForanea];
-                    //var obj = Activator.CreateInstance(tipus);
-                    ////el mostrem assumint que es tracta d’un form
-                    //// i per això fem un cast amb (Form)
-                    ////insertFormInPanel(dllBD);
-                    ////((Form)dllBD).Show();
-                    ////var property = obj.GetType();
-
-                    //var boundType = tipus.MakeGenericType(tipus);
-                    //string query = "Select * from " + SWctr.TaulaForanea.ToString() + ";";
-                    ////var lista = db.Database.SqlQuery<property>(query).ToList();
-                    //List<dynamic> results = DynamicListFromSql(db, "select * from " + SWctr.TaulaForanea.ToString(), new Dictionary<string, object> {  }).ToList();
-
-
-                    //DataSet dtsForanea = new DataSet();
-                    //dtsForanea = dadesCombobox.PortarTaula(SWctr.TaulaForanea);
-
-                    //SWctr.DataBindings.Clear();
-                    //Está cogiendo la tabla Agencies en index 0, Species en index 1
-                    //SWctr.DataSource = results;
-                    //SWctr.DisplayMember = SWctr.CampMostrar;
-                    //SWctr.ValueMember = SWctr.CampID;
-
-                    //SWctr.DataBindings.Add("SelectedValue", dbSet, SWctr.CampoBBDD);
+                    
                 }
             }
 
@@ -189,9 +157,6 @@ namespace G7_Users
             CarregarDades();
         }
 
-        private void cbxUserRank_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            
-        }
+        
     }
 }

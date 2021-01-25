@@ -205,7 +205,6 @@
             this.cbxUserRank.Size = new System.Drawing.Size(137, 24);
             this.cbxUserRank.TabIndex = 47;
             this.cbxUserRank.TaulaForanea = "UserRanks";
-            this.cbxUserRank.SelectedIndexChanged += new System.EventHandler(this.cbxUserRank_SelectedIndexChanged);
             // 
             // cbxUserCategory
             // 

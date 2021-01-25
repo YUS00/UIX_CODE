@@ -64,40 +64,28 @@ namespace LibreriaControles
             set { _TaulaForanea = value; }
         }
 
-        string currentSelection;
 
-        private bool update(bool canExecute)
-        {
-            if(canExecute)
-            {
-                this.ValueMember = this.CampID;
-                this.DisplayMember = this.CampMostrar;
-                currentSelection = this.Text;
-            }
-            
-            return !canExecute;
-
-            //this.Text = this.DisplayMember.ToString();
-
-
-        }
-        bool canPass = true;
+        
 
         private void UIXCombobox_SelectedValueChanged(object sender, EventArgs e)
         {
-            
-            canPass = update(canPass);
 
-            //Form frm = FindForm();
+            Console.WriteLine(this.Text);
+            Console.WriteLine("SelectedValue " + this.SelectedValue);
+            Console.WriteLine("SelectedIndex " + this.SelectedIndex);
+
+            Form frm = FindForm();
 
 
-            //foreach (Control ctr in frm.Controls)
-            //{
-            //    if (ctr.Name == ControlId)
-            //    {
-            //        ctr.Text = SelectedValue.ToString();
-            //    }
-            //}
+            foreach (Control ctr in frm.Controls)
+            {
+                if (ctr.Name == ControlId)
+                {
+                    ctr.Text = SelectedValue.ToString();
+                }
+            }
         }
+
+       
     }
 }
