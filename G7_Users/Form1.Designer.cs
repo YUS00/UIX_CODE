@@ -41,17 +41,17 @@
             this.swtPassword = new LibreriaClases.SWTextbox();
             this.lblPassword = new System.Windows.Forms.Label();
             this.lblUserRank = new System.Windows.Forms.Label();
-            this.cbxUserRank = new LibreriaControles.UIXCombobox();
-            this.cbxUserCategory = new LibreriaControles.UIXCombobox();
             this.lblUserCategory = new System.Windows.Forms.Label();
             this.swtPhoto = new LibreriaClases.SWTextbox();
             this.lblPhoto = new System.Windows.Forms.Label();
-            this.cbxPlanet = new LibreriaControles.UIXCombobox();
             this.lblPlanet = new System.Windows.Forms.Label();
-            this.cbxSpecie = new LibreriaControles.UIXCombobox();
             this.lblSpecie = new System.Windows.Forms.Label();
             this.swtLevel = new LibreriaClases.SWTextbox();
             this.lblLevel = new System.Windows.Forms.Label();
+            this.cbxSpecie = new LibreriaControles.UIXCombobox();
+            this.cbxPlanet = new LibreriaControles.UIXCombobox();
+            this.cbxUserCategory = new LibreriaControles.UIXCombobox();
+            this.cbxUserRank = new LibreriaControles.UIXCombobox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -105,6 +105,7 @@
             this.btnUpdate.TabIndex = 36;
             this.btnUpdate.Text = "Update";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnNew
             // 
@@ -114,6 +115,7 @@
             this.btnNew.TabIndex = 35;
             this.btnNew.Text = "New Register";
             this.btnNew.UseVisualStyleBackColor = true;
+            this.btnNew.Click += new System.EventHandler(this.btnNew_Click);
             // 
             // dataGridView1
             // 
@@ -147,7 +149,7 @@
             this.swtUsername.Name = "swtUsername";
             this.swtUsername.Size = new System.Drawing.Size(135, 22);
             this.swtUsername.TabIndex = 42;
-            this.swtUsername.tb_txtpermitido = LibreriaClases.SWTextbox.tb_parametros.Texto;
+            this.swtUsername.tb_txtpermitido = LibreriaClases.SWTextbox.tb_parametros.Perzonalizado;
             // 
             // swtLogin
             // 
@@ -158,7 +160,7 @@
             this.swtLogin.Name = "swtLogin";
             this.swtLogin.Size = new System.Drawing.Size(135, 22);
             this.swtLogin.TabIndex = 43;
-            this.swtLogin.tb_txtpermitido = LibreriaClases.SWTextbox.tb_parametros.Texto;
+            this.swtLogin.tb_txtpermitido = LibreriaClases.SWTextbox.tb_parametros.Numero;
             // 
             // swtPassword
             // 
@@ -169,7 +171,7 @@
             this.swtPassword.Name = "swtPassword";
             this.swtPassword.Size = new System.Drawing.Size(135, 22);
             this.swtPassword.TabIndex = 45;
-            this.swtPassword.tb_txtpermitido = LibreriaClases.SWTextbox.tb_parametros.Texto;
+            this.swtPassword.tb_txtpermitido = LibreriaClases.SWTextbox.tb_parametros.Numero;
             // 
             // lblPassword
             // 
@@ -193,32 +195,6 @@
             this.lblUserRank.TabIndex = 46;
             this.lblUserRank.Text = "USER RANK:";
             // 
-            // cbxUserRank
-            // 
-            this.cbxUserRank.CampID = "idUserRank";
-            this.cbxUserRank.CampMostrar = "DescRank";
-            this.cbxUserRank.CampoBBDD = "idUserRank";
-            this.cbxUserRank.ControlId = null;
-            this.cbxUserRank.FormattingEnabled = true;
-            this.cbxUserRank.Location = new System.Drawing.Point(419, 65);
-            this.cbxUserRank.Name = "cbxUserRank";
-            this.cbxUserRank.Size = new System.Drawing.Size(137, 24);
-            this.cbxUserRank.TabIndex = 47;
-            this.cbxUserRank.TaulaForanea = "UserRanks";
-            // 
-            // cbxUserCategory
-            // 
-            this.cbxUserCategory.CampID = "idUserCategory";
-            this.cbxUserCategory.CampMostrar = "DescCategory";
-            this.cbxUserCategory.CampoBBDD = "idUserCategory";
-            this.cbxUserCategory.ControlId = null;
-            this.cbxUserCategory.FormattingEnabled = true;
-            this.cbxUserCategory.Location = new System.Drawing.Point(419, 116);
-            this.cbxUserCategory.Name = "cbxUserCategory";
-            this.cbxUserCategory.Size = new System.Drawing.Size(137, 24);
-            this.cbxUserCategory.TabIndex = 49;
-            this.cbxUserCategory.TaulaForanea = "UserCategories";
-            // 
             // lblUserCategory
             // 
             this.lblUserCategory.AutoSize = true;
@@ -239,7 +215,7 @@
             this.swtPhoto.Name = "swtPhoto";
             this.swtPhoto.Size = new System.Drawing.Size(135, 22);
             this.swtPhoto.TabIndex = 51;
-            this.swtPhoto.tb_txtpermitido = LibreriaClases.SWTextbox.tb_parametros.Texto;
+            this.swtPhoto.tb_txtpermitido = LibreriaClases.SWTextbox.tb_parametros.Perzonalizado;
             // 
             // lblPhoto
             // 
@@ -252,19 +228,6 @@
             this.lblPhoto.TabIndex = 50;
             this.lblPhoto.Text = "PHOTO:";
             // 
-            // cbxPlanet
-            // 
-            this.cbxPlanet.CampID = "idPlanet";
-            this.cbxPlanet.CampMostrar = "DescPlanet";
-            this.cbxPlanet.CampoBBDD = "idPlanet";
-            this.cbxPlanet.ControlId = null;
-            this.cbxPlanet.FormattingEnabled = true;
-            this.cbxPlanet.Location = new System.Drawing.Point(659, 165);
-            this.cbxPlanet.Name = "cbxPlanet";
-            this.cbxPlanet.Size = new System.Drawing.Size(137, 24);
-            this.cbxPlanet.TabIndex = 53;
-            this.cbxPlanet.TaulaForanea = "Planets";
-            // 
             // lblPlanet
             // 
             this.lblPlanet.AutoSize = true;
@@ -275,19 +238,6 @@
             this.lblPlanet.Size = new System.Drawing.Size(66, 17);
             this.lblPlanet.TabIndex = 52;
             this.lblPlanet.Text = "PLANET:";
-            // 
-            // cbxSpecie
-            // 
-            this.cbxSpecie.CampID = "idSpecie";
-            this.cbxSpecie.CampMostrar = "DescSpecie";
-            this.cbxSpecie.CampoBBDD = "idSpecie";
-            this.cbxSpecie.ControlId = null;
-            this.cbxSpecie.FormattingEnabled = true;
-            this.cbxSpecie.Location = new System.Drawing.Point(661, 65);
-            this.cbxSpecie.Name = "cbxSpecie";
-            this.cbxSpecie.Size = new System.Drawing.Size(137, 24);
-            this.cbxSpecie.TabIndex = 55;
-            this.cbxSpecie.TaulaForanea = "Species";
             // 
             // lblSpecie
             // 
@@ -309,7 +259,7 @@
             this.swtLevel.Name = "swtLevel";
             this.swtLevel.Size = new System.Drawing.Size(135, 22);
             this.swtLevel.TabIndex = 57;
-            this.swtLevel.tb_txtpermitido = LibreriaClases.SWTextbox.tb_parametros.Texto;
+            this.swtLevel.tb_txtpermitido = LibreriaClases.SWTextbox.tb_parametros.Numero;
             // 
             // lblLevel
             // 
@@ -321,6 +271,58 @@
             this.lblLevel.Size = new System.Drawing.Size(55, 17);
             this.lblLevel.TabIndex = 56;
             this.lblLevel.Text = "LEVEL:";
+            // 
+            // cbxSpecie
+            // 
+            this.cbxSpecie.CampID = "idSpecie";
+            this.cbxSpecie.CampMostrar = "DescSpecie";
+            this.cbxSpecie.CampoBBDD = "idSpecie";
+            this.cbxSpecie.ControlId = null;
+            this.cbxSpecie.FormattingEnabled = true;
+            this.cbxSpecie.Location = new System.Drawing.Point(661, 65);
+            this.cbxSpecie.Name = "cbxSpecie";
+            this.cbxSpecie.Size = new System.Drawing.Size(137, 24);
+            this.cbxSpecie.TabIndex = 55;
+            this.cbxSpecie.TaulaForanea = "Species";
+            // 
+            // cbxPlanet
+            // 
+            this.cbxPlanet.CampID = "idPlanet";
+            this.cbxPlanet.CampMostrar = "DescPlanet";
+            this.cbxPlanet.CampoBBDD = "idPlanet";
+            this.cbxPlanet.ControlId = null;
+            this.cbxPlanet.FormattingEnabled = true;
+            this.cbxPlanet.Location = new System.Drawing.Point(659, 165);
+            this.cbxPlanet.Name = "cbxPlanet";
+            this.cbxPlanet.Size = new System.Drawing.Size(137, 24);
+            this.cbxPlanet.TabIndex = 53;
+            this.cbxPlanet.TaulaForanea = "Planets";
+            // 
+            // cbxUserCategory
+            // 
+            this.cbxUserCategory.CampID = "idUserCategory";
+            this.cbxUserCategory.CampMostrar = "DescCategory";
+            this.cbxUserCategory.CampoBBDD = "idUserCategory";
+            this.cbxUserCategory.ControlId = null;
+            this.cbxUserCategory.FormattingEnabled = true;
+            this.cbxUserCategory.Location = new System.Drawing.Point(419, 116);
+            this.cbxUserCategory.Name = "cbxUserCategory";
+            this.cbxUserCategory.Size = new System.Drawing.Size(137, 24);
+            this.cbxUserCategory.TabIndex = 49;
+            this.cbxUserCategory.TaulaForanea = "UserCategories";
+            // 
+            // cbxUserRank
+            // 
+            this.cbxUserRank.CampID = "idUserRank";
+            this.cbxUserRank.CampMostrar = "DescRank";
+            this.cbxUserRank.CampoBBDD = "idUserRank";
+            this.cbxUserRank.ControlId = null;
+            this.cbxUserRank.FormattingEnabled = true;
+            this.cbxUserRank.Location = new System.Drawing.Point(419, 65);
+            this.cbxUserRank.Name = "cbxUserRank";
+            this.cbxUserRank.Size = new System.Drawing.Size(137, 24);
+            this.cbxUserRank.TabIndex = 47;
+            this.cbxUserRank.TaulaForanea = "UserRanks";
             // 
             // Form1
             // 

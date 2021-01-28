@@ -26,6 +26,9 @@ namespace G7_Users
         
 
         List<Users> users;
+
+        bool EsNou = false;
+
         private void CarregarDades()
         {
             db = new UsersEntities();
@@ -128,26 +131,7 @@ namespace G7_Users
                     SWctr.DataBindings.Clear();
                     SWctr.Clear();
                 }
-                else if (ctr is LibreriaControles.UIXCombobox)
-                {
-                    //Creada instancia de DataBase para que no se acumulen las tablas en el DataBase del DataGridView
-                    //BaseDatos.DataBase dadesCombobox = new BaseDatos.DataBase();
-                    //LibreriaControles.UIXCombobox SWctr = (LibreriaControles.UIXCombobox)ctr;
-                    LibreriaClases.SWTextbox SWctr = (LibreriaClases.SWTextbox)ctr;
-                    SWctr.DataBindings.Clear();
-                    SWctr.Clear();
-
-                    //DataSet dtsForanea = new DataSet();
-                    //dtsForanea = dadesCombobox.PortarTaula(SWctr.TaulaForanea);
-
-                    //SWctr.DataBindings.Clear();
-                    ////Está cogiendo la tabla Agencies en index 0, Species en index 1
-                    //SWctr.DataSource = dtsForanea.Tables[0];
-                    //SWctr.DisplayMember = SWctr.CampMostrar;
-                    //SWctr.ValueMember = SWctr.CampID;
-
-                    //SWctr.DataBindings.Add("SelectedValue", dts.Tables[0], SWctr.CampoBBDD);
-                }
+                
             }
 
         }
@@ -157,6 +141,42 @@ namespace G7_Users
             CarregarDades();
         }
 
-        
+        private void btnNew_Click(object sender, EventArgs e)
+        {
+            EsNou = true;
+            TreuBinding();
+        }
+
+        private void btnUpdate_Click(object sender, EventArgs e)
+        {
+            int id;
+            if (EsNou)
+            {
+               
+                Users user = new Users
+                {
+                    CodeUser = swtCodeUser.Text,
+                    UserName = swtUsername.Text,
+                    Login = swtLogin.Text,
+                    Password = swtPassword.Text,
+                    idUserRank = (int)cbxUserRank.SelectedValue,
+                    idUserCategory = (int)cbxUserCategory.SelectedValue,
+                    Photo = swtPhoto.Text,
+                    idSpecie = (int) cbxSpecie.SelectedValue,
+                    level = Convert.ToInt32(swtLevel.Text),
+                    idPlanet = (int) cbxPlanet.SelectedValue
+
+
+                };
+                db.Users.Add(user);
+                EsNou = false;
+                dataGridView1.Refresh();
+                dataGridView1.Update();
+                id = user.idUser;
+                FerBinding();
+            }
+            //Actualizar
+            db.SaveChanges();
+        }
     }
 }
