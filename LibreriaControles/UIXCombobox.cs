@@ -74,6 +74,8 @@ namespace LibreriaControles
             Console.WriteLine("SelectedValue " + this.SelectedValue);
             Console.WriteLine("SelectedIndex " + this.SelectedIndex);
 
+            String selectedValue = this.SelectedValue.ToString();
+
             Form frm = FindForm();
 
 
