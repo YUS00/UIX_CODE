@@ -35,7 +35,6 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.circularProgressBar1 = new CircularProgressBar.CircularProgressBar();
-            this.class11 = new Controls.Class1();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -49,7 +48,7 @@
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(337, 161);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(305, 207);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -67,7 +66,7 @@
             this.circularProgressBar1.InnerMargin = 2;
             this.circularProgressBar1.InnerWidth = -1;
             this.circularProgressBar1.Location = new System.Drawing.Point(260, 89);
-            this.circularProgressBar1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.circularProgressBar1.Margin = new System.Windows.Forms.Padding(4);
             this.circularProgressBar1.MarqueeAnimationSpeed = 2000;
             this.circularProgressBar1.Name = "circularProgressBar1";
             this.circularProgressBar1.OuterColor = System.Drawing.Color.White;
@@ -88,17 +87,6 @@
             this.circularProgressBar1.TextMargin = new System.Windows.Forms.Padding(8, 8, 0, 0);
             this.circularProgressBar1.Value = 68;
             // 
-            // class11
-            // 
-            this.class11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("class11.BackgroundImage")));
-            this.class11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.class11.Location = new System.Drawing.Point(935, 15);
-            this.class11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.class11.Name = "class11";
-            this.class11.Size = new System.Drawing.Size(33, 25);
-            this.class11.TabIndex = 13;
-            this.class11.UseVisualStyleBackColor = true;
-            // 
             // Splash
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -106,17 +94,15 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(984, 727);
-            this.Controls.Add(this.class11);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.circularProgressBar1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Splash";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Splash_Load);
             this.Controls.SetChildIndex(this.circularProgressBar1, 0);
             this.Controls.SetChildIndex(this.pictureBox1, 0);
-            this.Controls.SetChildIndex(this.class11, 0);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
@@ -126,7 +112,6 @@
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private CircularProgressBar.CircularProgressBar circularProgressBar1;
-        private Controls.Class1 class11;
     }
 }
 
