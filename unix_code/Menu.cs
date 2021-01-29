@@ -128,6 +128,7 @@ namespace unix_code
             //Console.WriteLine(Application.StartupPath);
         }
 
+
         private void btnMinimizar_Click(object sender, EventArgs e)
         {
             WindowState = FormWindowState.Minimized;

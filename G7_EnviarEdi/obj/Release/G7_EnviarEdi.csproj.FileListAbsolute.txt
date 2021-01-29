@@ -1,0 +1,14 @@
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\G7_EnviarEdi\bin\Release\G7_EnviarEdi.dll.config
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\G7_EnviarEdi\bin\Release\G7_EnviarEdi.dll
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\G7_EnviarEdi\bin\Release\G7_EnviarEdi.pdb
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\G7_EnviarEdi\bin\Release\Libreria_BaseForms.dll
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\G7_EnviarEdi\bin\Release\Bunifu_UI_v1.5.3.dll
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\G7_EnviarEdi\bin\Release\Libreria_BaseForms.pdb
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\G7_EnviarEdi\obj\Release\G7_EnviarEdi.csprojAssemblyReference.cache
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\G7_EnviarEdi\obj\Release\G7_EnviarEdi.EnviarEdi.resources
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\G7_EnviarEdi\obj\Release\G7_EnviarEdi.Properties.Resources.resources
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\G7_EnviarEdi\obj\Release\G7_EnviarEdi.csproj.GenerateResource.cache
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\G7_EnviarEdi\obj\Release\G7_EnviarEdi.csproj.CoreCompileInputs.cache
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\G7_EnviarEdi\obj\Release\G7_EnviarEdi.csproj.CopyComplete
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\G7_EnviarEdi\obj\Release\G7_EnviarEdi.dll
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\G7_EnviarEdi\obj\Release\G7_EnviarEdi.pdb

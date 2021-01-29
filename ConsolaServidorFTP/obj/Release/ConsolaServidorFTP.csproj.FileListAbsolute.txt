@@ -1,0 +1,9 @@
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\ConsolaServidorFTP\bin\Release\ConsolaServidorFTP.exe.config
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\ConsolaServidorFTP\bin\Release\ConsolaServidorFTP.exe
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\ConsolaServidorFTP\bin\Release\ConsolaServidorFTP.pdb
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\ConsolaServidorFTP\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\ConsolaServidorFTP\obj\Release\ConsolaServidorFTP.csprojAssemblyReference.cache
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\ConsolaServidorFTP\obj\Release\ConsolaServidorFTP.csproj.CoreCompileInputs.cache
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\ConsolaServidorFTP\obj\Release\ConsolaServidorFTP.csproj.CopyComplete
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\ConsolaServidorFTP\obj\Release\ConsolaServidorFTP.exe
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\ConsolaServidorFTP\obj\Release\ConsolaServidorFTP.pdb

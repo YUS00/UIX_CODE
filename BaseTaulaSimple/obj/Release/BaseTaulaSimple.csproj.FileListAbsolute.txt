@@ -15,3 +15,6 @@ C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\BaseTaulaSimple\obj\Re
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\BaseTaulaSimple\obj\Release\BaseTaulaSimple.csproj.CopyComplete
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\BaseTaulaSimple\obj\Release\BaseTaulaSimple.dll
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\BaseTaulaSimple\obj\Release\BaseTaulaSimple.pdb
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\BaseTaulaSimple\bin\Release\Modelos.dll
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\BaseTaulaSimple\bin\Release\Bunifu_UI_v1.5.3.dll
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\BaseTaulaSimple\bin\Release\Modelos.pdb

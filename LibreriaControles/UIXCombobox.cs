@@ -70,9 +70,7 @@ namespace LibreriaControles
         private void UIXCombobox_SelectedValueChanged(object sender, EventArgs e)
         {
 
-            Console.WriteLine(this.Text);
-            Console.WriteLine("SelectedValue " + this.SelectedValue);
-            Console.WriteLine("SelectedIndex " + this.SelectedIndex);
+            
 
             String selectedValue = this.SelectedValue.ToString();
 

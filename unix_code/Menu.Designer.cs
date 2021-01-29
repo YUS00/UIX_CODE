@@ -36,6 +36,7 @@
             this.labelUsername = new System.Windows.Forms.Label();
             this.cerrarsesion_btn = new System.Windows.Forms.Button();
             this.pnlBottom = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.pnlTop = new System.Windows.Forms.Panel();
             this.lblUser = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -49,7 +50,6 @@
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.tbl = new System.Windows.Forms.TableLayoutPanel();
             this.pnlLeft = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.pnlBottom.SuspendLayout();
             this.pnlTop.SuspendLayout();
@@ -127,13 +127,25 @@
             // pnlBottom
             // 
             this.pnlBottom.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.pnlBottom.Controls.Add(this.button1);
             this.pnlBottom.Controls.Add(this.cerrarsesion_btn);
             this.pnlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.pnlBottom.Location = new System.Drawing.Point(0, 650);
             this.pnlBottom.Name = "pnlBottom";
             this.pnlBottom.Size = new System.Drawing.Size(1200, 50);
             this.pnlBottom.TabIndex = 13;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Black;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.Gold;
+            this.button1.Location = new System.Drawing.Point(12, 90);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(218, 59);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "USERS";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // pnlTop
             // 
@@ -266,7 +278,7 @@
             this.tbl.BackColor = System.Drawing.Color.Transparent;
             this.tbl.ColumnCount = 1;
             this.tbl.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tbl.Location = new System.Drawing.Point(12, 111);
+            this.tbl.Location = new System.Drawing.Point(12, 155);
             this.tbl.Name = "tbl";
             this.tbl.RowCount = 8;
             this.tbl.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
@@ -283,22 +295,13 @@
             // pnlLeft
             // 
             this.pnlLeft.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.pnlLeft.Controls.Add(this.button1);
             this.pnlLeft.Controls.Add(this.tbl);
             this.pnlLeft.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlLeft.Location = new System.Drawing.Point(0, 0);
             this.pnlLeft.Name = "pnlLeft";
             this.pnlLeft.Size = new System.Drawing.Size(1200, 700);
             this.pnlLeft.TabIndex = 12;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(102, 7);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Menu
             // 

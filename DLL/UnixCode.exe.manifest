@@ -462,14 +462,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LibreriaControles.dll" size="6144">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LibreriaControles.dll" size="5632">
       <assemblyIdentity name="LibreriaControles" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>bLRH1kvlET5VSPa2adL3B97gKbbgznyT2gxRnmaLdtg=</dsig:DigestValue>
+        <dsig:DigestValue>GBnxp7CteF45NYtoG/diOOcKsoaOO/VK/YxoCz48trs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -541,7 +541,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>x77GmAah8311wuDQjFKgvQBstl7C/IufPTUxIlAGYnA=</dsig:DigestValue>
+        <dsig:DigestValue>5x5vB6S48weyj6LzVTOPHcjM2WD0hRQRkNGSedeGrLI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

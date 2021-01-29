@@ -3,3 +3,4 @@ C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\BaseDatos\bin\Release\
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\BaseDatos\obj\Release\BaseDatos.csproj.CoreCompileInputs.cache
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\BaseDatos\obj\Release\BaseDatos.dll
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\BaseDatos\obj\Release\BaseDatos.pdb
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\BaseDatos\obj\Release\BaseDatos.csprojAssemblyReference.cache

@@ -17,3 +17,4 @@ C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\G7_Planets\obj\Release
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\G7_Planets\obj\Release\G7_Planets.csproj.CopyComplete
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\G7_Planets\obj\Release\G7_Planets.dll
 C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\G7_Planets\obj\Release\G7_Planets.pdb
+C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\G7_Planets\bin\Release\Bunifu_UI_v1.5.3.dll
