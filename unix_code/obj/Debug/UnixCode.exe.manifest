@@ -115,13 +115,13 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ConsolaServidorFTP.exe" size="9728">
-      <assemblyIdentity name="ConsolaServidorFTP" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="ConsolaServidorFTP" version="1.0.0.0" publicKeyToken="18E366AE6EA9D853" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>CWGvxLf+JxcjfMKVSiVCo8/4g04WpyhtlZOBkKBxsRk=</dsig:DigestValue>
+        <dsig:DigestValue>0JC152Zb5ji0A2mRAIFa7cydDbonmVizY8FuNuKKJVE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
