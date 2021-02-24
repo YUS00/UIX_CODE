@@ -13,7 +13,7 @@
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
     <IsWebBootstrapper>false</IsWebBootstrapper>
-    <PublishUrl>C:\Users\migue\Documents\GitHub\UIX_CODE_CURRENT\UIX_CODE\DLL\</PublishUrl>
+    <PublishUrl>C:\Users\migue\source\repos\Deploy\UNIXAFTER\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
@@ -26,7 +26,7 @@
     <ProductName>Aplicacion Unix AFTER</ProductName>
     <PublisherName>UNIX</PublisherName>
     <AutorunEnabled>true</AutorunEnabled>
-    <ApplicationRevision>4</ApplicationRevision>
+    <ApplicationRevision>2</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
@@ -72,9 +72,6 @@
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
-  </PropertyGroup>
-  <PropertyGroup>
-    <AssemblyOriginatorKeyFile>wholeSolutionKey.pfx</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, processorArchitecture=MSIL">
@@ -196,7 +193,6 @@
       <DependentUpon>SecureCoreDataSet.xsd</DependentUpon>
     </None>
     <None Include="unix_code_TemporaryKey.pfx" />
-    <None Include="wholeSolutionKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

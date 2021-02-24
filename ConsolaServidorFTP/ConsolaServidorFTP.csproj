@@ -103,7 +103,6 @@
     <None Include="ConsolaServidorFTP_1_TemporaryKey.pfx" />
     <None Include="ftpKey.pfx" />
     <None Include="Properties\app.manifest" />
-    <None Include="solutionKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
